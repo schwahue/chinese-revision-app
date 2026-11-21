@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f8f8f3" />
+    <title lang="zh-Hans">复习</title>
+    <link rel="icon" href="./favicon.png?panda" sizes="64x64" type="image/png" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <div class="page-top">
+        <header>
+          <div class="brand" lang="zh-Hans"><img src="./favicon.png?panda" width="32" height="32" alt="" />复习</div>
+          <a class="milestone-link" id="milestones" href="?preview=10" hidden>Milestones</a>
+          <button id="theme" class="icon" aria-label="Switch theme"></button>
+        </header>
+        <nav aria-label="Study views">
+          <button id="review">Review</button><button id="bank">Word Bank</button>
+        </nav>
+        <p id="notice" role="status" hidden></p>
+        <div id="page-tools"></div>
+      </div>
+      <main id="content">
+        <p>Loading words…</p>
+        <a href="">Try again</a>
+      </main>
+    </div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

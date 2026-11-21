@@ -1,0 +1,7057 @@
+{
+  "借": {
+    "pinyin": "jiè",
+    "meaning": "to borrow or lend",
+    "level": 3,
+    "syllabusId": 715,
+    "usage": [
+      "借书",
+      "borrow a book",
+      "jiè shū"
+    ],
+    "examples": [
+      "我 想 借 一 本 书 。",
+      "你 想 借 哪 本 书 ？"
+    ],
+    "tip": "Picture a book passing between two people. 我想借书 means “I want to borrow a book”. 借给你 means “lend it to you”."
+  },
+  "复习": {
+    "pinyin": "fùxí",
+    "meaning": "to review a lesson",
+    "level": 3,
+    "syllabusId": 634,
+    "usage": [
+      "复习课文",
+      "review a text",
+      "fùxí kèwén"
+    ],
+    "examples": [
+      "我 在 复习 课文 。",
+      "我们 一起 复习 吧 。"
+    ],
+    "tip": "复 suggests doing something again. Read a lesson today, then return to it tomorrow to 复习."
+  },
+  "地图": {
+    "pinyin": "dìtú",
+    "meaning": "map",
+    "level": 3,
+    "syllabusId": 592,
+    "usage": [
+      "看地图",
+      "read a map",
+      "kàn dìtú"
+    ],
+    "examples": [
+      "我 在 看 地图 。",
+      "这 张 地图 很 有用 。"
+    ],
+    "measure": [
+      "一张地图",
+      "one map",
+      "yì zhāng dìtú"
+    ],
+    "tip": "地 means ground and 图 means picture. Imagine unfolding a picture of the ground."
+  },
+  "礼物": {
+    "pinyin": "lǐwù",
+    "meaning": "gift",
+    "level": 3,
+    "syllabusId": 748,
+    "usage": [
+      "送礼物",
+      "give a gift",
+      "sòng lǐwù"
+    ],
+    "examples": [
+      "这 是 给 你 的 礼物 。",
+      "我 想 买 一 份 礼物 。"
+    ],
+    "measure": [
+      "一份礼物",
+      "one gift",
+      "yí fèn lǐwù"
+    ],
+    "tip": "送礼物 is what you do when you give a gift. To count the gift itself, say 一份礼物."
+  },
+  "春天": {
+    "pinyin": "chūntiān",
+    "meaning": "spring",
+    "level": 3,
+    "syllabusId": 568,
+    "usage": [
+      "春天来了",
+      "spring has arrived",
+      "chūntiān lái le"
+    ],
+    "examples": [
+      "春天 来 了 。",
+      "我 喜欢 这里 的 春天 。"
+    ],
+    "tip": "Spot 日, the sun, in 春. In 春天来了, the season comes first and 来了 tells you it has arrived."
+  },
+  "花园": {
+    "pinyin": "huāyuán",
+    "meaning": "garden",
+    "level": 3,
+    "syllabusId": 675,
+    "usage": [
+      "逛花园",
+      "stroll through a garden",
+      "guàng huāyuán"
+    ],
+    "examples": [
+      "我们 家 有 一 个 花园 。",
+      "花园 里 有 花 。"
+    ],
+    "measure": [
+      "一个花园",
+      "one garden",
+      "yí ge huāyuán"
+    ],
+    "tip": "Picture flowers 花 inside the garden wall around 园."
+  },
+  "参加": {
+    "pinyin": "cānjiā",
+    "meaning": "to take part in",
+    "level": 3,
+    "syllabusId": 546,
+    "usage": [
+      "参加比赛",
+      "enter a competition",
+      "cānjiā bǐsài"
+    ],
+    "examples": [
+      "我 想 参加 比赛 。",
+      "你 也 参加 会议 吗 ？"
+    ],
+    "tip": "Picture yourself at a match. In the stands you 看比赛. On the field you 参加比赛."
+  },
+  "比赛": {
+    "pinyin": "bǐsài",
+    "meaning": "match or competition",
+    "level": 3,
+    "syllabusId": 522,
+    "usage": [
+      "看比赛",
+      "watch a competition",
+      "kàn bǐsài"
+    ],
+    "examples": [
+      "我们 一起 看 比赛 吧 。",
+      "比赛 是 明天 吗 ？"
+    ],
+    "measure": [
+      "一场比赛",
+      "one competition",
+      "yì chǎng bǐsài"
+    ],
+    "tip": "比 means “compare”. Picture two teams comparing their skills in 一场比赛, a match."
+  },
+  "打扫": {
+    "pinyin": "dǎsǎo",
+    "meaning": "to clean a place",
+    "level": 3,
+    "syllabusId": 571,
+    "usage": [
+      "打扫教室",
+      "clean a classroom",
+      "dǎsǎo jiàoshì"
+    ],
+    "examples": [
+      "我 在 打扫 教室 。",
+      "我们 一起 打扫 房间 吧 。"
+    ],
+    "tip": "Find the hand 扌 on the left of both characters. Picture your hands sweeping the classroom."
+  },
+  "干净": {
+    "pinyin": "gānjìng",
+    "meaning": "clean",
+    "level": 3,
+    "syllabusId": 636,
+    "usage": [
+      "很干净",
+      "very clean",
+      "hěn gānjìng"
+    ],
+    "examples": [
+      "这 个 房间 很 干净 。",
+      "教室 里 很 干净 。"
+    ],
+    "tip": "打扫 is what you do to the room. 干净 describes the room afterwards."
+  },
+  "故事": {
+    "pinyin": "gùshi",
+    "meaning": "story",
+    "level": 3,
+    "syllabusId": 650,
+    "usage": [
+      "讲故事",
+      "tell a story",
+      "jiǎng gùshi"
+    ],
+    "examples": [
+      "我 喜欢 听 故事 。",
+      "你 想 听 哪 个 故事 ？"
+    ],
+    "measure": [
+      "一个故事",
+      "one story",
+      "yí ge gùshi"
+    ],
+    "tip": "The teller 讲故事 and the listener 听故事. Which one are you when someone reads to you?"
+  },
+  "铅笔": {
+    "pinyin": "qiānbǐ",
+    "meaning": "pencil",
+    "level": 3,
+    "syllabusId": 804,
+    "usage": [
+      "用铅笔写字",
+      "write with a pencil",
+      "yòng qiānbǐ xiězì"
+    ],
+    "examples": [
+      "我 想 买 一 支 铅笔 。",
+      "这 支 铅笔 是 你 的 吗 ？"
+    ],
+    "measure": [
+      "一支铅笔",
+      "one pencil",
+      "yì zhī qiānbǐ"
+    ],
+    "tip": "Look for metal 钅 in 铅 and bamboo ⺮ in 笔. Picture a pencil in your hand as you read the pair."
+  },
+  "字典": {
+    "pinyin": "zìdiǎn",
+    "meaning": "dictionary",
+    "level": 3,
+    "syllabusId": 992,
+    "usage": [
+      "查字典",
+      "look something up in a dictionary",
+      "chá zìdiǎn"
+    ],
+    "examples": [
+      "我 有 一 本 字典 。",
+      "你 的 字典 在 哪儿 ？"
+    ],
+    "measure": [
+      "一本字典",
+      "one dictionary",
+      "yì běn zìdiǎn"
+    ],
+    "tip": "字 means “character”. When you meet a character you cannot read, 查字典 means to look it up in a dictionary."
+  },
+  "课本": {
+    "pinyin": "kèběn",
+    "meaning": "textbook",
+    "level": 3,
+    "syllabusId": 737,
+    "usage": [
+      "读课本",
+      "read a textbook",
+      "dú kèběn"
+    ],
+    "examples": [
+      "课本 在 桌子 上 。",
+      "这 本 课本 是 我 的 。"
+    ],
+    "measure": [
+      "一本课本",
+      "one textbook",
+      "yì běn kèběn"
+    ],
+    "tip": "本 can count books. In 一本课本, the first 本 counts the book and 课本 names it."
+  },
+  "课文": {
+    "pinyin": "kèwén",
+    "meaning": "text of a lesson",
+    "level": 3,
+    "syllabusId": 738,
+    "usage": [
+      "读课文",
+      "read a lesson text",
+      "dú kèwén"
+    ],
+    "examples": [
+      "我们 一起 读 课文 吧 。",
+      "这 篇 课文 很 短 。"
+    ],
+    "measure": [
+      "一篇课文",
+      "one lesson text",
+      "yì piān kèwén"
+    ],
+    "tip": "Open your 课本 and point to the text you read aloud. That passage is the 课文."
+  },
+  "作业": {
+    "pinyin": "zuòyè",
+    "meaning": "homework",
+    "level": 3,
+    "syllabusId": 999,
+    "usage": [
+      "做作业",
+      "do homework",
+      "zuò zuòyè"
+    ],
+    "examples": [
+      "我 在 做 作业 。",
+      "今天 的 作业 多 吗 ？"
+    ],
+    "measure": [
+      "一份作业",
+      "one assignment",
+      "yí fèn zuòyè"
+    ],
+    "tip": "In 做作业, 做 is the action and 作业 is the homework. Both 做 and 作 sound like zuò here."
+  },
+  "短": {
+    "pinyin": "duǎn",
+    "meaning": "short in length or duration",
+    "level": 3,
+    "syllabusId": 605,
+    "usage": [
+      "很短",
+      "very short",
+      "hěn duǎn"
+    ],
+    "examples": [
+      "这 篇 故事 很 短 。",
+      "这 个 名字 很 短 。"
+    ],
+    "tip": "Hold your fingers close together as you say 短. Stretch them apart for 长, long."
+  },
+  "选择": {
+    "pinyin": "xuǎnzé",
+    "meaning": "to choose, or a choice",
+    "level": 3,
+    "syllabusId": 914,
+    "usage": [
+      "选择礼物",
+      "choose a gift",
+      "xuǎnzé lǐwù"
+    ],
+    "examples": [
+      "你 可以 选择 一 本 书 。",
+      "我 选择 这 张 照片 。"
+    ],
+    "tip": "Picture two possible gifts. 选择 is choosing between them. The option you pick is also your 选择."
+  },
+  "照片": {
+    "pinyin": "zhàopiàn",
+    "meaning": "photo",
+    "level": 3,
+    "syllabusId": 972,
+    "usage": [
+      "看照片",
+      "look at photos",
+      "kàn zhàopiàn"
+    ],
+    "examples": [
+      "这 张 照片 很 好看 。",
+      "我们 一起 看 照片 吧 。"
+    ],
+    "measure": [
+      "一张照片",
+      "one photo",
+      "yì zhāng zhàopiàn"
+    ],
+    "tip": "Count a photograph as one flat sheet, 一张照片. You can use 张 to count a map too."
+  },
+  "周末": {
+    "pinyin": "zhōumò",
+    "meaning": "weekend",
+    "level": 3,
+    "syllabusId": 986,
+    "usage": [
+      "这个周末",
+      "this weekend",
+      "zhè ge zhōumò"
+    ],
+    "examples": [
+      "周末 你 想 去 哪儿 ？",
+      "我 周末 在 家 看 书 。"
+    ],
+    "measure": [
+      "一个周末",
+      "one weekend",
+      "yí ge zhōumò"
+    ],
+    "tip": "周 means week and 末 means end. Find the last square in this week’s calendar."
+  },
+  "出发": {
+    "pinyin": "chūfā",
+    "meaning": "to set off",
+    "level": 3,
+    "syllabusId": 562,
+    "usage": [
+      "一起出发",
+      "set off together",
+      "yìqǐ chūfā"
+    ],
+    "examples": [
+      "我们 明天 出发 。",
+      "你 想 几 点 出发 ？"
+    ],
+    "tip": "Think of the moment a trip begins. 几点出发 asks what time you set off."
+  },
+  "高铁": {
+    "pinyin": "gāotiě",
+    "meaning": "high-speed rail",
+    "level": 3,
+    "syllabusId": 644,
+    "usage": [
+      "坐高铁",
+      "take the high-speed train",
+      "zuò gāotiě"
+    ],
+    "examples": [
+      "我们 坐 高铁 去 北京 。",
+      "坐 高铁 很 方便 。"
+    ],
+    "measure": [
+      "一趟高铁",
+      "one high-speed train service",
+      "yí tàng gāotiě"
+    ],
+    "tip": "高铁 is short for 高速铁路, high-speed railway. Picture the train pulling into the station."
+  },
+  "方便": {
+    "pinyin": "fāngbiàn",
+    "meaning": "convenient",
+    "level": 3,
+    "syllabusId": 619,
+    "usage": [
+      "很方便",
+      "very convenient",
+      "hěn fāngbiàn"
+    ],
+    "examples": [
+      "在 这里 买 东西 很 方便 。",
+      "坐 高铁 去 北京 很 方便 。"
+    ],
+    "tip": "A station close to home makes travel 方便. To ask if now is a good time, say 你现在方便吗？"
+  },
+  "司机": {
+    "pinyin": "sījī",
+    "meaning": "driver",
+    "level": 3,
+    "syllabusId": 847,
+    "usage": [
+      "当司机",
+      "work as a driver",
+      "dāng sījī"
+    ],
+    "examples": [
+      "我 爸爸 是 司机 。",
+      "这 位 司机 很 忙 。"
+    ],
+    "measure": [
+      "一位司机",
+      "one driver",
+      "yí wèi sījī"
+    ],
+    "tip": "司机 names the person at the wheel. 一位司机 counts one driver, using the polite measure word 位."
+  },
+  "邻居": {
+    "pinyin": "línjū",
+    "meaning": "neighbour",
+    "level": 3,
+    "syllabusId": 758,
+    "usage": [
+      "新邻居",
+      "new neighbour",
+      "xīn línjū"
+    ],
+    "examples": [
+      "她 是 我 的 邻居 。",
+      "我 的 邻居 喜欢 看 书 。"
+    ],
+    "measure": [
+      "一位邻居",
+      "one neighbour",
+      "yí wèi línjū"
+    ],
+    "tip": "Think of the person living next door. 我的邻居 names that person, and 我家 names your home."
+  },
+  "筷子": {
+    "pinyin": "kuàizi",
+    "meaning": "chopsticks",
+    "level": 3,
+    "syllabusId": 741,
+    "usage": [
+      "用筷子",
+      "use chopsticks",
+      "yòng kuàizi"
+    ],
+    "examples": [
+      "我 会 用 筷子 。",
+      "筷子 在 桌子 上 。"
+    ],
+    "measure": [
+      "一双筷子",
+      "a pair of chopsticks",
+      "yì shuāng kuàizi"
+    ],
+    "tip": "Look for the bamboo top ⺮ in 筷. 双 counts a pair, so the two sticks together are 一双筷子."
+  },
+  "盘子": {
+    "pinyin": "pánzi",
+    "meaning": "plate",
+    "level": 3,
+    "syllabusId": 792,
+    "usage": [
+      "洗盘子",
+      "wash plates",
+      "xǐ pánzi"
+    ],
+    "examples": [
+      "盘子 里 有 水果 。",
+      "这 个 盘子 很 干净 。"
+    ],
+    "measure": [
+      "一个盘子",
+      "one plate",
+      "yí ge pánzi"
+    ],
+    "tip": "The bottom of 盘 is 皿, a dish. Imagine setting a plate down as you say 盘子."
+  },
+  "西瓜": {
+    "pinyin": "xīguā",
+    "meaning": "watermelon",
+    "level": 3,
+    "syllabusId": 883,
+    "usage": [
+      "吃西瓜",
+      "eat watermelon",
+      "chī xīguā"
+    ],
+    "examples": [
+      "我们 一起 吃 西瓜 吧 。",
+      "这 个 西瓜 很 甜 。"
+    ],
+    "measure": [
+      "一个西瓜",
+      "one watermelon",
+      "yí ge xīguā"
+    ],
+    "tip": "瓜 names a melon. Picture a whole watermelon when you say 一个西瓜 and a piece when you say 一块西瓜."
+  },
+  "香蕉": {
+    "pinyin": "xiāngjiāo",
+    "meaning": "banana",
+    "level": 3,
+    "syllabusId": 892,
+    "usage": [
+      "吃香蕉",
+      "eat a banana",
+      "chī xiāngjiāo"
+    ],
+    "examples": [
+      "我 喜欢 吃 香蕉 。",
+      "你 想 吃 香蕉 吗 ？"
+    ],
+    "measure": [
+      "一根香蕉",
+      "one banana",
+      "yì gēn xiāngjiāo"
+    ],
+    "tip": "香 means fragrant. Imagine smelling a ripe banana just as you peel it."
+  },
+  "放心": {
+    "pinyin": "fàngxīn",
+    "meaning": "to feel at ease",
+    "level": 3,
+    "syllabusId": 626,
+    "usage": [
+      "请放心",
+      "please rest assured",
+      "qǐng fàngxīn"
+    ],
+    "examples": [
+      "请 放心 吧 。",
+      "你 放心 ， 我 会 来 。"
+    ],
+    "tip": "放 means “put down” and 心 means “heart”. Imagine putting a worry down when someone says 你放心."
+  },
+  "忘记": {
+    "pinyin": "wàngjì",
+    "meaning": "to forget",
+    "level": 3,
+    "syllabusId": 874,
+    "usage": [
+      "忘记带书",
+      "forget to bring a book",
+      "wàngjì dài shū"
+    ],
+    "examples": [
+      "别 忘记 带 课本 。",
+      "我 忘记 了 他 的 名字 。"
+    ],
+    "tip": "Think of the reminder 别忘记带课本. 别忘记 plus an action means “remember to do it”."
+  },
+  "决定": {
+    "pinyin": "juédìng",
+    "meaning": "to decide",
+    "level": 3,
+    "syllabusId": 724,
+    "usage": [
+      "决定出发",
+      "decide to set off",
+      "juédìng chūfā"
+    ],
+    "examples": [
+      "我 决定 明天 出发 。",
+      "她 决定 参加 比赛 。"
+    ],
+    "tip": "Use 决定 before the action you settle on. 决定出发 means you have decided to set off."
+  },
+  "我": {
+    "pinyin": "wǒ",
+    "meaning": "I",
+    "level": 1,
+    "usage": [
+      "我想",
+      "I would like to",
+      "wǒ xiǎng"
+    ],
+    "tip": "Point to yourself as you say 我, then start a sentence with 我想.",
+    "syllabusId": 221
+  },
+  "想": {
+    "pinyin": "xiǎng",
+    "meaning": "to want to",
+    "level": 1,
+    "usage": [
+      "想看",
+      "want to read or watch",
+      "xiǎng kàn"
+    ],
+    "tip": "Spot 心, heart, at the bottom. Picture something you want and say 我想 followed by the action.",
+    "syllabusId": 233
+  },
+  "一": {
+    "pinyin": "yī",
+    "meaning": "one",
+    "level": 1,
+    "usage": [
+      "一个",
+      "one item",
+      "yí ge"
+    ],
+    "tip": "Trace its single horizontal stroke with your finger as you count to one.",
+    "syllabusId": 254
+  },
+  "本": {
+    "pinyin": "běn",
+    "meaning": "classifier for books",
+    "level": 1,
+    "usage": [
+      "两本书",
+      "two books",
+      "liǎng běn shū"
+    ],
+    "tip": "Pick up two books one at a time. Count 一本书, 两本书.",
+    "syllabusId": 10
+  },
+  "书": {
+    "pinyin": "shū",
+    "meaning": "book",
+    "level": 1,
+    "usage": [
+      "看书",
+      "read a book",
+      "kàn shū"
+    ],
+    "measure": [
+      "一本书",
+      "one book",
+      "yì běn shū"
+    ],
+    "tip": "Picture a book opening in your hands. Say 看书 as you turn a page.",
+    "syllabusId": 190
+  },
+  "你": {
+    "pinyin": "nǐ",
+    "meaning": "you",
+    "level": 1,
+    "usage": [
+      "你好",
+      "hello",
+      "nǐ hǎo"
+    ],
+    "tip": "Point to the person you’re greeting. Hear 你 at the start of 你好.",
+    "syllabusId": 146
+  },
+  "哪": {
+    "pinyin": "nǎ",
+    "meaning": "which",
+    "level": 1,
+    "usage": [
+      "哪一本",
+      "which one (book)",
+      "nǎ yì běn"
+    ],
+    "tip": "Picture two books. Ask 哪一本 as you point from one to the other.",
+    "syllabusId": 131
+  },
+  "在": {
+    "pinyin": "zài",
+    "meaning": "at; in the process of",
+    "level": 1,
+    "usage": [
+      "在家",
+      "at home",
+      "zài jiā"
+    ],
+    "tip": "Picture a pin marking your home on a map. Say 我在家.",
+    "syllabusId": 272
+  },
+  "我们": {
+    "pinyin": "wǒmen",
+    "meaning": "we",
+    "level": 1,
+    "usage": [
+      "我们一起",
+      "all of us together",
+      "wǒmen yìqǐ"
+    ],
+    "tip": "Start with 我 and include a friend. Say 我们 as you gesture to both of you.",
+    "syllabusId": 222
+  },
+  "一起": {
+    "pinyin": "yìqǐ",
+    "meaning": "together",
+    "level": 2,
+    "usage": [
+      "一起读",
+      "read together",
+      "yìqǐ dú"
+    ],
+    "tip": "Picture two friends leaving together. Say 一起去 as they step outside.",
+    "syllabusId": 472
+  },
+  "吧": {
+    "pinyin": "ba",
+    "meaning": "particle suggesting an action",
+    "level": 1,
+    "usage": [
+      "去吧",
+      "go ahead",
+      "qù ba"
+    ],
+    "tip": "Imagine inviting a friend along. Add a gentle 吧 to 我们走 to suggest leaving together.",
+    "syllabusId": 4
+  },
+  "看": {
+    "pinyin": "kàn",
+    "meaning": "to look at; to read",
+    "level": 1,
+    "usage": [
+      "看书",
+      "read a book",
+      "kàn shū"
+    ],
+    "tip": "Picture a hand shading an eye 目 so you can see. Say 看 as you look into the distance.",
+    "syllabusId": 99
+  },
+  "这": {
+    "pinyin": "zhè",
+    "meaning": "this",
+    "level": 1,
+    "usage": [
+      "这本书",
+      "this book",
+      "zhè běn shū"
+    ],
+    "tip": "Hold a book close and say 这本书 while pointing to it.",
+    "syllabusId": 279
+  },
+  "张": {
+    "pinyin": "zhāng",
+    "meaning": "measure word for flat things",
+    "level": 3,
+    "usage": [
+      "一张照片",
+      "one photo",
+      "yì zhāng zhàopiàn"
+    ],
+    "tip": "Picture a flat map beside a photo. One is 一张地图 and the other is 一张照片. Both use 张.",
+    "syllabusId": 967
+  },
+  "很": {
+    "pinyin": "hěn",
+    "meaning": "very",
+    "level": 1,
+    "usage": [
+      "很干净",
+      "very clean",
+      "hěn gānjìng"
+    ],
+    "tip": "Pair 很 with a description you know. A very short text is 很短.",
+    "syllabusId": 79
+  },
+  "有用": {
+    "pinyin": "yǒuyòng",
+    "meaning": "useful",
+    "level": 3,
+    "usage": [
+      "很有用",
+      "very useful",
+      "hěn yǒuyòng"
+    ],
+    "tip": "A map that helps you find the station is 有用. 有 means “have” and 用 means “use”.",
+    "syllabusId": 948
+  },
+  "是": {
+    "pinyin": "shì",
+    "meaning": "to be",
+    "level": 1,
+    "usage": [
+      "是我的",
+      "is mine",
+      "shì wǒ de"
+    ],
+    "tip": "Introduce someone you know. Link the person and the name with 是 in 他是我的朋友.",
+    "syllabusId": 188
+  },
+  "给": {
+    "pinyin": "gěi",
+    "meaning": "for; to give",
+    "level": 1,
+    "usage": [
+      "给你",
+      "for you",
+      "gěi nǐ"
+    ],
+    "tip": "Extend your hand with a gift. Say 给你 as you hand it over.",
+    "syllabusId": 61
+  },
+  "的": {
+    "pinyin": "de",
+    "meaning": "connects a modifier to a noun",
+    "level": 1,
+    "usage": [
+      "我的书",
+      "my book",
+      "wǒ de shū"
+    ],
+    "tip": "Point from yourself to your book. Use 的 to join them in 我的书.",
+    "syllabusId": 30
+  },
+  "买": {
+    "pinyin": "mǎi",
+    "meaning": "to buy",
+    "level": 1,
+    "usage": [
+      "买东西",
+      "buy things",
+      "mǎi dōngxi"
+    ],
+    "tip": "Picture something on your shopping list. Say 我要买 and name the item.",
+    "syllabusId": 116
+  },
+  "份": {
+    "pinyin": "fèn",
+    "meaning": "classifier for gifts or assignments",
+    "level": 4,
+    "usage": [
+      "一份礼物",
+      "one gift",
+      "yí fèn lǐwù"
+    ],
+    "tip": "Picture one wrapped present as a whole unit. Count it aloud as 一份礼物."
+  },
+  "来": {
+    "pinyin": "lái",
+    "meaning": "to come",
+    "level": 1,
+    "usage": [
+      "来我家",
+      "come to my home",
+      "lái wǒ jiā"
+    ],
+    "tip": "Beckon a friend towards you. Say 来我家 as you invite them over.",
+    "syllabusId": 106
+  },
+  "了": {
+    "pinyin": "le",
+    "meaning": "marks a change or completed action",
+    "level": 1,
+    "usage": [
+      "春天来了",
+      "spring has arrived",
+      "chūntiān lái le"
+    ],
+    "tip": "Picture the first blossom appearing. Say 春天来了 to notice the change.",
+    "syllabusId": 108
+  },
+  "喜欢": {
+    "pinyin": "xǐhuan",
+    "meaning": "to like",
+    "level": 1,
+    "usage": [
+      "喜欢读书",
+      "enjoy reading",
+      "xǐhuan dúshū"
+    ],
+    "tip": "Name one thing you enjoy. Put 喜欢 before it in 我喜欢看书.",
+    "syllabusId": 225
+  },
+  "这里": {
+    "pinyin": "zhèlǐ",
+    "meaning": "here",
+    "level": 1,
+    "usage": [
+      "在这里",
+      "here",
+      "zài zhèlǐ"
+    ],
+    "tip": "Tap the spot where you are standing. Say 我在这里.",
+    "syllabusId": 282
+  },
+  "家": {
+    "pinyin": "jiā",
+    "meaning": "home",
+    "level": 1,
+    "usage": [
+      "回家",
+      "go home",
+      "huí jiā"
+    ],
+    "tip": "Spot the roof 宀 at the top. Picture coming home and say 回家.",
+    "syllabusId": 86
+  },
+  "有": {
+    "pinyin": "yǒu",
+    "meaning": "to have; there is",
+    "level": 1,
+    "usage": [
+      "有时间",
+      "have time",
+      "yǒu shíjiān"
+    ],
+    "tip": "Picture a book in your bag. Say 我有一本书 to tell someone what you have.",
+    "syllabusId": 263
+  },
+  "个": {
+    "pinyin": "gè",
+    "meaning": "general classifier",
+    "level": 1,
+    "usage": [
+      "一个故事",
+      "one story",
+      "yí ge gùshi"
+    ],
+    "tip": "Count people arriving at a table. Say 一个人, 两个人, and listen for 个.",
+    "syllabusId": 60
+  },
+  "里": {
+    "pinyin": "lǐ",
+    "meaning": "inside",
+    "level": 1,
+    "usage": [
+      "房间里",
+      "inside the room",
+      "fángjiān lǐ"
+    ],
+    "tip": "Picture your keys inside a room. Say 房间里 as you point inside.",
+    "syllabusId": 110
+  },
+  "花": {
+    "pinyin": "huā",
+    "meaning": "flower",
+    "level": 2,
+    "usage": [
+      "看花",
+      "look at flowers",
+      "kàn huā"
+    ],
+    "measure": [
+      "一朵花",
+      "one flower",
+      "yì duǒ huā"
+    ],
+    "tip": "Spot the grass top 艹. Picture a flower growing under it.",
+    "syllabusId": 358,
+    "sense": "flower"
+  },
+  "也": {
+    "pinyin": "yě",
+    "meaning": "also",
+    "level": 1,
+    "usage": [
+      "我也想去",
+      "I want to go too",
+      "wǒ yě xiǎng qù"
+    ],
+    "tip": "A friend says 我想去. Join in with 我也想去, “I want to go too.”",
+    "syllabusId": 253
+  },
+  "会议": {
+    "pinyin": "huìyì",
+    "meaning": "meeting",
+    "level": 3,
+    "usage": [
+      "参加会议",
+      "attend a meeting",
+      "cānjiā huìyì"
+    ],
+    "measure": [
+      "一次会议",
+      "one meeting",
+      "yí cì huìyì"
+    ],
+    "tip": "参加会议 describes attending a meeting. 开会 describes holding or having one.",
+    "syllabusId": 684
+  },
+  "吗": {
+    "pinyin": "ma",
+    "meaning": "question particle",
+    "level": 1,
+    "usage": [
+      "你好吗",
+      "are you well",
+      "nǐ hǎo ma"
+    ],
+    "tip": "Say 你好, then add 吗 to ask 你好吗？ Listen to how the statement becomes a question.",
+    "syllabusId": 115
+  },
+  "明天": {
+    "pinyin": "míngtiān",
+    "meaning": "tomorrow",
+    "level": 1,
+    "usage": [
+      "明天见",
+      "see you tomorrow",
+      "míngtiān jiàn"
+    ],
+    "tip": "Point to the next square on a calendar and say 明天见, “see you tomorrow.”",
+    "syllabusId": 130
+  },
+  "教室": {
+    "pinyin": "jiàoshì",
+    "meaning": "classroom",
+    "level": 2,
+    "usage": [
+      "进教室",
+      "enter the classroom",
+      "jìn jiàoshì"
+    ],
+    "measure": [
+      "一间教室",
+      "one classroom",
+      "yì jiān jiàoshì"
+    ],
+    "tip": "Picture your teacher opening the classroom door. Say 进教室 as you go in.",
+    "syllabusId": 368
+  },
+  "房间": {
+    "pinyin": "fángjiān",
+    "meaning": "room",
+    "level": 1,
+    "usage": [
+      "打扫房间",
+      "clean the room",
+      "dǎsǎo fángjiān"
+    ],
+    "measure": [
+      "一间房间",
+      "one room",
+      "yì jiān fángjiān"
+    ],
+    "tip": "Imagine opening the door 门 in 间 and stepping inside your room.",
+    "syllabusId": 52
+  },
+  "听": {
+    "pinyin": "tīng",
+    "meaning": "to listen",
+    "level": 1,
+    "usage": [
+      "听故事",
+      "listen to a story",
+      "tīng gùshi"
+    ],
+    "tip": "Cup a hand around your ear. Say 听故事 as a story begins.",
+    "syllabusId": 209
+  },
+  "支": {
+    "pinyin": "zhī",
+    "meaning": "classifier for pens and pencils",
+    "level": 5,
+    "usage": [
+      "一支铅笔",
+      "one pencil",
+      "yì zhī qiānbǐ"
+    ],
+    "tip": "Hold up one pencil. Say 一支铅笔 and draw a little line in the air."
+  },
+  "哪儿": {
+    "pinyin": "nǎr",
+    "meaning": "where",
+    "level": 1,
+    "usage": [
+      "去哪儿",
+      "where to go",
+      "qù nǎr"
+    ],
+    "tip": "Picture a friend heading out. Ask 去哪儿, “where are you going?”",
+    "syllabusId": 134
+  },
+  "桌子": {
+    "pinyin": "zhuōzi",
+    "meaning": "table",
+    "level": 1,
+    "usage": [
+      "擦桌子",
+      "wipe the table",
+      "cā zhuōzi"
+    ],
+    "measure": [
+      "一张桌子",
+      "one table",
+      "yì zhāng zhuōzi"
+    ],
+    "tip": "Rest your hand on a table. Say 桌子, then point to something on it.",
+    "syllabusId": 295
+  },
+  "上": {
+    "pinyin": "shàng",
+    "meaning": "on; above",
+    "level": 1,
+    "usage": [
+      "桌子上",
+      "on the table",
+      "zhuōzi shàng"
+    ],
+    "tip": "Place a book on a table. Say 桌子上 as it touches the surface.",
+    "syllabusId": 175
+  },
+  "读": {
+    "pinyin": "dú",
+    "meaning": "to read",
+    "level": 1,
+    "usage": [
+      "读课文",
+      "read a lesson text",
+      "dú kèwén"
+    ],
+    "tip": "Notice the speech side 讠. Picture reading your lesson aloud and say 读课文.",
+    "syllabusId": 42
+  },
+  "篇": {
+    "pinyin": "piān",
+    "meaning": "classifier for written works",
+    "level": 4,
+    "usage": [
+      "一篇课文",
+      "one lesson text",
+      "yì piān kèwén"
+    ],
+    "tip": "Picture one complete passage on a page. Count it as 一篇课文."
+  },
+  "做": {
+    "pinyin": "zuò",
+    "meaning": "to do",
+    "level": 1,
+    "usage": [
+      "做作业",
+      "do homework",
+      "zuò zuòyè"
+    ],
+    "tip": "Mime starting your homework. Say 做作业 and listen for the verb 做.",
+    "syllabusId": 299
+  },
+  "今天": {
+    "pinyin": "jīntiān",
+    "meaning": "today",
+    "level": 1,
+    "usage": [
+      "今天早上",
+      "this morning",
+      "jīntiān zǎoshang"
+    ],
+    "tip": "Tap today’s date and say 今天. Move one square forward and say 明天.",
+    "syllabusId": 94
+  },
+  "多": {
+    "pinyin": "duō",
+    "meaning": "many; much",
+    "level": 1,
+    "usage": [
+      "作业多",
+      "have plenty of homework",
+      "zuòyè duō"
+    ],
+    "tip": "Spot the two 夕 shapes, one above the other. Picture a growing pile of homework as you say 作业多.",
+    "syllabusId": 46
+  },
+  "可以": {
+    "pinyin": "kěyǐ",
+    "meaning": "can; may",
+    "level": 1,
+    "usage": [
+      "可以进去",
+      "may go in",
+      "kěyǐ jìnqù"
+    ],
+    "tip": "Picture a closed door. Ask 可以进去吗 before you step inside.",
+    "syllabusId": 102
+  },
+  "好看": {
+    "pinyin": "hǎokàn",
+    "meaning": "pleasing to look at",
+    "level": 1,
+    "usage": [
+      "很好看",
+      "very nice to look at",
+      "hěn hǎokàn"
+    ],
+    "tip": "好 and 看 are a familiar pair. Point to a photo you like and say 很好看.",
+    "syllabusId": 73
+  },
+  "去": {
+    "pinyin": "qù",
+    "meaning": "to go",
+    "level": 1,
+    "usage": [
+      "去学校",
+      "go to school",
+      "qù xuéxiào"
+    ],
+    "tip": "Point away from where you are. Say 去学校 as you picture heading to school.",
+    "syllabusId": 167
+  },
+  "几": {
+    "pinyin": "jǐ",
+    "meaning": "how many; what number",
+    "level": 1,
+    "usage": [
+      "几点",
+      "what time",
+      "jǐ diǎn"
+    ],
+    "tip": "Look at a clock with the hands covered. Ask 几点, “what time?”",
+    "syllabusId": 85
+  },
+  "点": {
+    "pinyin": "diǎn",
+    "meaning": "o’clock",
+    "level": 1,
+    "usage": [
+      "八点",
+      "eight o’clock",
+      "bā diǎn"
+    ],
+    "tip": "Picture a clock striking eight. Say 八点 as you count the chimes.",
+    "syllabusId": 33,
+    "sense": "o’clock"
+  },
+  "坐": {
+    "pinyin": "zuò",
+    "meaning": "to ride; to sit",
+    "level": 1,
+    "usage": [
+      "坐高铁",
+      "take a high-speed train",
+      "zuò gāotiě"
+    ],
+    "tip": "Picture two people sitting above 土, the ground. Say 坐 as you take a seat.",
+    "syllabusId": 298
+  },
+  "北京": {
+    "pinyin": "Běijīng",
+    "meaning": "Beijing",
+    "level": 0,
+    "usage": [
+      "去北京",
+      "go to Beijing",
+      "qù Běijīng"
+    ],
+    "tip": "北 means north and 京 means capital. Picture locating the northern capital on a map."
+  },
+  "东西": {
+    "pinyin": "dōngxi",
+    "meaning": "things",
+    "level": 1,
+    "usage": [
+      "买东西",
+      "buy things",
+      "mǎi dōngxi"
+    ],
+    "measure": [
+      "一件东西",
+      "one item",
+      "yí jiàn dōngxi"
+    ],
+    "tip": "Put an item in your shopping basket and say 买东西. Keep the second syllable light in dōngxi.",
+    "syllabusId": 40
+  },
+  "爸爸": {
+    "pinyin": "bàba",
+    "meaning": "father",
+    "level": 1,
+    "usage": [
+      "我爸爸",
+      "my father",
+      "wǒ bàba"
+    ],
+    "tip": "Picture calling to your dad twice. Say bàba with a light second syllable.",
+    "syllabusId": 3
+  },
+  "位": {
+    "pinyin": "wèi",
+    "meaning": "polite classifier for people",
+    "level": 2,
+    "usage": [
+      "一位司机",
+      "one driver",
+      "yí wèi sījī"
+    ],
+    "tip": "Picture introducing a driver politely. Count 一位司机 as you gesture towards them.",
+    "syllabusId": 454
+  },
+  "忙": {
+    "pinyin": "máng",
+    "meaning": "busy",
+    "level": 1,
+    "usage": [
+      "工作忙",
+      "busy with work",
+      "gōngzuò máng"
+    ],
+    "tip": "Picture your busiest hour. Say 我很忙 when you imagine the phone ringing.",
+    "syllabusId": 118
+  },
+  "她": {
+    "pinyin": "tā",
+    "meaning": "she",
+    "level": 1,
+    "usage": [
+      "她的书",
+      "her book",
+      "tā de shū"
+    ],
+    "tip": "Notice 女 on the left. Point to a picture of a woman and say 她.",
+    "syllabusId": 204
+  },
+  "会": {
+    "pinyin": "huì",
+    "meaning": "can; will",
+    "level": 1,
+    "usage": [
+      "会用筷子",
+      "know how to use chopsticks",
+      "huì yòng kuàizi"
+    ],
+    "tip": "Think of a skill you have learned. Say 我会 and finish with the action.",
+    "syllabusId": 82,
+    "sense": "can"
+  },
+  "用": {
+    "pinyin": "yòng",
+    "meaning": "to use",
+    "level": 3,
+    "usage": [
+      "用铅笔写字",
+      "write with a pencil",
+      "yòng qiānbǐ xiězì"
+    ],
+    "tip": "Put the tool after 用, then say what you do with it. 用铅笔写字 means “write with a pencil”.",
+    "syllabusId": 941
+  },
+  "水果": {
+    "pinyin": "shuǐguǒ",
+    "meaning": "fruit",
+    "level": 1,
+    "usage": [
+      "吃水果",
+      "eat fruit",
+      "chī shuǐguǒ"
+    ],
+    "measure": [
+      "一份水果",
+      "a serving of fruit",
+      "yí fèn shuǐguǒ"
+    ],
+    "tip": "Picture a bowl of fruit. Name a banana and a watermelon, then call the whole group 水果.",
+    "syllabusId": 193
+  },
+  "吃": {
+    "pinyin": "chī",
+    "meaning": "to eat",
+    "level": 1,
+    "usage": [
+      "吃西瓜",
+      "eat watermelon",
+      "chī xīguā"
+    ],
+    "tip": "Spot the mouth 口 at the left. Say 吃 as you mime taking a bite.",
+    "syllabusId": 21
+  },
+  "甜": {
+    "pinyin": "tián",
+    "meaning": "sweet",
+    "level": 3,
+    "usage": [
+      "很甜",
+      "very sweet",
+      "hěn tián"
+    ],
+    "tip": "Spot 舌, tongue, on the left. Picture tasting a sweet slice of watermelon.",
+    "syllabusId": 855
+  },
+  "请": {
+    "pinyin": "qǐng",
+    "meaning": "please",
+    "level": 1,
+    "usage": [
+      "请坐",
+      "please sit",
+      "qǐng zuò"
+    ],
+    "tip": "Picture inviting a guest to sit. Put 请 before 坐 to make the invitation polite.",
+    "syllabusId": 165
+  },
+  "别": {
+    "pinyin": "bié",
+    "meaning": "do not",
+    "level": 2,
+    "usage": [
+      "别忘记",
+      "remember to",
+      "bié wàngjì"
+    ],
+    "tip": "Imagine a friend leaving their book behind. Call 别忘记, “don’t forget!”",
+    "syllabusId": 311
+  },
+  "带": {
+    "pinyin": "dài",
+    "meaning": "to take or bring along",
+    "level": 3,
+    "usage": [
+      "带课本",
+      "bring a textbook",
+      "dài kèběn"
+    ],
+    "tip": "带 goes before what you take along. 带课本 is what you do as you leave home with your textbook.",
+    "syllabusId": 578
+  },
+  "他": {
+    "pinyin": "tā",
+    "meaning": "he",
+    "level": 1,
+    "usage": [
+      "他的名字",
+      "his name",
+      "tā de míngzi"
+    ],
+    "tip": "Trace the person side 亻. Picture a man you know and say 他的名字.",
+    "syllabusId": 200
+  },
+  "名字": {
+    "pinyin": "míngzi",
+    "meaning": "name",
+    "level": 1,
+    "usage": [
+      "写名字",
+      "write a name",
+      "xiě míngzi"
+    ],
+    "measure": [
+      "一个名字",
+      "one name",
+      "yí ge míngzi"
+    ],
+    "tip": "Picture writing your name on the first page of a book. Say 写名字.",
+    "syllabusId": 128
+  },
+  "图书馆": {
+    "pinyin": "túshūguǎn",
+    "meaning": "library",
+    "level": 3,
+    "syllabusId": 863,
+    "usage": [
+      "去图书馆",
+      "go to the library",
+      "qù túshūguǎn"
+    ],
+    "examples": [
+      "我 在 图书馆 借 书 。",
+      "你 家 附近 有 图书馆 吗 ？"
+    ],
+    "measure": [
+      "一家图书馆",
+      "one library",
+      "yì jiā túshūguǎn"
+    ],
+    "tip": "图书 means books. A 馆 is a place you can visit. Picture returning a book to the 图书馆."
+  },
+  "笔记本": {
+    "pinyin": "bǐjìběn",
+    "meaning": "notebook",
+    "level": 3,
+    "syllabusId": 524,
+    "usage": [
+      "用笔记本记笔记",
+      "take notes in a notebook",
+      "yòng bǐjìběn jì bǐjì"
+    ],
+    "examples": [
+      "这 本 笔记本 是 你 的 吗 ？",
+      "我 想 买 一 本 笔记本 。"
+    ],
+    "measure": [
+      "一本笔记本",
+      "one notebook",
+      "yì běn bǐjìběn"
+    ],
+    "tip": "笔记 means notes. Add 本 and picture the notebook where you keep them."
+  },
+  "查": {
+    "pinyin": "chá",
+    "meaning": "to check or look up",
+    "level": 3,
+    "syllabusId": 550,
+    "usage": [
+      "查字典",
+      "look up a word in a dictionary",
+      "chá zìdiǎn"
+    ],
+    "examples": [
+      "我 在 查 字典 。",
+      "查 了 字典 吗 ？"
+    ],
+    "tip": "Looking for one particular word? 查字典 names the search. 读 describes reading the text."
+  },
+  "办法": {
+    "pinyin": "bànfǎ",
+    "meaning": "way to solve a problem",
+    "level": 3,
+    "syllabusId": 511,
+    "usage": [
+      "想办法",
+      "think of a way",
+      "xiǎng bànfǎ"
+    ],
+    "examples": [
+      "你 有 办法 吗 ？",
+      "我们 一起 想 办法 吧 。"
+    ],
+    "measure": [
+      "一个办法",
+      "one way",
+      "yí ge bànfǎ"
+    ],
+    "tip": "Someone asks how to fix a problem. 有办法 means you have a way to do it."
+  },
+  "帮助": {
+    "pinyin": "bāngzhù",
+    "meaning": "to help or assist",
+    "level": 3,
+    "syllabusId": 514,
+    "usage": [
+      "帮助邻居",
+      "help a neighbour",
+      "bāngzhù línjū"
+    ],
+    "examples": [
+      "我 想 帮助 邻居 。",
+      "你 可以 帮助 我 吗 ？"
+    ],
+    "tip": "Put the person after 帮助. 帮助他 tells you who receives the help."
+  },
+  "搬家": {
+    "pinyin": "bānjiā",
+    "meaning": "to move house",
+    "level": 3,
+    "syllabusId": 509,
+    "usage": [
+      "搬家了",
+      "have moved house",
+      "bānjiā le"
+    ],
+    "examples": [
+      "我们 明天 搬家 。",
+      "你 也 想 搬家 吗 ？"
+    ],
+    "tip": "搬 means to move things. Add 家 and picture your furniture going to a new home."
+  },
+  "附近": {
+    "pinyin": "fùjìn",
+    "meaning": "nearby area",
+    "level": 3,
+    "syllabusId": 633,
+    "usage": [
+      "我家附近",
+      "near my home",
+      "wǒ jiā fùjìn"
+    ],
+    "examples": [
+      "我 家 附近 有 花园 。",
+      "图书馆 在 附近 吗 ？"
+    ],
+    "tip": "Name a place first. 图书馆附近 is the area around the library."
+  },
+  "安静": {
+    "pinyin": "ānjìng",
+    "meaning": "quiet or peaceful",
+    "level": 3,
+    "syllabusId": 504,
+    "usage": [
+      "保持安静",
+      "keep quiet",
+      "bǎochí ānjìng"
+    ],
+    "examples": [
+      "图书馆 里 很 安静 。",
+      "这 个 房间 很 安静 。"
+    ],
+    "tip": "Picture everyone reading silently. Describe the room with 很安静."
+  },
+  "菜单": {
+    "pinyin": "càidān",
+    "meaning": "menu",
+    "level": 3,
+    "syllabusId": 545,
+    "usage": [
+      "看菜单",
+      "look at the menu",
+      "kàn càidān"
+    ],
+    "examples": [
+      "我 想 看 菜单 。",
+      "菜单 在 桌子 上 。"
+    ],
+    "measure": [
+      "一份菜单",
+      "one menu",
+      "yí fèn càidān"
+    ],
+    "tip": "菜 are dishes and 单 can mean a list. Picture the list you read before ordering."
+  },
+  "尝": {
+    "pinyin": "cháng",
+    "meaning": "to taste or try food",
+    "level": 3,
+    "syllabusId": 553,
+    "usage": [
+      "尝一口",
+      "try a bite",
+      "cháng yì kǒu"
+    ],
+    "examples": [
+      "我 想 尝 尝 这 个 西瓜 。",
+      "你 想 尝 哪 个 ？"
+    ],
+    "tip": "吃 can describe a whole meal. 尝 is the first taste that tells you how it is."
+  },
+  "饱": {
+    "pinyin": "bǎo",
+    "meaning": "full after eating",
+    "level": 3,
+    "syllabusId": 515,
+    "usage": [
+      "吃饱了",
+      "have eaten enough",
+      "chī bǎo le"
+    ],
+    "examples": [
+      "我 吃 饱 了 。",
+      "你 饱 了 吗 ？"
+    ],
+    "tip": "吃 is eating. Add 饱 to say you have reached the point where you have had enough."
+  },
+  "草地": {
+    "pinyin": "cǎodì",
+    "meaning": "grass or lawn",
+    "level": 3,
+    "syllabusId": 548,
+    "usage": [
+      "坐在草地上",
+      "sit on the grass",
+      "zuò zài cǎodì shang"
+    ],
+    "examples": [
+      "我们 坐 在 草地 上 。",
+      "我 家 附近 有 草地 。"
+    ],
+    "measure": [
+      "一片草地",
+      "a stretch of grass",
+      "yí piàn cǎodì"
+    ],
+    "tip": "草 is grass and 地 is ground. Picture the patch where you could spread a picnic blanket."
+  },
+  "爱": {
+    "level": 1,
+    "syllabusId": 1,
+    "pinyin": "ài",
+    "meaning": "to love"
+  },
+  "八": {
+    "level": 1,
+    "syllabusId": 2,
+    "pinyin": "bā",
+    "meaning": "eight"
+  },
+  "白天": {
+    "level": 1,
+    "syllabusId": 5,
+    "pinyin": "báitiān",
+    "meaning": "daytime"
+  },
+  "百": {
+    "level": 1,
+    "syllabusId": 6,
+    "pinyin": "bǎi",
+    "meaning": "hundred"
+  },
+  "半": {
+    "level": 1,
+    "syllabusId": 7,
+    "pinyin": "bàn",
+    "meaning": "half"
+  },
+  "包子": {
+    "level": 1,
+    "syllabusId": 8,
+    "pinyin": "bāozi",
+    "meaning": "baozi; steamed stuffed bun"
+  },
+  "杯子": {
+    "level": 1,
+    "syllabusId": 9,
+    "pinyin": "bēizi",
+    "meaning": "cup; glass"
+  },
+  "边": {
+    "level": 1,
+    "syllabusId": 11,
+    "pinyin": "biān",
+    "meaning": "side; edge"
+  },
+  "病": {
+    "level": 1,
+    "syllabusId": 12,
+    "pinyin": "bìng",
+    "meaning": "illness; disease"
+  },
+  "不": {
+    "level": 1,
+    "syllabusId": 13,
+    "pinyin": "bù",
+    "meaning": "no; not"
+  },
+  "不客气": {
+    "level": 1,
+    "syllabusId": 14,
+    "pinyin": "bú kèqi",
+    "meaning": "you're welcome"
+  },
+  "不要": {
+    "level": 1,
+    "syllabusId": 15,
+    "pinyin": "búyào",
+    "meaning": "don't; must not"
+  },
+  "菜": {
+    "level": 1,
+    "syllabusId": 16,
+    "pinyin": "cài",
+    "meaning": "vegetable; dish"
+  },
+  "茶": {
+    "level": 1,
+    "syllabusId": 17,
+    "pinyin": "chá",
+    "meaning": "tea"
+  },
+  "唱": {
+    "level": 1,
+    "syllabusId": 18,
+    "pinyin": "chàng",
+    "meaning": "to sing"
+  },
+  "超市": {
+    "level": 1,
+    "syllabusId": 19,
+    "pinyin": "chāoshì",
+    "meaning": "supermarket"
+  },
+  "车": {
+    "level": 1,
+    "syllabusId": 20,
+    "pinyin": "chē",
+    "meaning": "car; vehicle"
+  },
+  "出租车": {
+    "level": 1,
+    "syllabusId": 22,
+    "pinyin": "chūzūchē",
+    "meaning": "taxi"
+  },
+  "穿": {
+    "level": 1,
+    "syllabusId": 23,
+    "pinyin": "chuān",
+    "meaning": "to wear; to put on"
+  },
+  "打电话": {
+    "level": 1,
+    "syllabusId": 24,
+    "pinyin": "dǎ diànhuà",
+    "meaning": "to make a phone call"
+  },
+  "大": {
+    "level": 1,
+    "syllabusId": 25,
+    "pinyin": "dà",
+    "meaning": "big; large"
+  },
+  "大家": {
+    "level": 1,
+    "syllabusId": 26,
+    "pinyin": "dàjiā",
+    "meaning": "everyone"
+  },
+  "大学": {
+    "level": 1,
+    "syllabusId": 27,
+    "pinyin": "dàxué",
+    "meaning": "university; college"
+  },
+  "大学生": {
+    "level": 1,
+    "syllabusId": 28,
+    "pinyin": "dàxuéshēng",
+    "meaning": "university student"
+  },
+  "到": {
+    "level": 1,
+    "syllabusId": 29,
+    "pinyin": "dào",
+    "meaning": "to arrive; to reach"
+  },
+  "弟弟": {
+    "level": 1,
+    "syllabusId": 31,
+    "pinyin": "dìdi",
+    "meaning": "younger brother"
+  },
+  "第": {
+    "level": 1,
+    "syllabusId": 32,
+    "pinyin": "dì",
+    "meaning": "prefix forming ordinal numbers"
+  },
+  "电话": {
+    "level": 1,
+    "syllabusId": 34,
+    "pinyin": "diànhuà",
+    "meaning": "telephone; phone"
+  },
+  "电脑": {
+    "level": 1,
+    "syllabusId": 35,
+    "pinyin": "diànnǎo",
+    "meaning": "computer"
+  },
+  "电视": {
+    "level": 1,
+    "syllabusId": 36,
+    "pinyin": "diànshì",
+    "meaning": "TV; television"
+  },
+  "电影": {
+    "level": 1,
+    "syllabusId": 37,
+    "pinyin": "diànyǐng",
+    "meaning": "movie; film"
+  },
+  "电影院": {
+    "level": 1,
+    "syllabusId": 38,
+    "pinyin": "diànyǐngyuàn",
+    "meaning": "cinema; movie theater"
+  },
+  "店": {
+    "level": 1,
+    "syllabusId": 39,
+    "pinyin": "diàn",
+    "meaning": "shop; store"
+  },
+  "都": {
+    "level": 1,
+    "syllabusId": 41,
+    "pinyin": "dōu",
+    "meaning": "all; both"
+  },
+  "读书": {
+    "level": 1,
+    "syllabusId": 43,
+    "pinyin": "dúshū",
+    "meaning": "to read; to study"
+  },
+  "对": {
+    "level": 1,
+    "syllabusId": 44,
+    "pinyin": "duì",
+    "meaning": "right; correct; towards, at; a pair"
+  },
+  "对不起": {
+    "level": 1,
+    "syllabusId": 45,
+    "pinyin": "duìbuqǐ",
+    "meaning": "to apologize; I'm sorry; excuse me"
+  },
+  "多少": {
+    "level": 1,
+    "syllabusId": 47,
+    "pinyin": "duōshao",
+    "meaning": "how much; how many"
+  },
+  "儿子": {
+    "level": 1,
+    "syllabusId": 48,
+    "pinyin": "érzi",
+    "meaning": "son"
+  },
+  "二": {
+    "level": 1,
+    "syllabusId": 49,
+    "pinyin": "èr",
+    "meaning": "two"
+  },
+  "饭": {
+    "level": 1,
+    "syllabusId": 50,
+    "pinyin": "fàn",
+    "meaning": "cooked rice; meal"
+  },
+  "饭店": {
+    "level": 1,
+    "syllabusId": 51,
+    "pinyin": "fàndiàn",
+    "meaning": "restaurant; hotel"
+  },
+  "飞机": {
+    "level": 1,
+    "syllabusId": 53,
+    "pinyin": "fēijī",
+    "meaning": "airplane"
+  },
+  "非常": {
+    "level": 1,
+    "syllabusId": 54,
+    "pinyin": "fēicháng",
+    "meaning": "very; extremely"
+  },
+  "分": {
+    "level": 1,
+    "syllabusId": 55,
+    "pinyin": "fēn",
+    "meaning": "minute; cent; to divide"
+  },
+  "分钟": {
+    "level": 1,
+    "syllabusId": 56,
+    "pinyin": "fēnzhōng",
+    "meaning": "minute"
+  },
+  "高兴": {
+    "level": 1,
+    "syllabusId": 57,
+    "pinyin": "gāoxìng",
+    "meaning": "happy; glad"
+  },
+  "哥哥": {
+    "level": 1,
+    "syllabusId": 58,
+    "pinyin": "gēge",
+    "meaning": "older brother"
+  },
+  "歌": {
+    "level": 1,
+    "syllabusId": 59,
+    "pinyin": "gē",
+    "meaning": "song"
+  },
+  "工作": {
+    "level": 1,
+    "syllabusId": 62,
+    "pinyin": "gōngzuò",
+    "meaning": "to work; job"
+  },
+  "公司": {
+    "level": 1,
+    "syllabusId": 63,
+    "pinyin": "gōngsī",
+    "meaning": "company; firm"
+  },
+  "狗": {
+    "level": 1,
+    "syllabusId": 64,
+    "pinyin": "gǒu",
+    "meaning": "dog"
+  },
+  "贵": {
+    "level": 1,
+    "syllabusId": 65,
+    "pinyin": "guì",
+    "meaning": "expensive; honorable"
+  },
+  "国": {
+    "level": 1,
+    "syllabusId": 66,
+    "pinyin": "guó",
+    "meaning": "country; nation"
+  },
+  "还": {
+    "level": 1,
+    "syllabusId": 67,
+    "pinyin": "hái",
+    "meaning": "still; also"
+  },
+  "孩子": {
+    "level": 1,
+    "syllabusId": 68,
+    "pinyin": "háizi",
+    "meaning": "child"
+  },
+  "汉语": {
+    "level": 1,
+    "syllabusId": 69,
+    "pinyin": "Hànyǔ",
+    "meaning": "Chinese language"
+  },
+  "汉字": {
+    "level": 1,
+    "syllabusId": 70,
+    "pinyin": "Hànzì",
+    "meaning": "Chinese character"
+  },
+  "好": {
+    "level": 1,
+    "syllabusId": 71,
+    "pinyin": "hǎo",
+    "meaning": "good"
+  },
+  "好吃": {
+    "level": 1,
+    "syllabusId": 72,
+    "pinyin": "hǎochī",
+    "meaning": "tasty; delicious"
+  },
+  "好听": {
+    "level": 1,
+    "syllabusId": 74,
+    "pinyin": "hǎotīng",
+    "meaning": "pleasant to hear"
+  },
+  "好玩儿": {
+    "level": 1,
+    "syllabusId": 75,
+    "pinyin": "hǎowánr",
+    "meaning": "fun; amusing"
+  },
+  "号": {
+    "level": 1,
+    "syllabusId": 76,
+    "pinyin": "hào",
+    "meaning": "number; measure word for dates and sizes"
+  },
+  "喝": {
+    "level": 1,
+    "syllabusId": 77,
+    "pinyin": "hē",
+    "meaning": "to drink"
+  },
+  "和": {
+    "level": 1,
+    "syllabusId": 78,
+    "pinyin": "hé",
+    "meaning": "and; with"
+  },
+  "后": {
+    "level": 1,
+    "syllabusId": 80,
+    "pinyin": "hòu",
+    "meaning": "back; behind; after"
+  },
+  "回": {
+    "level": 1,
+    "syllabusId": 81,
+    "pinyin": "huí",
+    "meaning": "to return; time; occasion"
+  },
+  "火车": {
+    "level": 1,
+    "syllabusId": 83,
+    "pinyin": "huǒchē",
+    "meaning": "train"
+  },
+  "鸡蛋": {
+    "level": 1,
+    "syllabusId": 84,
+    "pinyin": "jīdàn",
+    "meaning": "egg"
+  },
+  "家人": {
+    "level": 1,
+    "syllabusId": 87,
+    "pinyin": "jiārén",
+    "meaning": "family member"
+  },
+  "见": {
+    "level": 1,
+    "syllabusId": 88,
+    "pinyin": "jiàn",
+    "meaning": "to see; to meet"
+  },
+  "件": {
+    "level": 1,
+    "syllabusId": 89,
+    "pinyin": "jiàn",
+    "meaning": "measure word for things, events and clothes"
+  },
+  "饺子": {
+    "level": 1,
+    "syllabusId": 90,
+    "pinyin": "jiǎozi",
+    "meaning": "dumpling"
+  },
+  "叫": {
+    "level": 1,
+    "syllabusId": 91,
+    "pinyin": "jiào",
+    "meaning": "to call; to be called"
+  },
+  "姐姐": {
+    "level": 1,
+    "syllabusId": 92,
+    "pinyin": "jiějie",
+    "meaning": "older sister"
+  },
+  "今年": {
+    "level": 1,
+    "syllabusId": 93,
+    "pinyin": "jīnnián",
+    "meaning": "this year"
+  },
+  "九": {
+    "level": 1,
+    "syllabusId": 95,
+    "pinyin": "jiǔ",
+    "meaning": "nine"
+  },
+  "觉得": {
+    "level": 1,
+    "syllabusId": 96,
+    "pinyin": "juéde",
+    "meaning": "to feel; to think that"
+  },
+  "开": {
+    "level": 1,
+    "syllabusId": 97,
+    "pinyin": "kāi",
+    "meaning": "to open; to drive"
+  },
+  "开车": {
+    "level": 1,
+    "syllabusId": 98,
+    "pinyin": "kāichē",
+    "meaning": "to drive a car"
+  },
+  "看病": {
+    "level": 1,
+    "syllabusId": 100,
+    "pinyin": "kànbìng",
+    "meaning": "to see a doctor"
+  },
+  "看见": {
+    "level": 1,
+    "syllabusId": 101,
+    "pinyin": "kànjiàn",
+    "meaning": "to see; to catch sight of"
+  },
+  "课": {
+    "level": 1,
+    "syllabusId": 103,
+    "pinyin": "kè",
+    "meaning": "lesson; class"
+  },
+  "口": {
+    "level": 1,
+    "syllabusId": 104,
+    "pinyin": "kǒu",
+    "meaning": "mouth; measure word for people and mouthfuls"
+  },
+  "块": {
+    "level": 1,
+    "syllabusId": 105,
+    "pinyin": "kuài",
+    "meaning": "measure word for lumps and pieces; yuan (colloquial)"
+  },
+  "老师": {
+    "level": 1,
+    "syllabusId": 107,
+    "pinyin": "lǎoshī",
+    "meaning": "teacher"
+  },
+  "冷": {
+    "level": 1,
+    "syllabusId": 109,
+    "pinyin": "lěng",
+    "meaning": "cold"
+  },
+  "两": {
+    "level": 1,
+    "syllabusId": 111,
+    "pinyin": "liǎng",
+    "meaning": "two; a pair of"
+  },
+  "零": {
+    "level": 1,
+    "syllabusId": 112,
+    "pinyin": "líng",
+    "meaning": "zero"
+  },
+  "六": {
+    "level": 1,
+    "syllabusId": 113,
+    "pinyin": "liù",
+    "meaning": "six"
+  },
+  "妈妈": {
+    "level": 1,
+    "syllabusId": 114,
+    "pinyin": "māma",
+    "meaning": "mother; mom"
+  },
+  "卖": {
+    "level": 1,
+    "syllabusId": 117,
+    "pinyin": "mài",
+    "meaning": "to sell"
+  },
+  "猫": {
+    "level": 1,
+    "syllabusId": 119,
+    "pinyin": "māo",
+    "meaning": "cat"
+  },
+  "没关系": {
+    "level": 1,
+    "syllabusId": 120,
+    "pinyin": "méi guānxi",
+    "meaning": "it doesn't matter"
+  },
+  "没事": {
+    "level": 1,
+    "syllabusId": 121,
+    "pinyin": "méishì",
+    "meaning": "to be free; it's nothing; never mind"
+  },
+  "没有": {
+    "level": 1,
+    "syllabusId": 122,
+    "pinyin": "méiyǒu",
+    "meaning": "to not have; there is not"
+  },
+  "妹妹": {
+    "level": 1,
+    "syllabusId": 123,
+    "pinyin": "mèimei",
+    "meaning": "younger sister"
+  },
+  "们": {
+    "level": 1,
+    "syllabusId": 124,
+    "pinyin": "men",
+    "meaning": "plural suffix for pronouns and human nouns"
+  },
+  "米饭": {
+    "level": 1,
+    "syllabusId": 125,
+    "pinyin": "mǐfàn",
+    "meaning": "cooked rice"
+  },
+  "面包": {
+    "level": 1,
+    "syllabusId": 126,
+    "pinyin": "miànbāo",
+    "meaning": "bread"
+  },
+  "面条儿": {
+    "level": 1,
+    "syllabusId": 127,
+    "pinyin": "miàntiáor",
+    "meaning": "noodles"
+  },
+  "明年": {
+    "level": 1,
+    "syllabusId": 129,
+    "pinyin": "míngnián",
+    "meaning": "next year"
+  },
+  "哪个": {
+    "level": 1,
+    "syllabusId": 132,
+    "pinyin": "nǎge",
+    "meaning": "which one"
+  },
+  "哪里": {
+    "level": 1,
+    "syllabusId": 133,
+    "pinyin": "nǎlǐ",
+    "meaning": "where"
+  },
+  "哪些": {
+    "level": 1,
+    "syllabusId": 135,
+    "pinyin": "nǎxiē",
+    "meaning": "which ones"
+  },
+  "那": {
+    "level": 1,
+    "syllabusId": 136,
+    "pinyin": "nà",
+    "meaning": "that"
+  },
+  "那边": {
+    "level": 1,
+    "syllabusId": 137,
+    "pinyin": "nàbiān",
+    "meaning": "over there"
+  },
+  "那个": {
+    "level": 1,
+    "syllabusId": 138,
+    "pinyin": "nàge",
+    "meaning": "that one"
+  },
+  "那里": {
+    "level": 1,
+    "syllabusId": 139,
+    "pinyin": "nàlǐ",
+    "meaning": "there"
+  },
+  "那儿": {
+    "level": 1,
+    "syllabusId": 140,
+    "pinyin": "nàr",
+    "meaning": "there"
+  },
+  "那些": {
+    "level": 1,
+    "syllabusId": 141,
+    "pinyin": "nàxiē",
+    "meaning": "those"
+  },
+  "男": {
+    "level": 1,
+    "syllabusId": 142,
+    "pinyin": "nán",
+    "meaning": "male; man"
+  },
+  "男朋友": {
+    "level": 1,
+    "syllabusId": 143,
+    "pinyin": "nánpéngyou",
+    "meaning": "boyfriend"
+  },
+  "呢": {
+    "level": 1,
+    "syllabusId": 144,
+    "pinyin": "ne",
+    "meaning": "grammar particle: follow-up question; ongoing state"
+  },
+  "能": {
+    "level": 1,
+    "syllabusId": 145,
+    "pinyin": "néng",
+    "meaning": "can; to be able to"
+  },
+  "你好": {
+    "level": 1,
+    "syllabusId": 147,
+    "pinyin": "nǐ hǎo",
+    "meaning": "hello"
+  },
+  "你们": {
+    "level": 1,
+    "syllabusId": 148,
+    "pinyin": "nǐmen",
+    "meaning": "you; you all"
+  },
+  "年": {
+    "level": 1,
+    "syllabusId": 149,
+    "pinyin": "nián",
+    "meaning": "year"
+  },
+  "您": {
+    "level": 1,
+    "syllabusId": 150,
+    "pinyin": "nín",
+    "meaning": "you (polite)"
+  },
+  "牛奶": {
+    "level": 1,
+    "syllabusId": 151,
+    "pinyin": "niúnǎi",
+    "meaning": "milk"
+  },
+  "女": {
+    "level": 1,
+    "syllabusId": 152,
+    "pinyin": "nǚ",
+    "meaning": "female; woman"
+  },
+  "女儿": {
+    "level": 1,
+    "syllabusId": 153,
+    "pinyin": "nǚ’ér",
+    "meaning": "daughter"
+  },
+  "女朋友": {
+    "level": 1,
+    "syllabusId": 154,
+    "pinyin": "nǚpéngyou",
+    "meaning": "girlfriend"
+  },
+  "女士": {
+    "level": 1,
+    "syllabusId": 155,
+    "pinyin": "nǚshì",
+    "meaning": "lady; madam"
+  },
+  "朋友": {
+    "level": 1,
+    "syllabusId": 156,
+    "pinyin": "péngyou",
+    "meaning": "friend"
+  },
+  "便宜": {
+    "level": 1,
+    "syllabusId": 157,
+    "pinyin": "piányi",
+    "meaning": "cheap; inexpensive"
+  },
+  "漂亮": {
+    "level": 1,
+    "syllabusId": 158,
+    "pinyin": "piàoliang",
+    "meaning": "pretty; beautiful"
+  },
+  "苹果": {
+    "level": 1,
+    "syllabusId": 159,
+    "pinyin": "píngguǒ",
+    "meaning": "apple"
+  },
+  "七": {
+    "level": 1,
+    "syllabusId": 160,
+    "pinyin": "qī",
+    "meaning": "seven"
+  },
+  "起床": {
+    "level": 1,
+    "syllabusId": 161,
+    "pinyin": "qǐchuáng",
+    "meaning": "to get up; to get out of bed"
+  },
+  "千": {
+    "level": 1,
+    "syllabusId": 162,
+    "pinyin": "qiān",
+    "meaning": "thousand"
+  },
+  "前": {
+    "level": 1,
+    "syllabusId": 163,
+    "pinyin": "qián",
+    "meaning": "front; before"
+  },
+  "钱": {
+    "level": 1,
+    "syllabusId": 164,
+    "pinyin": "qián",
+    "meaning": "money"
+  },
+  "请问": {
+    "level": 1,
+    "syllabusId": 166,
+    "pinyin": "qǐngwèn",
+    "meaning": "excuse me; may I ask"
+  },
+  "去年": {
+    "level": 1,
+    "syllabusId": 168,
+    "pinyin": "qùnián",
+    "meaning": "last year"
+  },
+  "热": {
+    "level": 1,
+    "syllabusId": 169,
+    "pinyin": "rè",
+    "meaning": "hot; to heat up"
+  },
+  "人": {
+    "level": 1,
+    "syllabusId": 170,
+    "pinyin": "rén",
+    "meaning": "person; people"
+  },
+  "认识": {
+    "level": 1,
+    "syllabusId": 171,
+    "pinyin": "rènshi",
+    "meaning": "to know; to recognize"
+  },
+  "日": {
+    "level": 1,
+    "syllabusId": 172,
+    "pinyin": "rì",
+    "meaning": "day; sun"
+  },
+  "三": {
+    "level": 1,
+    "syllabusId": 173,
+    "pinyin": "sān",
+    "meaning": "three"
+  },
+  "商店": {
+    "level": 1,
+    "syllabusId": 174,
+    "pinyin": "shāngdiàn",
+    "meaning": "store; shop"
+  },
+  "上班": {
+    "level": 1,
+    "syllabusId": 176,
+    "pinyin": "shàngbān",
+    "meaning": "to go to work"
+  },
+  "上课": {
+    "level": 1,
+    "syllabusId": 177,
+    "pinyin": "shàngkè",
+    "meaning": "to attend class"
+  },
+  "上午": {
+    "level": 1,
+    "syllabusId": 178,
+    "pinyin": "shàngwǔ",
+    "meaning": "morning"
+  },
+  "上学": {
+    "level": 1,
+    "syllabusId": 179,
+    "pinyin": "shàngxué",
+    "meaning": "to go to school"
+  },
+  "少": {
+    "level": 1,
+    "syllabusId": 180,
+    "pinyin": "shǎo",
+    "meaning": "few; little"
+  },
+  "谁": {
+    "level": 1,
+    "syllabusId": 181,
+    "pinyin": "shéi/shuí",
+    "meaning": "who"
+  },
+  "什么": {
+    "level": 1,
+    "syllabusId": 182,
+    "pinyin": "shénme",
+    "meaning": "what"
+  },
+  "生病": {
+    "level": 1,
+    "syllabusId": 183,
+    "pinyin": "shēngbìng",
+    "meaning": "to fall ill"
+  },
+  "十": {
+    "level": 1,
+    "syllabusId": 184,
+    "pinyin": "shí",
+    "meaning": "ten"
+  },
+  "时候": {
+    "level": 1,
+    "syllabusId": 185,
+    "pinyin": "shíhou",
+    "meaning": "time; moment"
+  },
+  "时间": {
+    "level": 1,
+    "syllabusId": 186,
+    "pinyin": "shíjiān",
+    "meaning": "time"
+  },
+  "事": {
+    "level": 1,
+    "syllabusId": 187,
+    "pinyin": "shì",
+    "meaning": "matter; thing"
+  },
+  "手机": {
+    "level": 1,
+    "syllabusId": 189,
+    "pinyin": "shǒujī",
+    "meaning": "cell phone; mobile phone"
+  },
+  "书店": {
+    "level": 1,
+    "syllabusId": 191,
+    "pinyin": "shūdiàn",
+    "meaning": "bookstore"
+  },
+  "水": {
+    "level": 1,
+    "syllabusId": 192,
+    "pinyin": "shuǐ",
+    "meaning": "water"
+  },
+  "睡": {
+    "level": 1,
+    "syllabusId": 194,
+    "pinyin": "shuì",
+    "meaning": "to sleep"
+  },
+  "睡觉": {
+    "level": 1,
+    "syllabusId": 195,
+    "pinyin": "shuìjiào",
+    "meaning": "to sleep; to go to bed"
+  },
+  "说": {
+    "level": 1,
+    "syllabusId": 196,
+    "pinyin": "shuō",
+    "meaning": "to speak; to say"
+  },
+  "说话": {
+    "level": 1,
+    "syllabusId": 197,
+    "pinyin": "shuōhuà",
+    "meaning": "to speak; to talk"
+  },
+  "四": {
+    "level": 1,
+    "syllabusId": 198,
+    "pinyin": "sì",
+    "meaning": "four"
+  },
+  "岁": {
+    "level": 1,
+    "syllabusId": 199,
+    "pinyin": "suì",
+    "meaning": "measure word for years of age; years old"
+  },
+  "他们": {
+    "level": 1,
+    "syllabusId": 201,
+    "pinyin": "tāmen",
+    "meaning": "they; them"
+  },
+  "它": {
+    "level": 1,
+    "syllabusId": 202,
+    "pinyin": "tā",
+    "meaning": "it"
+  },
+  "它们": {
+    "level": 1,
+    "syllabusId": 203,
+    "pinyin": "tāmen",
+    "meaning": "they; them for things"
+  },
+  "她们": {
+    "level": 1,
+    "syllabusId": 205,
+    "pinyin": "tāmen",
+    "meaning": "they; them for females"
+  },
+  "太": {
+    "level": 1,
+    "syllabusId": 206,
+    "pinyin": "tài",
+    "meaning": "too; extremely"
+  },
+  "天": {
+    "level": 1,
+    "syllabusId": 207,
+    "pinyin": "tiān",
+    "meaning": "day; sky"
+  },
+  "天气": {
+    "level": 1,
+    "syllabusId": 208,
+    "pinyin": "tiānqì",
+    "meaning": "weather"
+  },
+  "听见": {
+    "level": 1,
+    "syllabusId": 210,
+    "pinyin": "tīngjiàn",
+    "meaning": "to hear"
+  },
+  "同学": {
+    "level": 1,
+    "syllabusId": 211,
+    "pinyin": "tóngxué",
+    "meaning": "classmate; fellow student"
+  },
+  "外": {
+    "level": 1,
+    "syllabusId": 212,
+    "pinyin": "wài",
+    "meaning": "outside; foreign"
+  },
+  "外边": {
+    "level": 1,
+    "syllabusId": 213,
+    "pinyin": "wàibian",
+    "meaning": "outside"
+  },
+  "玩": {
+    "level": 1,
+    "syllabusId": 214,
+    "pinyin": "wán",
+    "meaning": "to play; to have fun"
+  },
+  "晚": {
+    "level": 1,
+    "syllabusId": 215,
+    "pinyin": "wǎn",
+    "meaning": "evening; late"
+  },
+  "晚饭": {
+    "level": 1,
+    "syllabusId": 216,
+    "pinyin": "wǎnfàn",
+    "meaning": "dinner; supper"
+  },
+  "晚上": {
+    "level": 1,
+    "syllabusId": 217,
+    "pinyin": "wǎnshang",
+    "meaning": "evening; night"
+  },
+  "喂": {
+    "level": 1,
+    "syllabusId": 218,
+    "pinyin": "wèi",
+    "meaning": "hey; hello on the phone"
+  },
+  "问": {
+    "level": 1,
+    "syllabusId": 219,
+    "pinyin": "wèn",
+    "meaning": "to ask"
+  },
+  "问题": {
+    "level": 1,
+    "syllabusId": 220,
+    "pinyin": "wèntí",
+    "meaning": "question; problem"
+  },
+  "五": {
+    "level": 1,
+    "syllabusId": 223,
+    "pinyin": "wǔ",
+    "meaning": "five"
+  },
+  "午饭": {
+    "level": 1,
+    "syllabusId": 224,
+    "pinyin": "wǔfàn",
+    "meaning": "lunch"
+  },
+  "下": {
+    "level": 1,
+    "syllabusId": 226,
+    "pinyin": "xià",
+    "meaning": "down; to go down; measure word for brief actions"
+  },
+  "下班": {
+    "level": 1,
+    "syllabusId": 227,
+    "pinyin": "xiàbān",
+    "meaning": "to finish work; to get off work"
+  },
+  "下课": {
+    "level": 1,
+    "syllabusId": 228,
+    "pinyin": "xiàkè",
+    "meaning": "to finish class"
+  },
+  "下午": {
+    "level": 1,
+    "syllabusId": 229,
+    "pinyin": "xiàwǔ",
+    "meaning": "afternoon"
+  },
+  "下雨": {
+    "level": 1,
+    "syllabusId": 230,
+    "pinyin": "xià yǔ",
+    "meaning": "to rain"
+  },
+  "先生": {
+    "level": 1,
+    "syllabusId": 231,
+    "pinyin": "xiānsheng",
+    "meaning": "Mr.; sir; husband"
+  },
+  "现在": {
+    "level": 1,
+    "syllabusId": 232,
+    "pinyin": "xiànzài",
+    "meaning": "now"
+  },
+  "小": {
+    "level": 1,
+    "syllabusId": 234,
+    "pinyin": "xiǎo",
+    "meaning": "small; little"
+  },
+  "小朋友": {
+    "level": 1,
+    "syllabusId": 235,
+    "pinyin": "xiǎopéngyǒu",
+    "meaning": "child; kid"
+  },
+  "小时": {
+    "level": 1,
+    "syllabusId": 236,
+    "pinyin": "xiǎoshí",
+    "meaning": "hour"
+  },
+  "小学": {
+    "level": 1,
+    "syllabusId": 237,
+    "pinyin": "xiǎoxué",
+    "meaning": "elementary school"
+  },
+  "小学生": {
+    "level": 1,
+    "syllabusId": 238,
+    "pinyin": "xiǎoxuéshēng",
+    "meaning": "elementary school student"
+  },
+  "些": {
+    "level": 1,
+    "syllabusId": 239,
+    "pinyin": "xiē",
+    "meaning": "measure word: some, a few"
+  },
+  "写": {
+    "level": 1,
+    "syllabusId": 240,
+    "pinyin": "xiě",
+    "meaning": "to write"
+  },
+  "谢谢": {
+    "level": 1,
+    "syllabusId": 241,
+    "pinyin": "xièxie",
+    "meaning": "thank you; thanks"
+  },
+  "新": {
+    "level": 1,
+    "syllabusId": 242,
+    "pinyin": "xīn",
+    "meaning": "new"
+  },
+  "星期": {
+    "level": 1,
+    "syllabusId": 243,
+    "pinyin": "xīngqī",
+    "meaning": "week"
+  },
+  "星期日": {
+    "level": 1,
+    "syllabusId": 244,
+    "pinyin": "xīngqīrì",
+    "meaning": "Sunday"
+  },
+  "星期天": {
+    "level": 1,
+    "syllabusId": 245,
+    "pinyin": "xīngqītiān",
+    "meaning": "Sunday"
+  },
+  "休息": {
+    "level": 1,
+    "syllabusId": 246,
+    "pinyin": "xiūxi",
+    "meaning": "to rest; rest"
+  },
+  "学": {
+    "level": 1,
+    "syllabusId": 247,
+    "pinyin": "xué",
+    "meaning": "to learn; to study"
+  },
+  "学生": {
+    "level": 1,
+    "syllabusId": 248,
+    "pinyin": "xuéshēng",
+    "meaning": "student"
+  },
+  "学习": {
+    "level": 1,
+    "syllabusId": 249,
+    "pinyin": "xuéxí",
+    "meaning": "to learn; to study"
+  },
+  "学校": {
+    "level": 1,
+    "syllabusId": 250,
+    "pinyin": "xuéxiào",
+    "meaning": "school"
+  },
+  "雪": {
+    "level": 1,
+    "syllabusId": 251,
+    "pinyin": "xuě",
+    "meaning": "snow"
+  },
+  "要": {
+    "level": 1,
+    "syllabusId": 252,
+    "pinyin": "yào",
+    "meaning": "to want; to need; will"
+  },
+  "一半": {
+    "level": 1,
+    "syllabusId": 255,
+    "pinyin": "yíbàn",
+    "meaning": "half"
+  },
+  "一点儿": {
+    "level": 1,
+    "syllabusId": 256,
+    "pinyin": "yìdiǎnr",
+    "meaning": "a little; a bit"
+  },
+  "一下": {
+    "level": 1,
+    "syllabusId": 257,
+    "pinyin": "yíxià",
+    "meaning": "(after a verb) a bit, for a moment; all at once"
+  },
+  "一些": {
+    "level": 1,
+    "syllabusId": 258,
+    "pinyin": "yìxiē",
+    "meaning": "some; a few"
+  },
+  "衣服": {
+    "level": 1,
+    "syllabusId": 259,
+    "pinyin": "yīfu",
+    "meaning": "clothes"
+  },
+  "医生": {
+    "level": 1,
+    "syllabusId": 260,
+    "pinyin": "yīshēng",
+    "meaning": "doctor"
+  },
+  "医院": {
+    "level": 1,
+    "syllabusId": 261,
+    "pinyin": "yīyuàn",
+    "meaning": "hospital"
+  },
+  "椅子": {
+    "level": 1,
+    "syllabusId": 262,
+    "pinyin": "yǐzi",
+    "meaning": "chair"
+  },
+  "有的": {
+    "level": 1,
+    "syllabusId": 264,
+    "pinyin": "yǒude",
+    "meaning": "some; some people"
+  },
+  "有点儿": {
+    "level": 1,
+    "syllabusId": 265,
+    "pinyin": "yǒudiǎnr",
+    "meaning": "a little; somewhat"
+  },
+  "有些": {
+    "level": 1,
+    "syllabusId": 266,
+    "pinyin": "yǒuxiē",
+    "meaning": "some; somewhat"
+  },
+  "雨": {
+    "level": 1,
+    "syllabusId": 267,
+    "pinyin": "yǔ",
+    "meaning": "rain"
+  },
+  "元": {
+    "level": 1,
+    "syllabusId": 268,
+    "pinyin": "yuán",
+    "meaning": "yuan; Chinese currency unit"
+  },
+  "月": {
+    "level": 1,
+    "syllabusId": 269,
+    "pinyin": "yuè",
+    "meaning": "moon; month"
+  },
+  "再": {
+    "level": 1,
+    "syllabusId": 270,
+    "pinyin": "zài",
+    "meaning": "again; once more"
+  },
+  "再见": {
+    "level": 1,
+    "syllabusId": 271,
+    "pinyin": "zàijiàn",
+    "meaning": "goodbye"
+  },
+  "早": {
+    "level": 1,
+    "syllabusId": 273,
+    "pinyin": "zǎo",
+    "meaning": "early; morning"
+  },
+  "早饭": {
+    "level": 1,
+    "syllabusId": 274,
+    "pinyin": "zǎofàn",
+    "meaning": "breakfast"
+  },
+  "早上": {
+    "level": 1,
+    "syllabusId": 275,
+    "pinyin": "zǎoshang",
+    "meaning": "morning"
+  },
+  "怎么": {
+    "level": 1,
+    "syllabusId": 276,
+    "pinyin": "zěnme",
+    "meaning": "how; why"
+  },
+  "怎么样": {
+    "level": 1,
+    "syllabusId": 277,
+    "pinyin": "zěnmeyàng",
+    "meaning": "how about; how is it"
+  },
+  "找": {
+    "level": 1,
+    "syllabusId": 278,
+    "pinyin": "zhǎo",
+    "meaning": "to look for; to find"
+  },
+  "这边": {
+    "level": 1,
+    "syllabusId": 280,
+    "pinyin": "zhèbiān",
+    "meaning": "this side; here"
+  },
+  "这个": {
+    "level": 1,
+    "syllabusId": 281,
+    "pinyin": "zhège",
+    "meaning": "this one"
+  },
+  "这儿": {
+    "level": 1,
+    "syllabusId": 283,
+    "pinyin": "zhèr",
+    "meaning": "here"
+  },
+  "这些": {
+    "level": 1,
+    "syllabusId": 284,
+    "pinyin": "zhèxiē",
+    "meaning": "these"
+  },
+  "真": {
+    "level": 1,
+    "syllabusId": 285,
+    "pinyin": "zhēn",
+    "meaning": "really; truly"
+  },
+  "正在": {
+    "level": 1,
+    "syllabusId": 286,
+    "pinyin": "zhèngzài",
+    "meaning": "in the process of doing"
+  },
+  "只": {
+    "level": 1,
+    "syllabusId": 287,
+    "pinyin": "zhī",
+    "meaning": "classifier for animals and one of a pair"
+  },
+  "知道": {
+    "level": 1,
+    "syllabusId": 288,
+    "pinyin": "zhīdào",
+    "meaning": "to know"
+  },
+  "中国": {
+    "level": 1,
+    "syllabusId": 289,
+    "pinyin": "Zhōngguó",
+    "meaning": "China"
+  },
+  "中文": {
+    "level": 1,
+    "syllabusId": 290,
+    "pinyin": "Zhōngwén",
+    "meaning": "Chinese language"
+  },
+  "中午": {
+    "level": 1,
+    "syllabusId": 291,
+    "pinyin": "zhōngwǔ",
+    "meaning": "noon; midday"
+  },
+  "中学": {
+    "level": 1,
+    "syllabusId": 292,
+    "pinyin": "zhōngxué",
+    "meaning": "middle school"
+  },
+  "中学生": {
+    "level": 1,
+    "syllabusId": 293,
+    "pinyin": "zhōngxuéshēng",
+    "meaning": "middle school student"
+  },
+  "住": {
+    "level": 1,
+    "syllabusId": 294,
+    "pinyin": "zhù",
+    "meaning": "to live; to reside"
+  },
+  "字": {
+    "level": 1,
+    "syllabusId": 296,
+    "pinyin": "zì",
+    "meaning": "character; written word"
+  },
+  "昨天": {
+    "level": 1,
+    "syllabusId": 297,
+    "pinyin": "zuótiān",
+    "meaning": "yesterday"
+  },
+  "做饭": {
+    "level": 1,
+    "syllabusId": 300,
+    "pinyin": "zuò fàn",
+    "meaning": "to cook; to prepare a meal"
+  },
+  "啊": {
+    "level": 2,
+    "syllabusId": 301,
+    "pinyin": "a",
+    "meaning": "grammar particle: exclamation or agreement"
+  },
+  "爱好": {
+    "level": 2,
+    "syllabusId": 302,
+    "pinyin": "àihào",
+    "meaning": "hobby; interest"
+  },
+  "白色": {
+    "level": 2,
+    "syllabusId": 303,
+    "pinyin": "báisè",
+    "meaning": "white"
+  },
+  "班": {
+    "level": 2,
+    "syllabusId": 304,
+    "pinyin": "bān",
+    "meaning": "class; work shift"
+  },
+  "帮": {
+    "level": 2,
+    "syllabusId": 305,
+    "pinyin": "bāng",
+    "meaning": "to help"
+  },
+  "帮忙": {
+    "level": 2,
+    "syllabusId": 306,
+    "pinyin": "bāngmáng",
+    "meaning": "to help; to lend a hand"
+  },
+  "包": {
+    "level": 2,
+    "syllabusId": 307,
+    "pinyin": "bāo",
+    "meaning": "to wrap; bag; measure word for packs"
+  },
+  "本子": {
+    "level": 2,
+    "syllabusId": 308,
+    "pinyin": "běnzi",
+    "meaning": "notebook"
+  },
+  "比": {
+    "level": 2,
+    "syllabusId": 309,
+    "pinyin": "bǐ",
+    "meaning": "to compare; than"
+  },
+  "笔": {
+    "level": 2,
+    "syllabusId": 310,
+    "pinyin": "bǐ",
+    "meaning": "pen; measure word for sums of money"
+  },
+  "不错": {
+    "level": 2,
+    "syllabusId": 312,
+    "pinyin": "búcuò",
+    "meaning": "not bad; correct"
+  },
+  "不好意思": {
+    "level": 2,
+    "syllabusId": 313,
+    "pinyin": "bù hǎoyìsi",
+    "meaning": "to feel embarrassed; to be sorry; excuse me"
+  },
+  "长": {
+    "level": 2,
+    "syllabusId": 314,
+    "pinyin": "cháng",
+    "meaning": "long"
+  },
+  "车站": {
+    "level": 2,
+    "syllabusId": 315,
+    "pinyin": "chēzhàn",
+    "meaning": "station; stop"
+  },
+  "出": {
+    "level": 2,
+    "syllabusId": 316,
+    "pinyin": "chū",
+    "meaning": "to go out; to come out"
+  },
+  "出国": {
+    "level": 2,
+    "syllabusId": 317,
+    "pinyin": "chūguó",
+    "meaning": "to go abroad"
+  },
+  "出来": {
+    "level": 2,
+    "syllabusId": 318,
+    "pinyin": "chūlái",
+    "meaning": "to come out"
+  },
+  "出门": {
+    "level": 2,
+    "syllabusId": 319,
+    "pinyin": "chūmén",
+    "meaning": "to go out; to leave home"
+  },
+  "出去": {
+    "level": 2,
+    "syllabusId": 320,
+    "pinyin": "chūqù",
+    "meaning": "to go out"
+  },
+  "床": {
+    "level": 2,
+    "syllabusId": 321,
+    "pinyin": "chuáng",
+    "meaning": "bed"
+  },
+  "词": {
+    "level": 2,
+    "syllabusId": 322,
+    "pinyin": "cí",
+    "meaning": "word"
+  },
+  "次": {
+    "level": 2,
+    "syllabusId": 323,
+    "pinyin": "cì",
+    "meaning": "measure word for times or occurrences; secondary"
+  },
+  "从": {
+    "level": 2,
+    "syllabusId": 324,
+    "pinyin": "cóng",
+    "meaning": "from"
+  },
+  "从小": {
+    "level": 2,
+    "syllabusId": 325,
+    "pinyin": "cóngxiǎo",
+    "meaning": "from childhood"
+  },
+  "错": {
+    "level": 2,
+    "syllabusId": 326,
+    "pinyin": "cuò",
+    "meaning": "wrong; mistake"
+  },
+  "打": {
+    "level": 2,
+    "syllabusId": 327,
+    "pinyin": "dǎ",
+    "meaning": "to hit; to play; to make"
+  },
+  "打车": {
+    "level": 2,
+    "syllabusId": 328,
+    "pinyin": "dǎchē",
+    "meaning": "to take a taxi"
+  },
+  "打开": {
+    "level": 2,
+    "syllabusId": 329,
+    "pinyin": "dǎkāi",
+    "meaning": "to open; to turn on"
+  },
+  "但": {
+    "level": 2,
+    "syllabusId": 330,
+    "pinyin": "dàn",
+    "meaning": "but; yet"
+  },
+  "但是": {
+    "level": 2,
+    "syllabusId": 331,
+    "pinyin": "dànshì",
+    "meaning": "but; however"
+  },
+  "地": {
+    "level": 2,
+    "syllabusId": 332,
+    "pinyin": "de",
+    "meaning": "grammar particle: adverbial marker"
+  },
+  "得": {
+    "level": 2,
+    "syllabusId": 333,
+    "pinyin": "de",
+    "meaning": "grammar particle: links verb to complement"
+  },
+  "等": {
+    "level": 2,
+    "syllabusId": 334,
+    "pinyin": "děng",
+    "meaning": "to wait; and so on"
+  },
+  "地铁": {
+    "level": 2,
+    "syllabusId": 335,
+    "pinyin": "dìtiě",
+    "meaning": "subway; metro"
+  },
+  "点#336": {
+    "level": 2,
+    "syllabusId": 336,
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "meaning": "to order food; to tap",
+    "sense": "order food"
+  },
+  "懂": {
+    "level": 2,
+    "syllabusId": 337,
+    "pinyin": "dǒng",
+    "meaning": "to understand"
+  },
+  "动": {
+    "level": 2,
+    "syllabusId": 338,
+    "pinyin": "dòng",
+    "meaning": "to move"
+  },
+  "饭馆": {
+    "level": 2,
+    "syllabusId": 339,
+    "pinyin": "fànguǎn",
+    "meaning": "restaurant"
+  },
+  "飞": {
+    "level": 2,
+    "syllabusId": 340,
+    "pinyin": "fēi",
+    "meaning": "to fly"
+  },
+  "高": {
+    "level": 2,
+    "syllabusId": 341,
+    "pinyin": "gāo",
+    "meaning": "tall; high"
+  },
+  "高中": {
+    "level": 2,
+    "syllabusId": 342,
+    "pinyin": "gāozhōng",
+    "meaning": "senior high school"
+  },
+  "告诉": {
+    "level": 2,
+    "syllabusId": 343,
+    "pinyin": "gàosu",
+    "meaning": "to tell; to inform"
+  },
+  "个子": {
+    "level": 2,
+    "syllabusId": 344,
+    "pinyin": "gèzi",
+    "meaning": "height; stature"
+  },
+  "跟": {
+    "level": 2,
+    "syllabusId": 345,
+    "pinyin": "gēn",
+    "meaning": "with; to follow"
+  },
+  "公交车": {
+    "level": 2,
+    "syllabusId": 346,
+    "pinyin": "gōngjiāochē",
+    "meaning": "bus"
+  },
+  "过": {
+    "level": 2,
+    "syllabusId": 347,
+    "pinyin": "guò",
+    "meaning": "to cross; to pass"
+  },
+  "过来": {
+    "level": 2,
+    "syllabusId": 348,
+    "pinyin": "guòlái",
+    "meaning": "to come over"
+  },
+  "过年": {
+    "level": 2,
+    "syllabusId": 349,
+    "pinyin": "guònián",
+    "meaning": "to celebrate the New Year"
+  },
+  "过去": {
+    "level": 2,
+    "syllabusId": 350,
+    "pinyin": "guòqù",
+    "meaning": "to go over; to pass by",
+    "sense": "go over"
+  },
+  "过#351": {
+    "level": 2,
+    "syllabusId": 351,
+    "hanzi": "过",
+    "pinyin": "guo",
+    "meaning": "grammar particle: marks experienced action"
+  },
+  "还是": {
+    "level": 2,
+    "syllabusId": 352,
+    "pinyin": "háishi",
+    "meaning": "or; still"
+  },
+  "黑色": {
+    "level": 2,
+    "syllabusId": 353,
+    "pinyin": "hēisè",
+    "meaning": "black"
+  },
+  "红茶": {
+    "level": 2,
+    "syllabusId": 354,
+    "pinyin": "hóngchá",
+    "meaning": "black tea"
+  },
+  "红色": {
+    "level": 2,
+    "syllabusId": 355,
+    "pinyin": "hóngsè",
+    "meaning": "red"
+  },
+  "后面": {
+    "level": 2,
+    "syllabusId": 356,
+    "pinyin": "hòumiàn",
+    "meaning": "back; behind"
+  },
+  "花#357": {
+    "level": 2,
+    "syllabusId": 357,
+    "hanzi": "花",
+    "pinyin": "huā",
+    "meaning": "to spend (time or money)",
+    "sense": "spend"
+  },
+  "画": {
+    "level": 2,
+    "syllabusId": 359,
+    "pinyin": "huà",
+    "meaning": "to draw; painting"
+  },
+  "坏": {
+    "level": 2,
+    "syllabusId": 360,
+    "pinyin": "huài",
+    "meaning": "bad; broken"
+  },
+  "回来": {
+    "level": 2,
+    "syllabusId": 361,
+    "pinyin": "huílái",
+    "meaning": "to come back; to return"
+  },
+  "回去": {
+    "level": 2,
+    "syllabusId": 362,
+    "pinyin": "huíqù",
+    "meaning": "to go back"
+  },
+  "机场": {
+    "level": 2,
+    "syllabusId": 363,
+    "pinyin": "jīchǎng",
+    "meaning": "airport"
+  },
+  "机票": {
+    "level": 2,
+    "syllabusId": 364,
+    "pinyin": "jīpiào",
+    "meaning": "plane ticket"
+  },
+  "记得": {
+    "level": 2,
+    "syllabusId": 365,
+    "pinyin": "jìde",
+    "meaning": "to remember"
+  },
+  "间": {
+    "level": 2,
+    "syllabusId": 366,
+    "pinyin": "jiān",
+    "meaning": "measure word for rooms; between"
+  },
+  "教": {
+    "level": 2,
+    "syllabusId": 367,
+    "pinyin": "jiāo",
+    "meaning": "to teach"
+  },
+  "介绍": {
+    "level": 2,
+    "syllabusId": 369,
+    "pinyin": "jièshào",
+    "meaning": "to introduce"
+  },
+  "进": {
+    "level": 2,
+    "syllabusId": 370,
+    "pinyin": "jìn",
+    "meaning": "to enter; to go in"
+  },
+  "进来": {
+    "level": 2,
+    "syllabusId": 371,
+    "pinyin": "jìnlái",
+    "meaning": "to come in"
+  },
+  "进去": {
+    "level": 2,
+    "syllabusId": 372,
+    "pinyin": "jìnqù",
+    "meaning": "to go in"
+  },
+  "近": {
+    "level": 2,
+    "syllabusId": 373,
+    "pinyin": "jìn",
+    "meaning": "near; close"
+  },
+  "经常": {
+    "level": 2,
+    "syllabusId": 374,
+    "pinyin": "jīngcháng",
+    "meaning": "often; frequently"
+  },
+  "酒店": {
+    "level": 2,
+    "syllabusId": 375,
+    "pinyin": "jiǔdiàn",
+    "meaning": "hotel"
+  },
+  "就": {
+    "level": 2,
+    "syllabusId": 376,
+    "pinyin": "jiù",
+    "meaning": "then; just; at once"
+  },
+  "咖啡": {
+    "level": 2,
+    "syllabusId": 377,
+    "pinyin": "kāfēi",
+    "meaning": "coffee"
+  },
+  "开始": {
+    "level": 2,
+    "syllabusId": 378,
+    "pinyin": "kāishǐ",
+    "meaning": "to begin; to start"
+  },
+  "开学": {
+    "level": 2,
+    "syllabusId": 379,
+    "pinyin": "kāixué",
+    "meaning": "school starts; term begins"
+  },
+  "考": {
+    "level": 2,
+    "syllabusId": 380,
+    "pinyin": "kǎo",
+    "meaning": "to take a test; to examine"
+  },
+  "考试": {
+    "level": 2,
+    "syllabusId": 381,
+    "pinyin": "kǎoshì",
+    "meaning": "exam; to take an exam"
+  },
+  "可能": {
+    "level": 2,
+    "syllabusId": 382,
+    "pinyin": "kěnéng",
+    "meaning": "possible; maybe"
+  },
+  "裤子": {
+    "level": 2,
+    "syllabusId": 383,
+    "pinyin": "kùzi",
+    "meaning": "pants; trousers"
+  },
+  "快": {
+    "level": 2,
+    "syllabusId": 384,
+    "pinyin": "kuài",
+    "meaning": "fast; quick"
+  },
+  "快乐": {
+    "level": 2,
+    "syllabusId": 385,
+    "pinyin": "kuàilè",
+    "meaning": "happy; joyful"
+  },
+  "快要": {
+    "level": 2,
+    "syllabusId": 386,
+    "pinyin": "kuàiyào",
+    "meaning": "about to; on the verge of"
+  },
+  "篮球": {
+    "level": 2,
+    "syllabusId": 387,
+    "pinyin": "lánqiú",
+    "meaning": "basketball"
+  },
+  "累": {
+    "level": 2,
+    "syllabusId": 388,
+    "pinyin": "lèi",
+    "meaning": "tired"
+  },
+  "离": {
+    "level": 2,
+    "syllabusId": 389,
+    "pinyin": "lí",
+    "meaning": "to leave; away from"
+  },
+  "里面": {
+    "level": 2,
+    "syllabusId": 390,
+    "pinyin": "lǐmiàn",
+    "meaning": "inside"
+  },
+  "楼": {
+    "level": 2,
+    "syllabusId": 391,
+    "pinyin": "lóu",
+    "meaning": "building; floor"
+  },
+  "路": {
+    "level": 2,
+    "syllabusId": 392,
+    "pinyin": "lù",
+    "meaning": "road; route"
+  },
+  "路上": {
+    "level": 2,
+    "syllabusId": 393,
+    "pinyin": "lùshang",
+    "meaning": "on the way; on the road"
+  },
+  "旅游": {
+    "level": 2,
+    "syllabusId": 394,
+    "pinyin": "lǚyóu",
+    "meaning": "to travel; trip"
+  },
+  "绿茶": {
+    "level": 2,
+    "syllabusId": 395,
+    "pinyin": "lǜchá",
+    "meaning": "green tea"
+  },
+  "绿色": {
+    "level": 2,
+    "syllabusId": 396,
+    "pinyin": "lǜsè",
+    "meaning": "green"
+  },
+  "慢": {
+    "level": 2,
+    "syllabusId": 397,
+    "pinyin": "màn",
+    "meaning": "slow"
+  },
+  "没意思": {
+    "level": 2,
+    "syllabusId": 398,
+    "pinyin": "méi yìsi",
+    "meaning": "boring; uninteresting"
+  },
+  "每": {
+    "level": 2,
+    "syllabusId": 399,
+    "pinyin": "měi",
+    "meaning": "every; each"
+  },
+  "门": {
+    "level": 2,
+    "syllabusId": 400,
+    "pinyin": "mén",
+    "meaning": "door; gate"
+  },
+  "门口": {
+    "level": 2,
+    "syllabusId": 401,
+    "pinyin": "ménkǒu",
+    "meaning": "doorway; entrance"
+  },
+  "门票": {
+    "level": 2,
+    "syllabusId": 402,
+    "pinyin": "ménpiào",
+    "meaning": "ticket; admission"
+  },
+  "面": {
+    "level": 2,
+    "syllabusId": 403,
+    "pinyin": "miàn",
+    "meaning": "face; side; surface"
+  },
+  "名": {
+    "level": 2,
+    "syllabusId": 404,
+    "pinyin": "míng",
+    "meaning": "name; measure word for people"
+  },
+  "拿": {
+    "level": 2,
+    "syllabusId": 405,
+    "pinyin": "ná",
+    "meaning": "to take; to hold"
+  },
+  "那么": {
+    "level": 2,
+    "syllabusId": 406,
+    "pinyin": "nàme",
+    "meaning": "like that; so; then"
+  },
+  "那样": {
+    "level": 2,
+    "syllabusId": 407,
+    "pinyin": "nàyàng",
+    "meaning": "that kind; that way"
+  },
+  "奶茶": {
+    "level": 2,
+    "syllabusId": 408,
+    "pinyin": "nǎichá",
+    "meaning": "milk tea"
+  },
+  "奶奶": {
+    "level": 2,
+    "syllabusId": 409,
+    "pinyin": "nǎinai",
+    "meaning": "grandma; paternal grandmother"
+  },
+  "男孩儿": {
+    "level": 2,
+    "syllabusId": 410,
+    "pinyin": "nánháir",
+    "meaning": "boy"
+  },
+  "鸟": {
+    "level": 2,
+    "syllabusId": 411,
+    "pinyin": "niǎo",
+    "meaning": "bird"
+  },
+  "女孩儿": {
+    "level": 2,
+    "syllabusId": 412,
+    "pinyin": "nǚháir",
+    "meaning": "girl"
+  },
+  "旁边": {
+    "level": 2,
+    "syllabusId": 413,
+    "pinyin": "pángbiān",
+    "meaning": "side; next to"
+  },
+  "跑": {
+    "level": 2,
+    "syllabusId": 414,
+    "pinyin": "pǎo",
+    "meaning": "to run"
+  },
+  "跑步": {
+    "level": 2,
+    "syllabusId": 415,
+    "pinyin": "pǎobù",
+    "meaning": "to run; to jog"
+  },
+  "票": {
+    "level": 2,
+    "syllabusId": 416,
+    "pinyin": "piào",
+    "meaning": "ticket"
+  },
+  "妻子": {
+    "level": 2,
+    "syllabusId": 417,
+    "pinyin": "qīzi",
+    "meaning": "wife"
+  },
+  "起来": {
+    "level": 2,
+    "syllabusId": 418,
+    "pinyin": "qǐlái",
+    "meaning": "to get up; to rise"
+  },
+  "前面": {
+    "level": 2,
+    "syllabusId": 419,
+    "pinyin": "qiánmiàn",
+    "meaning": "front; ahead"
+  },
+  "晴": {
+    "level": 2,
+    "syllabusId": 420,
+    "pinyin": "qíng",
+    "meaning": "sunny; clear weather"
+  },
+  "球": {
+    "level": 2,
+    "syllabusId": 421,
+    "pinyin": "qiú",
+    "meaning": "ball"
+  },
+  "让": {
+    "level": 2,
+    "syllabusId": 422,
+    "pinyin": "ràng",
+    "meaning": "to let; to allow"
+  },
+  "肉": {
+    "level": 2,
+    "syllabusId": 423,
+    "pinyin": "ròu",
+    "meaning": "meat"
+  },
+  "商场": {
+    "level": 2,
+    "syllabusId": 424,
+    "pinyin": "shāngchǎng",
+    "meaning": "shopping mall"
+  },
+  "上来": {
+    "level": 2,
+    "syllabusId": 425,
+    "pinyin": "shànglái",
+    "meaning": "to come up"
+  },
+  "上面": {
+    "level": 2,
+    "syllabusId": 426,
+    "pinyin": "shàngmiàn",
+    "meaning": "above; on top"
+  },
+  "上去": {
+    "level": 2,
+    "syllabusId": 427,
+    "pinyin": "shàngqù",
+    "meaning": "to go up"
+  },
+  "上网": {
+    "level": 2,
+    "syllabusId": 428,
+    "pinyin": "shàngwǎng",
+    "meaning": "to go online"
+  },
+  "身体": {
+    "level": 2,
+    "syllabusId": 429,
+    "pinyin": "shēntǐ",
+    "meaning": "body; health"
+  },
+  "生日": {
+    "level": 2,
+    "syllabusId": 430,
+    "pinyin": "shēngrì",
+    "meaning": "birthday"
+  },
+  "时": {
+    "level": 2,
+    "syllabusId": 431,
+    "pinyin": "shí",
+    "meaning": "time; hour"
+  },
+  "事情": {
+    "level": 2,
+    "syllabusId": 432,
+    "pinyin": "shìqing",
+    "meaning": "matter; affair; thing"
+  },
+  "手": {
+    "level": 2,
+    "syllabusId": 433,
+    "pinyin": "shǒu",
+    "meaning": "hand"
+  },
+  "手表": {
+    "level": 2,
+    "syllabusId": 434,
+    "pinyin": "shǒubiǎo",
+    "meaning": "wristwatch"
+  },
+  "书包": {
+    "level": 2,
+    "syllabusId": 435,
+    "pinyin": "shūbāo",
+    "meaning": "schoolbag"
+  },
+  "舒服": {
+    "level": 2,
+    "syllabusId": 436,
+    "pinyin": "shūfu",
+    "meaning": "comfortable"
+  },
+  "送": {
+    "level": 2,
+    "syllabusId": 437,
+    "pinyin": "sòng",
+    "meaning": "to send; to give"
+  },
+  "虽然": {
+    "level": 2,
+    "syllabusId": 438,
+    "pinyin": "suīrán",
+    "meaning": "although; even though"
+  },
+  "所以": {
+    "level": 2,
+    "syllabusId": 439,
+    "pinyin": "suǒyǐ",
+    "meaning": "so; therefore"
+  },
+  "疼": {
+    "level": 2,
+    "syllabusId": 440,
+    "pinyin": "téng",
+    "meaning": "sore; painful; to hurt"
+  },
+  "踢": {
+    "level": 2,
+    "syllabusId": 441,
+    "pinyin": "tī",
+    "meaning": "to kick"
+  },
+  "题": {
+    "level": 2,
+    "syllabusId": 442,
+    "pinyin": "tí",
+    "meaning": "question; problem"
+  },
+  "条": {
+    "level": 2,
+    "syllabusId": 443,
+    "pinyin": "tiáo",
+    "meaning": "classifier for long thin things; strip"
+  },
+  "跳舞": {
+    "level": 2,
+    "syllabusId": 444,
+    "pinyin": "tiàowǔ",
+    "meaning": "to dance"
+  },
+  "头": {
+    "level": 2,
+    "syllabusId": 445,
+    "pinyin": "tóu",
+    "meaning": "head; measure word for livestock; first, leading"
+  },
+  "外国": {
+    "level": 2,
+    "syllabusId": 446,
+    "pinyin": "wàiguó",
+    "meaning": "foreign country"
+  },
+  "外面": {
+    "level": 2,
+    "syllabusId": 447,
+    "pinyin": "wàimiàn",
+    "meaning": "outside"
+  },
+  "完": {
+    "level": 2,
+    "syllabusId": 448,
+    "pinyin": "wán",
+    "meaning": "to finish; complete"
+  },
+  "万": {
+    "level": 2,
+    "syllabusId": 449,
+    "pinyin": "wàn",
+    "meaning": "ten thousand"
+  },
+  "网上": {
+    "level": 2,
+    "syllabusId": 450,
+    "pinyin": "wǎngshang",
+    "meaning": "online; on the Internet"
+  },
+  "往": {
+    "level": 2,
+    "syllabusId": 451,
+    "pinyin": "wǎng",
+    "meaning": "towards; to go toward"
+  },
+  "忘": {
+    "level": 2,
+    "syllabusId": 452,
+    "pinyin": "wàng",
+    "meaning": "to forget"
+  },
+  "为什么": {
+    "level": 2,
+    "syllabusId": 453,
+    "pinyin": "wèi shénme",
+    "meaning": "why"
+  },
+  "希望": {
+    "level": 2,
+    "syllabusId": 455,
+    "pinyin": "xīwàng",
+    "meaning": "to hope; hope"
+  },
+  "洗": {
+    "level": 2,
+    "syllabusId": 456,
+    "pinyin": "xǐ",
+    "meaning": "to wash"
+  },
+  "洗手间": {
+    "level": 2,
+    "syllabusId": 457,
+    "pinyin": "xǐshǒujiān",
+    "meaning": "restroom; toilet"
+  },
+  "下来": {
+    "level": 2,
+    "syllabusId": 458,
+    "pinyin": "xiàlái",
+    "meaning": "to come down"
+  },
+  "下面": {
+    "level": 2,
+    "syllabusId": 459,
+    "pinyin": "xiàmiàn",
+    "meaning": "below; under"
+  },
+  "下去": {
+    "level": 2,
+    "syllabusId": 460,
+    "pinyin": "xiàqù",
+    "meaning": "to go down"
+  },
+  "小孩儿": {
+    "level": 2,
+    "syllabusId": 461,
+    "pinyin": "xiǎoháir",
+    "meaning": "child"
+  },
+  "小时候": {
+    "level": 2,
+    "syllabusId": 462,
+    "pinyin": "xiǎoshíhou",
+    "meaning": "childhood; in one's childhood"
+  },
+  "笑": {
+    "level": 2,
+    "syllabusId": 463,
+    "pinyin": "xiào",
+    "meaning": "to laugh; to smile"
+  },
+  "姓": {
+    "level": 2,
+    "syllabusId": 464,
+    "pinyin": "xìng",
+    "meaning": "surname; family name"
+  },
+  "姓名": {
+    "level": 2,
+    "syllabusId": 465,
+    "pinyin": "xìngmíng",
+    "meaning": "full name"
+  },
+  "颜色": {
+    "level": 2,
+    "syllabusId": 466,
+    "pinyin": "yánsè",
+    "meaning": "color"
+  },
+  "眼睛": {
+    "level": 2,
+    "syllabusId": 467,
+    "pinyin": "yǎnjing",
+    "meaning": "eye"
+  },
+  "药": {
+    "level": 2,
+    "syllabusId": 468,
+    "pinyin": "yào",
+    "meaning": "medicine; drug"
+  },
+  "药店": {
+    "level": 2,
+    "syllabusId": 469,
+    "pinyin": "yàodiàn",
+    "meaning": "pharmacy; drugstore"
+  },
+  "爷爷": {
+    "level": 2,
+    "syllabusId": 470,
+    "pinyin": "yéye",
+    "meaning": "grandpa; paternal grandfather"
+  },
+  "一会儿": {
+    "level": 2,
+    "syllabusId": 471,
+    "pinyin": "yíhuìr",
+    "meaning": "a little while; in a moment"
+  },
+  "已经": {
+    "level": 2,
+    "syllabusId": 473,
+    "pinyin": "yǐjīng",
+    "meaning": "already"
+  },
+  "意思": {
+    "level": 2,
+    "syllabusId": 474,
+    "pinyin": "yìsi",
+    "meaning": "meaning; idea"
+  },
+  "因为": {
+    "level": 2,
+    "syllabusId": 475,
+    "pinyin": "yīnwèi",
+    "meaning": "because"
+  },
+  "阴": {
+    "level": 2,
+    "syllabusId": 476,
+    "pinyin": "yīn",
+    "meaning": "cloudy; overcast"
+  },
+  "游": {
+    "level": 2,
+    "syllabusId": 477,
+    "pinyin": "yóu",
+    "meaning": "to swim"
+  },
+  "游泳": {
+    "level": 2,
+    "syllabusId": 478,
+    "pinyin": "yóuyǒng",
+    "meaning": "to swim; swimming"
+  },
+  "有时": {
+    "level": 2,
+    "syllabusId": 479,
+    "pinyin": "yǒushí",
+    "meaning": "sometimes"
+  },
+  "有意思": {
+    "level": 2,
+    "syllabusId": 480,
+    "pinyin": "yǒu yìsi",
+    "meaning": "interesting"
+  },
+  "右": {
+    "level": 2,
+    "syllabusId": 481,
+    "pinyin": "yòu",
+    "meaning": "right; right-hand side"
+  },
+  "右边": {
+    "level": 2,
+    "syllabusId": 482,
+    "pinyin": "yòubian",
+    "meaning": "right side"
+  },
+  "鱼": {
+    "level": 2,
+    "syllabusId": 483,
+    "pinyin": "yú",
+    "meaning": "fish"
+  },
+  "远": {
+    "level": 2,
+    "syllabusId": 484,
+    "pinyin": "yuǎn",
+    "meaning": "far; distant"
+  },
+  "运动": {
+    "level": 2,
+    "syllabusId": 485,
+    "pinyin": "yùndòng",
+    "meaning": "sports; exercise; to move"
+  },
+  "站": {
+    "level": 2,
+    "syllabusId": 486,
+    "pinyin": "zhàn",
+    "meaning": "a stop; a station",
+    "sense": "station"
+  },
+  "丈夫": {
+    "level": 2,
+    "syllabusId": 487,
+    "pinyin": "zhàngfu",
+    "meaning": "husband"
+  },
+  "这么": {
+    "level": 2,
+    "syllabusId": 488,
+    "pinyin": "zhème",
+    "meaning": "so; this much"
+  },
+  "这样": {
+    "level": 2,
+    "syllabusId": 489,
+    "pinyin": "zhèyàng",
+    "meaning": "like this; this way"
+  },
+  "着": {
+    "level": 2,
+    "syllabusId": 490,
+    "pinyin": "zhe",
+    "meaning": "grammar particle: action in progress"
+  },
+  "正": {
+    "level": 2,
+    "syllabusId": 491,
+    "pinyin": "zhèng",
+    "meaning": "straight; upright; correct"
+  },
+  "周": {
+    "level": 2,
+    "syllabusId": 492,
+    "pinyin": "zhōu",
+    "meaning": "week"
+  },
+  "准备": {
+    "level": 2,
+    "syllabusId": 493,
+    "pinyin": "zhǔnbèi",
+    "meaning": "to prepare; preparation"
+  },
+  "自己": {
+    "level": 2,
+    "syllabusId": 494,
+    "pinyin": "zìjǐ",
+    "meaning": "oneself; self"
+  },
+  "走": {
+    "level": 2,
+    "syllabusId": 495,
+    "pinyin": "zǒu",
+    "meaning": "to walk; to go"
+  },
+  "走路": {
+    "level": 2,
+    "syllabusId": 496,
+    "pinyin": "zǒulù",
+    "meaning": "to walk; to go on foot"
+  },
+  "足球": {
+    "level": 2,
+    "syllabusId": 497,
+    "pinyin": "zúqiú",
+    "meaning": "soccer; football"
+  },
+  "最": {
+    "level": 2,
+    "syllabusId": 498,
+    "pinyin": "zuì",
+    "meaning": "most; -est"
+  },
+  "左": {
+    "level": 2,
+    "syllabusId": 499,
+    "pinyin": "zuǒ",
+    "meaning": "left; left-hand side"
+  },
+  "左边": {
+    "level": 2,
+    "syllabusId": 500,
+    "pinyin": "zuǒbian",
+    "meaning": "left; left side"
+  },
+  "阿姨": {
+    "level": 3,
+    "syllabusId": 501,
+    "pinyin": "āyí",
+    "meaning": "aunt; auntie"
+  },
+  "矮": {
+    "level": 3,
+    "syllabusId": 502,
+    "pinyin": "ǎi",
+    "meaning": "short (of height); low"
+  },
+  "爱人": {
+    "level": 3,
+    "syllabusId": 503,
+    "pinyin": "àiren",
+    "meaning": "spouse"
+  },
+  "安全": {
+    "level": 3,
+    "syllabusId": 505,
+    "pinyin": "ānquán",
+    "meaning": "safe; secure"
+  },
+  "把": {
+    "level": 3,
+    "syllabusId": 506,
+    "pinyin": "bǎ",
+    "meaning": "measure word for things with handles; object marker"
+  },
+  "班级": {
+    "level": 3,
+    "syllabusId": 507,
+    "pinyin": "bānjí",
+    "meaning": "class; grade"
+  },
+  "搬": {
+    "level": 3,
+    "syllabusId": 508,
+    "pinyin": "bān",
+    "meaning": "to move; to relocate"
+  },
+  "办": {
+    "level": 3,
+    "syllabusId": 510,
+    "pinyin": "bàn",
+    "meaning": "to handle; to deal with"
+  },
+  "办公室": {
+    "level": 3,
+    "syllabusId": 512,
+    "pinyin": "bàngōngshì",
+    "meaning": "office"
+  },
+  "半天": {
+    "level": 3,
+    "syllabusId": 513,
+    "pinyin": "bàntiān",
+    "meaning": "half a day; quite a while"
+  },
+  "报纸": {
+    "level": 3,
+    "syllabusId": 516,
+    "pinyin": "bàozhǐ",
+    "meaning": "newspaper"
+  },
+  "北": {
+    "level": 3,
+    "syllabusId": 517,
+    "pinyin": "běi",
+    "meaning": "north"
+  },
+  "北方": {
+    "level": 3,
+    "syllabusId": 518,
+    "pinyin": "běifāng",
+    "meaning": "north; the northern part"
+  },
+  "被": {
+    "level": 3,
+    "syllabusId": 519,
+    "pinyin": "bèi",
+    "meaning": "by (marking the agent in a passive sentence)"
+  },
+  "比较": {
+    "level": 3,
+    "syllabusId": 520,
+    "pinyin": "bǐjiào",
+    "meaning": "to compare; comparatively"
+  },
+  "比如": {
+    "level": 3,
+    "syllabusId": 521,
+    "pinyin": "bǐrú",
+    "meaning": "for example; such as"
+  },
+  "笔记": {
+    "level": 3,
+    "syllabusId": 523,
+    "pinyin": "bǐjì",
+    "meaning": "notes; to take notes"
+  },
+  "必须": {
+    "level": 3,
+    "syllabusId": 525,
+    "pinyin": "bìxū",
+    "meaning": "must; to have to"
+  },
+  "变": {
+    "level": 3,
+    "syllabusId": 526,
+    "pinyin": "biàn",
+    "meaning": "to change"
+  },
+  "变成": {
+    "level": 3,
+    "syllabusId": 527,
+    "pinyin": "biànchéng",
+    "meaning": "to change into; to become"
+  },
+  "变化": {
+    "level": 3,
+    "syllabusId": 528,
+    "pinyin": "biànhuà",
+    "meaning": "change; to change"
+  },
+  "遍": {
+    "level": 3,
+    "syllabusId": 529,
+    "pinyin": "biàn",
+    "meaning": "measure word for times an action is done"
+  },
+  "表演": {
+    "level": 3,
+    "syllabusId": 530,
+    "pinyin": "biǎoyǎn",
+    "meaning": "to perform; performance"
+  },
+  "别的": {
+    "level": 3,
+    "syllabusId": 531,
+    "pinyin": "biéde",
+    "meaning": "other; else"
+  },
+  "别人": {
+    "level": 3,
+    "syllabusId": 532,
+    "pinyin": "biérén",
+    "meaning": "other people; others"
+  },
+  "宾馆": {
+    "level": 3,
+    "syllabusId": 533,
+    "pinyin": "bīnguǎn",
+    "meaning": "hotel; guesthouse"
+  },
+  "冰": {
+    "level": 3,
+    "syllabusId": 534,
+    "pinyin": "bīng",
+    "meaning": "ice"
+  },
+  "冰激凌": {
+    "level": 3,
+    "syllabusId": 535,
+    "pinyin": "bīngjīlíng",
+    "meaning": "ice cream"
+  },
+  "冰箱": {
+    "level": 3,
+    "syllabusId": 536,
+    "pinyin": "bīngxiāng",
+    "meaning": "refrigerator"
+  },
+  "病人": {
+    "level": 3,
+    "syllabusId": 537,
+    "pinyin": "bìngrén",
+    "meaning": "patient; sick person"
+  },
+  "不但": {
+    "level": 3,
+    "syllabusId": 538,
+    "pinyin": "búdàn",
+    "meaning": "not only"
+  },
+  "不见": {
+    "level": 3,
+    "syllabusId": 539,
+    "pinyin": "bújiàn",
+    "meaning": "not to see; to disappear"
+  },
+  "不久": {
+    "level": 3,
+    "syllabusId": 540,
+    "pinyin": "bùjiǔ",
+    "meaning": "soon; not long after"
+  },
+  "不同": {
+    "level": 3,
+    "syllabusId": 541,
+    "pinyin": "bù tóng",
+    "meaning": "different; not the same"
+  },
+  "不行": {
+    "level": 3,
+    "syllabusId": 542,
+    "pinyin": "bùxíng",
+    "meaning": "won't do; not okay"
+  },
+  "不用": {
+    "level": 3,
+    "syllabusId": 543,
+    "pinyin": "búyòng",
+    "meaning": "need not; no need to"
+  },
+  "才": {
+    "level": 3,
+    "syllabusId": 544,
+    "pinyin": "cái",
+    "meaning": "only; not until"
+  },
+  "草": {
+    "level": 3,
+    "syllabusId": 547,
+    "pinyin": "cǎo",
+    "meaning": "grass"
+  },
+  "层": {
+    "level": 3,
+    "syllabusId": 549,
+    "pinyin": "céng",
+    "meaning": "measure word for layers and floors"
+  },
+  "差": {
+    "level": 3,
+    "syllabusId": 551,
+    "pinyin": "chà",
+    "meaning": "to lack; to be short of; bad"
+  },
+  "差不多": {
+    "level": 3,
+    "syllabusId": 552,
+    "pinyin": "chàbuduō",
+    "meaning": "almost; nearly; more or less"
+  },
+  "常": {
+    "level": 3,
+    "syllabusId": 554,
+    "pinyin": "cháng",
+    "meaning": "often; ordinary"
+  },
+  "常常": {
+    "level": 3,
+    "syllabusId": 555,
+    "pinyin": "chángcháng",
+    "meaning": "often; frequently"
+  },
+  "常见": {
+    "level": 3,
+    "syllabusId": 556,
+    "pinyin": "cháng jiàn",
+    "meaning": "common; commonly seen"
+  },
+  "常用": {
+    "level": 3,
+    "syllabusId": 557,
+    "pinyin": "cháng yòng",
+    "meaning": "commonly used"
+  },
+  "衬衫": {
+    "level": 3,
+    "syllabusId": 558,
+    "pinyin": "chènshān",
+    "meaning": "shirt; blouse"
+  },
+  "成绩": {
+    "level": 3,
+    "syllabusId": 559,
+    "pinyin": "chéngjì",
+    "meaning": "grades; achievement"
+  },
+  "城市": {
+    "level": 3,
+    "syllabusId": 560,
+    "pinyin": "chéngshì",
+    "meaning": "city"
+  },
+  "迟到": {
+    "level": 3,
+    "syllabusId": 561,
+    "pinyin": "chídào",
+    "meaning": "to arrive late"
+  },
+  "出生": {
+    "level": 3,
+    "syllabusId": 563,
+    "pinyin": "chūshēng",
+    "meaning": "to be born"
+  },
+  "出院": {
+    "level": 3,
+    "syllabusId": 564,
+    "pinyin": "chūyuàn",
+    "meaning": "to leave hospital"
+  },
+  "初中": {
+    "level": 3,
+    "syllabusId": 565,
+    "pinyin": "chūzhōng",
+    "meaning": "junior high school"
+  },
+  "除了": {
+    "level": 3,
+    "syllabusId": 566,
+    "pinyin": "chúle",
+    "meaning": "apart from; besides"
+  },
+  "船": {
+    "level": 3,
+    "syllabusId": 567,
+    "pinyin": "chuán",
+    "meaning": "boat; ship"
+  },
+  "词典": {
+    "level": 3,
+    "syllabusId": 569,
+    "pinyin": "cídiǎn",
+    "meaning": "dictionary"
+  },
+  "聪明": {
+    "level": 3,
+    "syllabusId": 570,
+    "pinyin": "cōngmíng",
+    "meaning": "clever; intelligent"
+  },
+  "打算": {
+    "level": 3,
+    "syllabusId": 572,
+    "pinyin": "dǎsuàn",
+    "meaning": "to plan; to intend"
+  },
+  "大概": {
+    "level": 3,
+    "syllabusId": 573,
+    "pinyin": "dàgài",
+    "meaning": "probably; roughly"
+  },
+  "大人": {
+    "level": 3,
+    "syllabusId": 574,
+    "pinyin": "dàren",
+    "meaning": "adult; grownup"
+  },
+  "大小": {
+    "level": 3,
+    "syllabusId": 575,
+    "pinyin": "dàxiǎo",
+    "meaning": "size"
+  },
+  "大熊猫": {
+    "level": 3,
+    "syllabusId": 576,
+    "pinyin": "dàxióngmāo",
+    "meaning": "giant panda"
+  },
+  "大衣": {
+    "level": 3,
+    "syllabusId": 577,
+    "pinyin": "dàyī",
+    "meaning": "overcoat"
+  },
+  "担心": {
+    "level": 3,
+    "syllabusId": 579,
+    "pinyin": "dānxīn",
+    "meaning": "to worry; anxious"
+  },
+  "蛋糕": {
+    "level": 3,
+    "syllabusId": 580,
+    "pinyin": "dàngāo",
+    "meaning": "cake"
+  },
+  "当然": {
+    "level": 3,
+    "syllabusId": 581,
+    "pinyin": "dāngrán",
+    "meaning": "of course; certainly"
+  },
+  "到处": {
+    "level": 3,
+    "syllabusId": 582,
+    "pinyin": "dàochù",
+    "meaning": "everywhere"
+  },
+  "得#583": {
+    "level": 3,
+    "syllabusId": 583,
+    "hanzi": "得",
+    "pinyin": "dé",
+    "meaning": "to get; to obtain"
+  },
+  "得到": {
+    "level": 3,
+    "syllabusId": 584,
+    "pinyin": "dédào",
+    "meaning": "to get; to obtain"
+  },
+  "得分": {
+    "level": 3,
+    "syllabusId": 585,
+    "pinyin": "défēn",
+    "meaning": "to score; points scored"
+  },
+  "的话": {
+    "level": 3,
+    "syllabusId": 586,
+    "pinyin": "dehuà",
+    "meaning": "grammar particle: if"
+  },
+  "得#587": {
+    "level": 3,
+    "syllabusId": 587,
+    "hanzi": "得",
+    "pinyin": "děi",
+    "meaning": "must; to have to"
+  },
+  "灯": {
+    "level": 3,
+    "syllabusId": 588,
+    "pinyin": "dēng",
+    "meaning": "lamp; light"
+  },
+  "地#589": {
+    "level": 3,
+    "syllabusId": 589,
+    "hanzi": "地",
+    "pinyin": "dì",
+    "meaning": "ground; earth"
+  },
+  "地点": {
+    "level": 3,
+    "syllabusId": 590,
+    "pinyin": "dìdiǎn",
+    "meaning": "place; location"
+  },
+  "地方": {
+    "level": 3,
+    "syllabusId": 591,
+    "pinyin": "dìfang",
+    "meaning": "place; area"
+  },
+  "电": {
+    "level": 3,
+    "syllabusId": 593,
+    "pinyin": "diàn",
+    "meaning": "electricity"
+  },
+  "电梯": {
+    "level": 3,
+    "syllabusId": 594,
+    "pinyin": "diàntī",
+    "meaning": "elevator"
+  },
+  "电子书": {
+    "level": 3,
+    "syllabusId": 595,
+    "pinyin": "diànzǐshū",
+    "meaning": "e-book"
+  },
+  "丢": {
+    "level": 3,
+    "syllabusId": 596,
+    "pinyin": "diū",
+    "meaning": "to lose; to throw"
+  },
+  "东": {
+    "level": 3,
+    "syllabusId": 597,
+    "pinyin": "dōng",
+    "meaning": "east"
+  },
+  "东北": {
+    "level": 3,
+    "syllabusId": 598,
+    "pinyin": "dōngběi",
+    "meaning": "northeast; Northeast China"
+  },
+  "东方": {
+    "level": 3,
+    "syllabusId": 599,
+    "pinyin": "dōngfāng",
+    "meaning": "the east; the Orient"
+  },
+  "东南": {
+    "level": 3,
+    "syllabusId": 600,
+    "pinyin": "dōngnán",
+    "meaning": "southeast"
+  },
+  "冬天": {
+    "level": 3,
+    "syllabusId": 601,
+    "pinyin": "dōngtiān",
+    "meaning": "winter"
+  },
+  "懂得": {
+    "level": 3,
+    "syllabusId": 602,
+    "pinyin": "dǒngde",
+    "meaning": "to understand"
+  },
+  "动物": {
+    "level": 3,
+    "syllabusId": 603,
+    "pinyin": "dòngwù",
+    "meaning": "animal"
+  },
+  "动物园": {
+    "level": 3,
+    "syllabusId": 604,
+    "pinyin": "dòngwùyuán",
+    "meaning": "zoo"
+  },
+  "短裤": {
+    "level": 3,
+    "syllabusId": 606,
+    "pinyin": "duǎnkù",
+    "meaning": "shorts"
+  },
+  "段": {
+    "level": 3,
+    "syllabusId": 607,
+    "pinyin": "duàn",
+    "meaning": "measure word for sections and paragraphs"
+  },
+  "锻炼": {
+    "level": 3,
+    "syllabusId": 608,
+    "pinyin": "duànliàn",
+    "meaning": "to exercise; to train"
+  },
+  "对话": {
+    "level": 3,
+    "syllabusId": 609,
+    "pinyin": "duìhuà",
+    "meaning": "to talk (with sb); dialogue; conversation"
+  },
+  "饿": {
+    "level": 3,
+    "syllabusId": 610,
+    "pinyin": "è",
+    "meaning": "hungry"
+  },
+  "而且": {
+    "level": 3,
+    "syllabusId": 611,
+    "pinyin": "érqiě",
+    "meaning": "moreover; and also"
+  },
+  "耳朵": {
+    "level": 3,
+    "syllabusId": 612,
+    "pinyin": "ěrduo",
+    "meaning": "ear"
+  },
+  "耳机": {
+    "level": 3,
+    "syllabusId": 613,
+    "pinyin": "ěrjī",
+    "meaning": "earphones; headphones"
+  },
+  "发": {
+    "level": 3,
+    "syllabusId": 614,
+    "pinyin": "fā",
+    "meaning": "to send; to issue"
+  },
+  "发烧": {
+    "level": 3,
+    "syllabusId": 615,
+    "pinyin": "fāshāo",
+    "meaning": "to have a fever; fever"
+  },
+  "发生": {
+    "level": 3,
+    "syllabusId": 616,
+    "pinyin": "fāshēng",
+    "meaning": "to happen; to occur"
+  },
+  "发现": {
+    "level": 3,
+    "syllabusId": 617,
+    "pinyin": "fāxiàn",
+    "meaning": "to discover; to find"
+  },
+  "发展": {
+    "level": 3,
+    "syllabusId": 618,
+    "pinyin": "fāzhǎn",
+    "meaning": "to develop; development"
+  },
+  "方便面": {
+    "level": 3,
+    "syllabusId": 620,
+    "pinyin": "fāngbiànmiàn",
+    "meaning": "instant noodles"
+  },
+  "方法": {
+    "level": 3,
+    "syllabusId": 621,
+    "pinyin": "fāngfǎ",
+    "meaning": "method; way"
+  },
+  "方向": {
+    "level": 3,
+    "syllabusId": 622,
+    "pinyin": "fāngxiàng",
+    "meaning": "direction"
+  },
+  "房子": {
+    "level": 3,
+    "syllabusId": 623,
+    "pinyin": "fángzi",
+    "meaning": "house; building"
+  },
+  "放": {
+    "level": 3,
+    "syllabusId": 624,
+    "pinyin": "fàng",
+    "meaning": "to put; to release"
+  },
+  "放假": {
+    "level": 3,
+    "syllabusId": 625,
+    "pinyin": "fàngjià",
+    "meaning": "to have a holiday"
+  },
+  "放学": {
+    "level": 3,
+    "syllabusId": 627,
+    "pinyin": "fàngxué",
+    "meaning": "to finish classes (for the day); (of school) to be over"
+  },
+  "分开": {
+    "level": 3,
+    "syllabusId": 628,
+    "pinyin": "fēnkāi",
+    "meaning": "to separate; to part"
+  },
+  "风": {
+    "level": 3,
+    "syllabusId": 629,
+    "pinyin": "fēng",
+    "meaning": "wind"
+  },
+  "封": {
+    "level": 3,
+    "syllabusId": 630,
+    "pinyin": "fēng",
+    "meaning": "measure word for letters; to seal"
+  },
+  "夫妻": {
+    "level": 3,
+    "syllabusId": 631,
+    "pinyin": "fūqī",
+    "meaning": "husband and wife"
+  },
+  "服务": {
+    "level": 3,
+    "syllabusId": 632,
+    "pinyin": "fúwù",
+    "meaning": "to serve; service"
+  },
+  "该": {
+    "level": 3,
+    "syllabusId": 635,
+    "pinyin": "gāi",
+    "meaning": "should; ought to"
+  },
+  "感到": {
+    "level": 3,
+    "syllabusId": 637,
+    "pinyin": "gǎndào",
+    "meaning": "to feel; to sense"
+  },
+  "感冒": {
+    "level": 3,
+    "syllabusId": 638,
+    "pinyin": "gǎnmào",
+    "meaning": "to catch a cold; a cold"
+  },
+  "感兴趣": {
+    "level": 3,
+    "syllabusId": 639,
+    "pinyin": "gǎn xìngqù",
+    "meaning": "to be interested in"
+  },
+  "干": {
+    "level": 3,
+    "syllabusId": 640,
+    "pinyin": "gàn",
+    "meaning": "to do; to work"
+  },
+  "刚": {
+    "level": 3,
+    "syllabusId": 641,
+    "pinyin": "gāng",
+    "meaning": "just; only just; exactly"
+  },
+  "刚才": {
+    "level": 3,
+    "syllabusId": 642,
+    "pinyin": "gāngcái",
+    "meaning": "just now; a moment ago"
+  },
+  "刚刚": {
+    "level": 3,
+    "syllabusId": 643,
+    "pinyin": "gānggāng",
+    "meaning": "just recently; just now"
+  },
+  "根据": {
+    "level": 3,
+    "syllabusId": 645,
+    "pinyin": "gēnjù",
+    "meaning": "according to; based on"
+  },
+  "更": {
+    "level": 3,
+    "syllabusId": 646,
+    "pinyin": "gèng",
+    "meaning": "more; even more"
+  },
+  "工作日": {
+    "level": 3,
+    "syllabusId": 647,
+    "pinyin": "gōngzuòrì",
+    "meaning": "workday; weekday"
+  },
+  "公斤": {
+    "level": 3,
+    "syllabusId": 648,
+    "pinyin": "gōngjīn",
+    "meaning": "kilogram"
+  },
+  "公园": {
+    "level": 3,
+    "syllabusId": 649,
+    "pinyin": "gōngyuán",
+    "meaning": "park"
+  },
+  "刮": {
+    "level": 3,
+    "syllabusId": 651,
+    "pinyin": "guā",
+    "meaning": "to blow; to scrape; to shave"
+  },
+  "关": {
+    "level": 3,
+    "syllabusId": 652,
+    "pinyin": "guān",
+    "meaning": "to close; to turn off"
+  },
+  "关机": {
+    "level": 3,
+    "syllabusId": 653,
+    "pinyin": "guānjī",
+    "meaning": "to turn off; to power off"
+  },
+  "关系": {
+    "level": 3,
+    "syllabusId": 654,
+    "pinyin": "guānxì",
+    "meaning": "relationship; relation"
+  },
+  "关心": {
+    "level": 3,
+    "syllabusId": 655,
+    "pinyin": "guānxīn",
+    "meaning": "to care about; to be concerned"
+  },
+  "关于": {
+    "level": 3,
+    "syllabusId": 656,
+    "pinyin": "guānyú",
+    "meaning": "about; concerning"
+  },
+  "关注": {
+    "level": 3,
+    "syllabusId": 657,
+    "pinyin": "guānzhù",
+    "meaning": "to pay attention to; to follow"
+  },
+  "国家": {
+    "level": 3,
+    "syllabusId": 658,
+    "pinyin": "guójiā",
+    "meaning": "country; nation"
+  },
+  "过节": {
+    "level": 3,
+    "syllabusId": 659,
+    "pinyin": "guòjié",
+    "meaning": "to celebrate a festival"
+  },
+  "过去#660": {
+    "level": 3,
+    "syllabusId": 660,
+    "hanzi": "过去",
+    "pinyin": "guòqù",
+    "meaning": "the past",
+    "sense": "the past"
+  },
+  "海": {
+    "level": 3,
+    "syllabusId": 661,
+    "pinyin": "hǎi",
+    "meaning": "sea; ocean"
+  },
+  "害怕": {
+    "level": 3,
+    "syllabusId": 662,
+    "pinyin": "hàipà",
+    "meaning": "to be afraid; to fear"
+  },
+  "好多": {
+    "level": 3,
+    "syllabusId": 663,
+    "pinyin": "hǎoduō",
+    "meaning": "many; quite a lot"
+  },
+  "好久": {
+    "level": 3,
+    "syllabusId": 664,
+    "pinyin": "hǎojiǔ",
+    "meaning": "a long time; for ages"
+  },
+  "好像": {
+    "level": 3,
+    "syllabusId": 665,
+    "pinyin": "hǎoxiàng",
+    "meaning": "to seem; as if"
+  },
+  "号码": {
+    "level": 3,
+    "syllabusId": 666,
+    "pinyin": "hàomǎ",
+    "meaning": "number"
+  },
+  "合适": {
+    "level": 3,
+    "syllabusId": 667,
+    "pinyin": "héshì",
+    "meaning": "suitable; appropriate"
+  },
+  "河": {
+    "level": 3,
+    "syllabusId": 668,
+    "pinyin": "hé",
+    "meaning": "river"
+  },
+  "黑板": {
+    "level": 3,
+    "syllabusId": 669,
+    "pinyin": "hēibǎn",
+    "meaning": "blackboard"
+  },
+  "红绿灯": {
+    "level": 3,
+    "syllabusId": 670,
+    "pinyin": "hóng-lǜdēng",
+    "meaning": "traffic light"
+  },
+  "后来": {
+    "level": 3,
+    "syllabusId": 671,
+    "pinyin": "hòulái",
+    "meaning": "afterwards; later"
+  },
+  "后年": {
+    "level": 3,
+    "syllabusId": 672,
+    "pinyin": "hòunián",
+    "meaning": "the year after next"
+  },
+  "后天": {
+    "level": 3,
+    "syllabusId": 673,
+    "pinyin": "hòutiān",
+    "meaning": "the day after tomorrow"
+  },
+  "护照": {
+    "level": 3,
+    "syllabusId": 674,
+    "pinyin": "hùzhào",
+    "meaning": "passport"
+  },
+  "画家": {
+    "level": 3,
+    "syllabusId": 676,
+    "pinyin": "huàjiā",
+    "meaning": "painter"
+  },
+  "欢迎": {
+    "level": 3,
+    "syllabusId": 677,
+    "pinyin": "huānyíng",
+    "meaning": "to welcome"
+  },
+  "还#678": {
+    "level": 3,
+    "syllabusId": 678,
+    "hanzi": "还",
+    "pinyin": "huán",
+    "meaning": "to return; to give back"
+  },
+  "环境": {
+    "level": 3,
+    "syllabusId": 679,
+    "pinyin": "huánjìng",
+    "meaning": "environment; surroundings"
+  },
+  "换": {
+    "level": 3,
+    "syllabusId": 680,
+    "pinyin": "huàn",
+    "meaning": "to exchange; to change"
+  },
+  "黄色": {
+    "level": 3,
+    "syllabusId": 681,
+    "pinyin": "huángsè",
+    "meaning": "yellow"
+  },
+  "回答": {
+    "level": 3,
+    "syllabusId": 682,
+    "pinyin": "huídá",
+    "meaning": "to answer; to reply"
+  },
+  "会#683": {
+    "level": 3,
+    "syllabusId": 683,
+    "hanzi": "会",
+    "pinyin": "huì",
+    "meaning": "a meeting; an association",
+    "sense": "meeting"
+  },
+  "或": {
+    "level": 3,
+    "syllabusId": 685,
+    "pinyin": "huò",
+    "meaning": "or; perhaps; maybe"
+  },
+  "或者": {
+    "level": 3,
+    "syllabusId": 686,
+    "pinyin": "huòzhě",
+    "meaning": "or; either; perhaps"
+  },
+  "几乎": {
+    "level": 3,
+    "syllabusId": 687,
+    "pinyin": "jīhū",
+    "meaning": "almost; nearly"
+  },
+  "机会": {
+    "level": 3,
+    "syllabusId": 688,
+    "pinyin": "jīhuì",
+    "meaning": "opportunity; chance"
+  },
+  "鸡": {
+    "level": 3,
+    "syllabusId": 689,
+    "pinyin": "jī",
+    "meaning": "chicken"
+  },
+  "极": {
+    "level": 3,
+    "syllabusId": 690,
+    "pinyin": "jí",
+    "meaning": "extremely; utmost"
+  },
+  "急": {
+    "level": 3,
+    "syllabusId": 691,
+    "pinyin": "jí",
+    "meaning": "urgent; anxious"
+  },
+  "记": {
+    "level": 3,
+    "syllabusId": 692,
+    "pinyin": "jì",
+    "meaning": "to remember; to record"
+  },
+  "季": {
+    "level": 3,
+    "syllabusId": 693,
+    "pinyin": "jì",
+    "meaning": "season"
+  },
+  "季节": {
+    "level": 3,
+    "syllabusId": 694,
+    "pinyin": "jìjié",
+    "meaning": "season"
+  },
+  "加": {
+    "level": 3,
+    "syllabusId": 695,
+    "pinyin": "jiā",
+    "meaning": "to add; plus"
+  },
+  "假期": {
+    "level": 3,
+    "syllabusId": 696,
+    "pinyin": "jiàqī",
+    "meaning": "vacation; holiday"
+  },
+  "坚持": {
+    "level": 3,
+    "syllabusId": 697,
+    "pinyin": "jiānchí",
+    "meaning": "to persist in; to insist on"
+  },
+  "检查": {
+    "level": 3,
+    "syllabusId": 698,
+    "pinyin": "jiǎnchá",
+    "meaning": "to check; to inspect"
+  },
+  "检票": {
+    "level": 3,
+    "syllabusId": 699,
+    "pinyin": "jiǎnpiào",
+    "meaning": "to check tickets"
+  },
+  "简单": {
+    "level": 3,
+    "syllabusId": 700,
+    "pinyin": "jiǎndān",
+    "meaning": "simple"
+  },
+  "见面": {
+    "level": 3,
+    "syllabusId": 701,
+    "pinyin": "jiànmiàn",
+    "meaning": "to meet; to see each other"
+  },
+  "健康": {
+    "level": 3,
+    "syllabusId": 702,
+    "pinyin": "jiànkāng",
+    "meaning": "health; healthy"
+  },
+  "讲": {
+    "level": 3,
+    "syllabusId": 703,
+    "pinyin": "jiǎng",
+    "meaning": "to speak; to explain"
+  },
+  "角": {
+    "level": 3,
+    "syllabusId": 704,
+    "pinyin": "jiǎo",
+    "meaning": "measure word for money: jiao (one tenth of a yuan); angle; corner"
+  },
+  "脚": {
+    "level": 3,
+    "syllabusId": 705,
+    "pinyin": "jiǎo",
+    "meaning": "foot; leg"
+  },
+  "接": {
+    "level": 3,
+    "syllabusId": 706,
+    "pinyin": "jiē",
+    "meaning": "to receive; to pick up; to connect"
+  },
+  "街": {
+    "level": 3,
+    "syllabusId": 707,
+    "pinyin": "jiē",
+    "meaning": "street"
+  },
+  "节": {
+    "level": 3,
+    "syllabusId": 708,
+    "pinyin": "jié",
+    "meaning": "measure word for lessons and segments; festival"
+  },
+  "节目": {
+    "level": 3,
+    "syllabusId": 709,
+    "pinyin": "jiémù",
+    "meaning": "program; show"
+  },
+  "节日": {
+    "level": 3,
+    "syllabusId": 710,
+    "pinyin": "jiérì",
+    "meaning": "festival; holiday"
+  },
+  "结婚": {
+    "level": 3,
+    "syllabusId": 711,
+    "pinyin": "jiéhūn",
+    "meaning": "to marry; to get married"
+  },
+  "结束": {
+    "level": 3,
+    "syllabusId": 712,
+    "pinyin": "jiéshù",
+    "meaning": "to end; to finish"
+  },
+  "姐妹": {
+    "level": 3,
+    "syllabusId": 713,
+    "pinyin": "jiěmèi",
+    "meaning": "sisters"
+  },
+  "解决": {
+    "level": 3,
+    "syllabusId": 714,
+    "pinyin": "jiějué",
+    "meaning": "to solve; to settle"
+  },
+  "斤": {
+    "level": 3,
+    "syllabusId": 716,
+    "pinyin": "jīn",
+    "meaning": "measure word for weight: jin (500 grams)"
+  },
+  "经过": {
+    "level": 3,
+    "syllabusId": 717,
+    "pinyin": "jīngguò",
+    "meaning": "to pass through; process"
+  },
+  "经理": {
+    "level": 3,
+    "syllabusId": 718,
+    "pinyin": "jīnglǐ",
+    "meaning": "manager"
+  },
+  "久": {
+    "level": 3,
+    "syllabusId": 719,
+    "pinyin": "jiǔ",
+    "meaning": "lasting; for a long time"
+  },
+  "酒": {
+    "level": 3,
+    "syllabusId": 720,
+    "pinyin": "jiǔ",
+    "meaning": "wine; alcohol; liquor"
+  },
+  "旧": {
+    "level": 3,
+    "syllabusId": 721,
+    "pinyin": "jiù",
+    "meaning": "old; former"
+  },
+  "句": {
+    "level": 3,
+    "syllabusId": 722,
+    "pinyin": "jù",
+    "meaning": "measure word for sentences and remarks"
+  },
+  "句子": {
+    "level": 3,
+    "syllabusId": 723,
+    "pinyin": "jùzi",
+    "meaning": "sentence"
+  },
+  "卡": {
+    "level": 3,
+    "syllabusId": 725,
+    "pinyin": "kǎ",
+    "meaning": "card"
+  },
+  "开花": {
+    "level": 3,
+    "syllabusId": 726,
+    "pinyin": "kāihuā",
+    "meaning": "to bloom; to blossom"
+  },
+  "开会": {
+    "level": 3,
+    "syllabusId": 727,
+    "pinyin": "kāihuì",
+    "meaning": "to hold a meeting; to attend a meeting"
+  },
+  "开机": {
+    "level": 3,
+    "syllabusId": 728,
+    "pinyin": "kāijī",
+    "meaning": "to turn on; to boot up"
+  },
+  "开心": {
+    "level": 3,
+    "syllabusId": 729,
+    "pinyin": "kāixīn",
+    "meaning": "happy; to feel happy"
+  },
+  "看来": {
+    "level": 3,
+    "syllabusId": 730,
+    "pinyin": "kànlái",
+    "meaning": "it seems; apparently"
+  },
+  "可": {
+    "level": 3,
+    "syllabusId": 731,
+    "pinyin": "kě",
+    "meaning": "but; however; really"
+  },
+  "可爱": {
+    "level": 3,
+    "syllabusId": 732,
+    "pinyin": "kě’ài",
+    "meaning": "cute; adorable"
+  },
+  "可是": {
+    "level": 3,
+    "syllabusId": 733,
+    "pinyin": "kěshì",
+    "meaning": "but; however"
+  },
+  "渴": {
+    "level": 3,
+    "syllabusId": 734,
+    "pinyin": "kě",
+    "meaning": "thirsty"
+  },
+  "刻": {
+    "level": 3,
+    "syllabusId": 735,
+    "pinyin": "kè",
+    "meaning": "a quarter of an hour; to carve"
+  },
+  "客人": {
+    "level": 3,
+    "syllabusId": 736,
+    "pinyin": "kèrén",
+    "meaning": "guest; visitor; customer"
+  },
+  "空调": {
+    "level": 3,
+    "syllabusId": 739,
+    "pinyin": "kōngtiáo",
+    "meaning": "air conditioning; air conditioner"
+  },
+  "哭": {
+    "level": 3,
+    "syllabusId": 740,
+    "pinyin": "kū",
+    "meaning": "to cry; to weep"
+  },
+  "矿泉水": {
+    "level": 3,
+    "syllabusId": 742,
+    "pinyin": "kuàngquánshuǐ",
+    "meaning": "mineral water"
+  },
+  "来自": {
+    "level": 3,
+    "syllabusId": 743,
+    "pinyin": "láizì",
+    "meaning": "to come from"
+  },
+  "蓝": {
+    "level": 3,
+    "syllabusId": 744,
+    "pinyin": "lán",
+    "meaning": "blue"
+  },
+  "老": {
+    "level": 3,
+    "syllabusId": 745,
+    "pinyin": "lǎo",
+    "meaning": "old"
+  },
+  "老人": {
+    "level": 3,
+    "syllabusId": 746,
+    "pinyin": "lǎorén",
+    "meaning": "old person; the elderly"
+  },
+  "离开": {
+    "level": 3,
+    "syllabusId": 747,
+    "pinyin": "líkāi",
+    "meaning": "to leave; to depart"
+  },
+  "历史": {
+    "level": 3,
+    "syllabusId": 749,
+    "pinyin": "lìshǐ",
+    "meaning": "history"
+  },
+  "脸": {
+    "level": 3,
+    "syllabusId": 750,
+    "pinyin": "liǎn",
+    "meaning": "face"
+  },
+  "练": {
+    "level": 3,
+    "syllabusId": 751,
+    "pinyin": "liàn",
+    "meaning": "to practice; to train"
+  },
+  "练习": {
+    "level": 3,
+    "syllabusId": 752,
+    "pinyin": "liànxí",
+    "meaning": "to practice; exercise"
+  },
+  "凉快": {
+    "level": 3,
+    "syllabusId": 753,
+    "pinyin": "liángkuai",
+    "meaning": "cool; pleasantly cool"
+  },
+  "辆": {
+    "level": 3,
+    "syllabusId": 754,
+    "pinyin": "liàng",
+    "meaning": "measure word for vehicles"
+  },
+  "聊": {
+    "level": 3,
+    "syllabusId": 755,
+    "pinyin": "liáo",
+    "meaning": "to chat"
+  },
+  "聊天儿": {
+    "level": 3,
+    "syllabusId": 756,
+    "pinyin": "liáotiānr",
+    "meaning": "to chat; to gossip"
+  },
+  "了解": {
+    "level": 3,
+    "syllabusId": 757,
+    "pinyin": "liǎojiě",
+    "meaning": "to understand; to know about"
+  },
+  "留学": {
+    "level": 3,
+    "syllabusId": 759,
+    "pinyin": "liúxué",
+    "meaning": "to study abroad"
+  },
+  "留学生": {
+    "level": 3,
+    "syllabusId": 760,
+    "pinyin": "liúxuéshēng",
+    "meaning": "student studying abroad"
+  },
+  "楼梯": {
+    "level": 3,
+    "syllabusId": 761,
+    "pinyin": "lóutī",
+    "meaning": "stairs; staircase"
+  },
+  "路边": {
+    "level": 3,
+    "syllabusId": 762,
+    "pinyin": "lùbiān",
+    "meaning": "roadside; wayside"
+  },
+  "路口": {
+    "level": 3,
+    "syllabusId": 763,
+    "pinyin": "lùkǒu",
+    "meaning": "intersection; crossing"
+  },
+  "马": {
+    "level": 3,
+    "syllabusId": 764,
+    "pinyin": "mǎ",
+    "meaning": "horse"
+  },
+  "马路": {
+    "level": 3,
+    "syllabusId": 765,
+    "pinyin": "mǎlù",
+    "meaning": "street; road"
+  },
+  "马上": {
+    "level": 3,
+    "syllabusId": 766,
+    "pinyin": "mǎshàng",
+    "meaning": "at once; immediately"
+  },
+  "满意": {
+    "level": 3,
+    "syllabusId": 767,
+    "pinyin": "mǎnyì",
+    "meaning": "satisfied; pleased"
+  },
+  "毛": {
+    "level": 3,
+    "syllabusId": 768,
+    "pinyin": "máo",
+    "meaning": "measure word for money: mao (one tenth of a yuan); hair; wool"
+  },
+  "米": {
+    "level": 3,
+    "syllabusId": 769,
+    "pinyin": "mǐ",
+    "meaning": "measure word for length: meter; rice"
+  },
+  "面前": {
+    "level": 3,
+    "syllabusId": 770,
+    "pinyin": "miànqián",
+    "meaning": "in front of; before"
+  },
+  "名单": {
+    "level": 3,
+    "syllabusId": 771,
+    "pinyin": "míngdān",
+    "meaning": "list of names"
+  },
+  "名人": {
+    "level": 3,
+    "syllabusId": 772,
+    "pinyin": "míngrén",
+    "meaning": "celebrity; famous person"
+  },
+  "明白": {
+    "level": 3,
+    "syllabusId": 773,
+    "pinyin": "míngbai",
+    "meaning": "clear; to understand"
+  },
+  "男人": {
+    "level": 3,
+    "syllabusId": 774,
+    "pinyin": "nánrén",
+    "meaning": "man; male"
+  },
+  "男生": {
+    "level": 3,
+    "syllabusId": 775,
+    "pinyin": "nánshēng",
+    "meaning": "boy; male student"
+  },
+  "南": {
+    "level": 3,
+    "syllabusId": 776,
+    "pinyin": "nán",
+    "meaning": "south"
+  },
+  "南方": {
+    "level": 3,
+    "syllabusId": 777,
+    "pinyin": "nánfāng",
+    "meaning": "south; the south"
+  },
+  "难": {
+    "level": 3,
+    "syllabusId": 778,
+    "pinyin": "nán",
+    "meaning": "difficult"
+  },
+  "难过": {
+    "level": 3,
+    "syllabusId": 779,
+    "pinyin": "nánguò",
+    "meaning": "sad; upset"
+  },
+  "难看": {
+    "level": 3,
+    "syllabusId": 780,
+    "pinyin": "nánkàn",
+    "meaning": "ugly; unsightly"
+  },
+  "难题": {
+    "level": 3,
+    "syllabusId": 781,
+    "pinyin": "nántí",
+    "meaning": "difficult problem"
+  },
+  "难听": {
+    "level": 3,
+    "syllabusId": 782,
+    "pinyin": "nántīng",
+    "meaning": "unpleasant to hear"
+  },
+  "年级": {
+    "level": 3,
+    "syllabusId": 783,
+    "pinyin": "niánjí",
+    "meaning": "grade; year in school"
+  },
+  "年轻": {
+    "level": 3,
+    "syllabusId": 784,
+    "pinyin": "niánqīng",
+    "meaning": "young"
+  },
+  "牛": {
+    "level": 3,
+    "syllabusId": 785,
+    "pinyin": "niú",
+    "meaning": "cow; ox"
+  },
+  "努力": {
+    "level": 3,
+    "syllabusId": 786,
+    "pinyin": "nǔlì",
+    "meaning": "to work hard; hardworking"
+  },
+  "女人": {
+    "level": 3,
+    "syllabusId": 787,
+    "pinyin": "nǚrén",
+    "meaning": "woman"
+  },
+  "女生": {
+    "level": 3,
+    "syllabusId": 788,
+    "pinyin": "nǚshēng",
+    "meaning": "girl; female student"
+  },
+  "爬": {
+    "level": 3,
+    "syllabusId": 789,
+    "pinyin": "pá",
+    "meaning": "to climb; to crawl"
+  },
+  "怕": {
+    "level": 3,
+    "syllabusId": 790,
+    "pinyin": "pà",
+    "meaning": "to fear; to be afraid of"
+  },
+  "拍照": {
+    "level": 3,
+    "syllabusId": 791,
+    "pinyin": "pāizhào",
+    "meaning": "to take a photo"
+  },
+  "胖": {
+    "level": 3,
+    "syllabusId": 793,
+    "pinyin": "pàng",
+    "meaning": "fat; plump"
+  },
+  "啤酒": {
+    "level": 3,
+    "syllabusId": 794,
+    "pinyin": "píjiǔ",
+    "meaning": "beer"
+  },
+  "平时": {
+    "level": 3,
+    "syllabusId": 795,
+    "pinyin": "píngshí",
+    "meaning": "normally; in normal times"
+  },
+  "瓶子": {
+    "level": 3,
+    "syllabusId": 796,
+    "pinyin": "píngzi",
+    "meaning": "bottle"
+  },
+  "其实": {
+    "level": 3,
+    "syllabusId": 797,
+    "pinyin": "qíshí",
+    "meaning": "actually; in fact"
+  },
+  "其他": {
+    "level": 3,
+    "syllabusId": 798,
+    "pinyin": "qítā",
+    "meaning": "other; the rest"
+  },
+  "奇怪": {
+    "level": 3,
+    "syllabusId": 799,
+    "pinyin": "qíguài",
+    "meaning": "strange; odd"
+  },
+  "骑": {
+    "level": 3,
+    "syllabusId": 800,
+    "pinyin": "qí",
+    "meaning": "to ride; to sit astride"
+  },
+  "起": {
+    "level": 3,
+    "syllabusId": 801,
+    "pinyin": "qǐ",
+    "meaning": "to rise; to get up; measure word for cases"
+  },
+  "起飞": {
+    "level": 3,
+    "syllabusId": 802,
+    "pinyin": "qǐfēi",
+    "meaning": "to take off; to lift off"
+  },
+  "汽车": {
+    "level": 3,
+    "syllabusId": 803,
+    "pinyin": "qìchē",
+    "meaning": "car; automobile"
+  },
+  "前年": {
+    "level": 3,
+    "syllabusId": 805,
+    "pinyin": "qiánnián",
+    "meaning": "the year before last"
+  },
+  "前天": {
+    "level": 3,
+    "syllabusId": 806,
+    "pinyin": "qiántiān",
+    "meaning": "the day before yesterday"
+  },
+  "清楚": {
+    "level": 3,
+    "syllabusId": 807,
+    "pinyin": "qīngchu",
+    "meaning": "clear; to understand"
+  },
+  "请假": {
+    "level": 3,
+    "syllabusId": 808,
+    "pinyin": "qǐngjià",
+    "meaning": "to ask for leave"
+  },
+  "请客": {
+    "level": 3,
+    "syllabusId": 809,
+    "pinyin": "qǐngkè",
+    "meaning": "to treat; to invite to dinner"
+  },
+  "秋天": {
+    "level": 3,
+    "syllabusId": 810,
+    "pinyin": "qiūtiān",
+    "meaning": "autumn; fall"
+  },
+  "球场": {
+    "level": 3,
+    "syllabusId": 811,
+    "pinyin": "qiúchǎng",
+    "meaning": "sports ground; court"
+  },
+  "裙子": {
+    "level": 3,
+    "syllabusId": 812,
+    "pinyin": "qúnzi",
+    "meaning": "skirt"
+  },
+  "然后": {
+    "level": 3,
+    "syllabusId": 813,
+    "pinyin": "ránhòu",
+    "meaning": "then; after that"
+  },
+  "热情": {
+    "level": 3,
+    "syllabusId": 814,
+    "pinyin": "rèqíng",
+    "meaning": "enthusiastic; warm"
+  },
+  "认得": {
+    "level": 3,
+    "syllabusId": 815,
+    "pinyin": "rènde",
+    "meaning": "to recognize; to know"
+  },
+  "认为": {
+    "level": 3,
+    "syllabusId": 816,
+    "pinyin": "rènwéi",
+    "meaning": "to think; to believe"
+  },
+  "认真": {
+    "level": 3,
+    "syllabusId": 817,
+    "pinyin": "rènzhēn",
+    "meaning": "serious; earnest"
+  },
+  "容易": {
+    "level": 3,
+    "syllabusId": 818,
+    "pinyin": "róngyì",
+    "meaning": "easy; simple"
+  },
+  "如果": {
+    "level": 3,
+    "syllabusId": 819,
+    "pinyin": "rúguǒ",
+    "meaning": "if; in case"
+  },
+  "伞": {
+    "level": 3,
+    "syllabusId": 820,
+    "pinyin": "sǎn",
+    "meaning": "umbrella"
+  },
+  "扫": {
+    "level": 3,
+    "syllabusId": 821,
+    "pinyin": "sǎo",
+    "meaning": "to sweep; to scan"
+  },
+  "沙发": {
+    "level": 3,
+    "syllabusId": 822,
+    "pinyin": "shāfā",
+    "meaning": "sofa; couch"
+  },
+  "山": {
+    "level": 3,
+    "syllabusId": 823,
+    "pinyin": "shān",
+    "meaning": "mountain; hill"
+  },
+  "上衣": {
+    "level": 3,
+    "syllabusId": 824,
+    "pinyin": "shàngyī",
+    "meaning": "jacket; upper garment"
+  },
+  "勺子": {
+    "level": 3,
+    "syllabusId": 825,
+    "pinyin": "sháozi",
+    "meaning": "spoon; ladle"
+  },
+  "身边": {
+    "level": 3,
+    "syllabusId": 826,
+    "pinyin": "shēnbiān",
+    "meaning": "at one's side; on hand"
+  },
+  "身高": {
+    "level": 3,
+    "syllabusId": 827,
+    "pinyin": "shēngāo",
+    "meaning": "height"
+  },
+  "生活": {
+    "level": 3,
+    "syllabusId": 828,
+    "pinyin": "shēnghuó",
+    "meaning": "life; to live"
+  },
+  "生气": {
+    "level": 3,
+    "syllabusId": 829,
+    "pinyin": "shēngqì",
+    "meaning": "to get angry; angry"
+  },
+  "声": {
+    "level": 3,
+    "syllabusId": 830,
+    "pinyin": "shēng",
+    "meaning": "sound or voice; measure word for cries"
+  },
+  "声音": {
+    "level": 3,
+    "syllabusId": 831,
+    "pinyin": "shēngyīn",
+    "meaning": "sound; voice"
+  },
+  "世界": {
+    "level": 3,
+    "syllabusId": 832,
+    "pinyin": "shìjiè",
+    "meaning": "world"
+  },
+  "市": {
+    "level": 3,
+    "syllabusId": 833,
+    "pinyin": "shì",
+    "meaning": "city; market"
+  },
+  "试": {
+    "level": 3,
+    "syllabusId": 834,
+    "pinyin": "shì",
+    "meaning": "to try; to test"
+  },
+  "室": {
+    "level": 3,
+    "syllabusId": 835,
+    "pinyin": "shì",
+    "meaning": "room"
+  },
+  "收": {
+    "level": 3,
+    "syllabusId": 836,
+    "pinyin": "shōu",
+    "meaning": "to receive; to collect"
+  },
+  "收到": {
+    "level": 3,
+    "syllabusId": 837,
+    "pinyin": "shōudào",
+    "meaning": "to receive"
+  },
+  "受": {
+    "level": 3,
+    "syllabusId": 838,
+    "pinyin": "shòu",
+    "meaning": "to receive; to suffer"
+  },
+  "受到": {
+    "level": 3,
+    "syllabusId": 839,
+    "pinyin": "shòudào",
+    "meaning": "to receive; to be given"
+  },
+  "瘦": {
+    "level": 3,
+    "syllabusId": 840,
+    "pinyin": "shòu",
+    "meaning": "thin; skinny"
+  },
+  "叔叔": {
+    "level": 3,
+    "syllabusId": 841,
+    "pinyin": "shūshu",
+    "meaning": "father's younger brother; uncle"
+  },
+  "树": {
+    "level": 3,
+    "syllabusId": 842,
+    "pinyin": "shù",
+    "meaning": "tree"
+  },
+  "数学": {
+    "level": 3,
+    "syllabusId": 843,
+    "pinyin": "shùxué",
+    "meaning": "mathematics"
+  },
+  "刷": {
+    "level": 3,
+    "syllabusId": 844,
+    "pinyin": "shuā",
+    "meaning": "to brush; to scrub"
+  },
+  "双": {
+    "level": 3,
+    "syllabusId": 845,
+    "pinyin": "shuāng",
+    "meaning": "measure word for pairs; both"
+  },
+  "水平": {
+    "level": 3,
+    "syllabusId": 846,
+    "pinyin": "shuǐpíng",
+    "meaning": "level; standard"
+  },
+  "四季": {
+    "level": 3,
+    "syllabusId": 848,
+    "pinyin": "sìjì",
+    "meaning": "the four seasons"
+  },
+  "太阳": {
+    "level": 3,
+    "syllabusId": 849,
+    "pinyin": "tàiyáng",
+    "meaning": "sun"
+  },
+  "糖": {
+    "level": 3,
+    "syllabusId": 850,
+    "pinyin": "táng",
+    "meaning": "sugar; candy"
+  },
+  "特别": {
+    "level": 3,
+    "syllabusId": 851,
+    "pinyin": "tèbié",
+    "meaning": "special; especially"
+  },
+  "提高": {
+    "level": 3,
+    "syllabusId": 852,
+    "pinyin": "tígāo",
+    "meaning": "to raise; to improve"
+  },
+  "体育": {
+    "level": 3,
+    "syllabusId": 853,
+    "pinyin": "tǐyù",
+    "meaning": "sports; physical education"
+  },
+  "体育馆": {
+    "level": 3,
+    "syllabusId": 854,
+    "pinyin": "tǐyùguǎn",
+    "meaning": "gym; gymnasium"
+  },
+  "跳": {
+    "level": 3,
+    "syllabusId": 856,
+    "pinyin": "tiào",
+    "meaning": "to jump; to hop"
+  },
+  "听说": {
+    "level": 3,
+    "syllabusId": 857,
+    "pinyin": "tīngshuō",
+    "meaning": "to hear of; it is said"
+  },
+  "挺": {
+    "level": 3,
+    "syllabusId": 858,
+    "pinyin": "tǐng",
+    "meaning": "quite; very"
+  },
+  "同事": {
+    "level": 3,
+    "syllabusId": 859,
+    "pinyin": "tóngshì",
+    "meaning": "colleague; co-worker"
+  },
+  "同意": {
+    "level": 3,
+    "syllabusId": 860,
+    "pinyin": "tóngyì",
+    "meaning": "to agree; to consent"
+  },
+  "头发": {
+    "level": 3,
+    "syllabusId": 861,
+    "pinyin": "tóufa",
+    "meaning": "hair"
+  },
+  "突然": {
+    "level": 3,
+    "syllabusId": 862,
+    "pinyin": "tūrán",
+    "meaning": "sudden; suddenly"
+  },
+  "腿": {
+    "level": 3,
+    "syllabusId": 864,
+    "pinyin": "tuǐ",
+    "meaning": "leg"
+  },
+  "外地": {
+    "level": 3,
+    "syllabusId": 865,
+    "pinyin": "wàidì",
+    "meaning": "another part of the country"
+  },
+  "外卖": {
+    "level": 3,
+    "syllabusId": 866,
+    "pinyin": "wàimài",
+    "meaning": "takeout; food delivery"
+  },
+  "外语": {
+    "level": 3,
+    "syllabusId": 867,
+    "pinyin": "wàiyǔ",
+    "meaning": "foreign language"
+  },
+  "完成": {
+    "level": 3,
+    "syllabusId": 868,
+    "pinyin": "wánchéng",
+    "meaning": "to complete; to accomplish"
+  },
+  "晚点": {
+    "level": 3,
+    "syllabusId": 869,
+    "pinyin": "wǎndiǎn",
+    "meaning": "late; delayed"
+  },
+  "晚会": {
+    "level": 3,
+    "syllabusId": 870,
+    "pinyin": "wǎnhuì",
+    "meaning": "evening party"
+  },
+  "碗": {
+    "level": 3,
+    "syllabusId": 871,
+    "pinyin": "wǎn",
+    "meaning": "bowl"
+  },
+  "网球": {
+    "level": 3,
+    "syllabusId": 872,
+    "pinyin": "wǎngqiú",
+    "meaning": "tennis"
+  },
+  "网站": {
+    "level": 3,
+    "syllabusId": 873,
+    "pinyin": "wǎngzhàn",
+    "meaning": "website"
+  },
+  "卫生间": {
+    "level": 3,
+    "syllabusId": 875,
+    "pinyin": "wèishēngjiān",
+    "meaning": "bathroom; toilet"
+  },
+  "为": {
+    "level": 3,
+    "syllabusId": 876,
+    "pinyin": "wèi",
+    "meaning": "for; because of"
+  },
+  "为了": {
+    "level": 3,
+    "syllabusId": 877,
+    "pinyin": "wèile",
+    "meaning": "for; in order to"
+  },
+  "文化": {
+    "level": 3,
+    "syllabusId": 878,
+    "pinyin": "wénhuà",
+    "meaning": "culture"
+  },
+  "屋子": {
+    "level": 3,
+    "syllabusId": 879,
+    "pinyin": "wūzi",
+    "meaning": "room; house"
+  },
+  "西": {
+    "level": 3,
+    "syllabusId": 880,
+    "pinyin": "xī",
+    "meaning": "west"
+  },
+  "西北": {
+    "level": 3,
+    "syllabusId": 881,
+    "pinyin": "xīběi",
+    "meaning": "northwest; Northwest China"
+  },
+  "西方": {
+    "level": 3,
+    "syllabusId": 882,
+    "pinyin": "xīfāng",
+    "meaning": "the west; Western countries"
+  },
+  "西南": {
+    "level": 3,
+    "syllabusId": 884,
+    "pinyin": "xīnán",
+    "meaning": "southwest"
+  },
+  "习惯": {
+    "level": 3,
+    "syllabusId": 885,
+    "pinyin": "xíguàn",
+    "meaning": "habit; to be used to"
+  },
+  "洗衣机": {
+    "level": 3,
+    "syllabusId": 886,
+    "pinyin": "xǐyījī",
+    "meaning": "washing machine"
+  },
+  "洗澡": {
+    "level": 3,
+    "syllabusId": 887,
+    "pinyin": "xǐzǎo",
+    "meaning": "to take a shower; to bathe"
+  },
+  "喜爱": {
+    "level": 3,
+    "syllabusId": 888,
+    "pinyin": "xǐ’ài",
+    "meaning": "to like; to love"
+  },
+  "夏天": {
+    "level": 3,
+    "syllabusId": 889,
+    "pinyin": "xiàtiān",
+    "meaning": "summer"
+  },
+  "先": {
+    "level": 3,
+    "syllabusId": 890,
+    "pinyin": "xiān",
+    "meaning": "first; before; earlier"
+  },
+  "相信": {
+    "level": 3,
+    "syllabusId": 891,
+    "pinyin": "xiāngxìn",
+    "meaning": "to believe; to trust"
+  },
+  "箱子": {
+    "level": 3,
+    "syllabusId": 893,
+    "pinyin": "xiāngzi",
+    "meaning": "box; suitcase; chest"
+  },
+  "向": {
+    "level": 3,
+    "syllabusId": 894,
+    "pinyin": "xiàng",
+    "meaning": "toward; to face; direction"
+  },
+  "相机": {
+    "level": 3,
+    "syllabusId": 895,
+    "pinyin": "xiàngjī",
+    "meaning": "camera"
+  },
+  "像": {
+    "level": 3,
+    "syllabusId": 896,
+    "pinyin": "xiàng",
+    "meaning": "to resemble; to be like; image"
+  },
+  "小区": {
+    "level": 3,
+    "syllabusId": 897,
+    "pinyin": "xiǎoqū",
+    "meaning": "housing estate; neighborhood"
+  },
+  "小心": {
+    "level": 3,
+    "syllabusId": 898,
+    "pinyin": "xiǎoxīn",
+    "meaning": "to be careful; careful"
+  },
+  "校园": {
+    "level": 3,
+    "syllabusId": 899,
+    "pinyin": "xiàoyuán",
+    "meaning": "campus"
+  },
+  "校长": {
+    "level": 3,
+    "syllabusId": 900,
+    "pinyin": "xiàozhǎng",
+    "meaning": "school principal; headmaster"
+  },
+  "鞋": {
+    "level": 3,
+    "syllabusId": 901,
+    "pinyin": "xié",
+    "meaning": "shoe"
+  },
+  "心里": {
+    "level": 3,
+    "syllabusId": 902,
+    "pinyin": "xīnlǐ",
+    "meaning": "heart; mind; in the heart"
+  },
+  "新年": {
+    "level": 3,
+    "syllabusId": 903,
+    "pinyin": "xīnnián",
+    "meaning": "New Year"
+  },
+  "新闻": {
+    "level": 3,
+    "syllabusId": 904,
+    "pinyin": "xīnwén",
+    "meaning": "news"
+  },
+  "新鲜": {
+    "level": 3,
+    "syllabusId": 905,
+    "pinyin": "xīnxiān",
+    "meaning": "fresh"
+  },
+  "信": {
+    "level": 3,
+    "syllabusId": 906,
+    "pinyin": "xìn",
+    "meaning": "letter; mail"
+  },
+  "信用卡": {
+    "level": 3,
+    "syllabusId": 907,
+    "pinyin": "xìnyòngkǎ",
+    "meaning": "credit card"
+  },
+  "行": {
+    "level": 3,
+    "syllabusId": 908,
+    "pinyin": "xíng",
+    "meaning": "to go; to walk; OK"
+  },
+  "行李": {
+    "level": 3,
+    "syllabusId": 909,
+    "pinyin": "xíngli",
+    "meaning": "luggage"
+  },
+  "兴趣": {
+    "level": 3,
+    "syllabusId": 910,
+    "pinyin": "xìngqù",
+    "meaning": "interest; hobby"
+  },
+  "休假": {
+    "level": 3,
+    "syllabusId": 911,
+    "pinyin": "xiūjià",
+    "meaning": "to take a vacation; to take leave"
+  },
+  "需要": {
+    "level": 3,
+    "syllabusId": 912,
+    "pinyin": "xūyào",
+    "meaning": "to need; needs"
+  },
+  "选": {
+    "level": 3,
+    "syllabusId": 913,
+    "pinyin": "xuǎn",
+    "meaning": "to choose; to select"
+  },
+  "学期": {
+    "level": 3,
+    "syllabusId": 915,
+    "pinyin": "xuéqī",
+    "meaning": "school term; semester"
+  },
+  "牙": {
+    "level": 3,
+    "syllabusId": 916,
+    "pinyin": "yá",
+    "meaning": "tooth; teeth"
+  },
+  "牙刷": {
+    "level": 3,
+    "syllabusId": 917,
+    "pinyin": "yáshuā",
+    "meaning": "toothbrush"
+  },
+  "羊": {
+    "level": 3,
+    "syllabusId": 918,
+    "pinyin": "yáng",
+    "meaning": "sheep; goat"
+  },
+  "养": {
+    "level": 3,
+    "syllabusId": 919,
+    "pinyin": "yǎng",
+    "meaning": "to raise; to keep; to support"
+  },
+  "要求": {
+    "level": 3,
+    "syllabusId": 920,
+    "pinyin": "yāoqiú",
+    "meaning": "to request; requirement"
+  },
+  "页": {
+    "level": 3,
+    "syllabusId": 921,
+    "pinyin": "yè",
+    "meaning": "measure word for pages"
+  },
+  "一般": {
+    "level": 3,
+    "syllabusId": 922,
+    "pinyin": "yìbān",
+    "meaning": "general; ordinary; generally"
+  },
+  "一边": {
+    "level": 3,
+    "syllabusId": 923,
+    "pinyin": "yìbiān",
+    "meaning": "one side; at the same time"
+  },
+  "一定": {
+    "level": 3,
+    "syllabusId": 924,
+    "pinyin": "yídìng",
+    "meaning": "definitely; surely; certain"
+  },
+  "一共": {
+    "level": 3,
+    "syllabusId": 925,
+    "pinyin": "yígòng",
+    "meaning": "in total; altogether"
+  },
+  "一块儿": {
+    "level": 3,
+    "syllabusId": 926,
+    "pinyin": "yíkuàir",
+    "meaning": "together"
+  },
+  "一样": {
+    "level": 3,
+    "syllabusId": 927,
+    "pinyin": "yíyàng",
+    "meaning": "same; alike"
+  },
+  "一直": {
+    "level": 3,
+    "syllabusId": 928,
+    "pinyin": "yìzhí",
+    "meaning": "straight; continuously; always"
+  },
+  "以后": {
+    "level": 3,
+    "syllabusId": 929,
+    "pinyin": "yǐhòu",
+    "meaning": "after; later; afterwards"
+  },
+  "以前": {
+    "level": 3,
+    "syllabusId": 930,
+    "pinyin": "yǐqián",
+    "meaning": "before; formerly; previous"
+  },
+  "以上": {
+    "level": 3,
+    "syllabusId": 931,
+    "pinyin": "yǐshàng",
+    "meaning": "above; more than"
+  },
+  "以外": {
+    "level": 3,
+    "syllabusId": 932,
+    "pinyin": "yǐwài",
+    "meaning": "apart from; other than"
+  },
+  "以为": {
+    "level": 3,
+    "syllabusId": 933,
+    "pinyin": "yǐwéi",
+    "meaning": "to think wrongly; to assume"
+  },
+  "以下": {
+    "level": 3,
+    "syllabusId": 934,
+    "pinyin": "yǐxià",
+    "meaning": "below; less than"
+  },
+  "音乐": {
+    "level": 3,
+    "syllabusId": 935,
+    "pinyin": "yīnyuè",
+    "meaning": "music"
+  },
+  "银行": {
+    "level": 3,
+    "syllabusId": 936,
+    "pinyin": "yínháng",
+    "meaning": "bank"
+  },
+  "银行卡": {
+    "level": 3,
+    "syllabusId": 937,
+    "pinyin": "yínhángkǎ",
+    "meaning": "bank card"
+  },
+  "饮料": {
+    "level": 3,
+    "syllabusId": 938,
+    "pinyin": "yǐnliào",
+    "meaning": "drink; beverage"
+  },
+  "应该": {
+    "level": 3,
+    "syllabusId": 939,
+    "pinyin": "yīnggāi",
+    "meaning": "should; ought to"
+  },
+  "影响": {
+    "level": 3,
+    "syllabusId": 940,
+    "pinyin": "yǐngxiǎng",
+    "meaning": "influence; to affect"
+  },
+  "邮件": {
+    "level": 3,
+    "syllabusId": 942,
+    "pinyin": "yóujiàn",
+    "meaning": "mail; email"
+  },
+  "邮箱": {
+    "level": 3,
+    "syllabusId": 943,
+    "pinyin": "yóuxiāng",
+    "meaning": "mailbox; email"
+  },
+  "游客": {
+    "level": 3,
+    "syllabusId": 944,
+    "pinyin": "yóukè",
+    "meaning": "tourist; visitor"
+  },
+  "游戏": {
+    "level": 3,
+    "syllabusId": 945,
+    "pinyin": "yóuxì",
+    "meaning": "game; to play"
+  },
+  "有关": {
+    "level": 3,
+    "syllabusId": 946,
+    "pinyin": "yǒuguān",
+    "meaning": "related to; concerning"
+  },
+  "有名": {
+    "level": 3,
+    "syllabusId": 947,
+    "pinyin": "yǒumíng",
+    "meaning": "famous; well-known"
+  },
+  "又": {
+    "level": 3,
+    "syllabusId": 949,
+    "pinyin": "yòu",
+    "meaning": "again; also"
+  },
+  "羽毛球": {
+    "level": 3,
+    "syllabusId": 950,
+    "pinyin": "yǔmáoqiú",
+    "meaning": "badminton"
+  },
+  "雨衣": {
+    "level": 3,
+    "syllabusId": 951,
+    "pinyin": "yǔyī",
+    "meaning": "raincoat"
+  },
+  "语言": {
+    "level": 3,
+    "syllabusId": 952,
+    "pinyin": "yǔyán",
+    "meaning": "language"
+  },
+  "遇到": {
+    "level": 3,
+    "syllabusId": 953,
+    "pinyin": "yùdào",
+    "meaning": "to meet; to run into"
+  },
+  "遇见": {
+    "level": 3,
+    "syllabusId": 954,
+    "pinyin": "yùjiàn",
+    "meaning": "to meet; to come across"
+  },
+  "园": {
+    "level": 3,
+    "syllabusId": 955,
+    "pinyin": "yuán",
+    "meaning": "garden; park"
+  },
+  "员": {
+    "level": 3,
+    "syllabusId": 956,
+    "pinyin": "yuán",
+    "meaning": "member; person in a field"
+  },
+  "愿意": {
+    "level": 3,
+    "syllabusId": 957,
+    "pinyin": "yuànyì",
+    "meaning": "to be willing; to wish"
+  },
+  "月亮": {
+    "level": 3,
+    "syllabusId": 958,
+    "pinyin": "yuèliang",
+    "meaning": "the moon"
+  },
+  "越": {
+    "level": 3,
+    "syllabusId": 959,
+    "pinyin": "yuè",
+    "meaning": "the more ... the more"
+  },
+  "运动会": {
+    "level": 3,
+    "syllabusId": 960,
+    "pinyin": "yùndònghuì",
+    "meaning": "sports meet; games"
+  },
+  "运动员": {
+    "level": 3,
+    "syllabusId": 961,
+    "pinyin": "yùndòngyuán",
+    "meaning": "athlete"
+  },
+  "咱们": {
+    "level": 3,
+    "syllabusId": 962,
+    "pinyin": "zánmen",
+    "meaning": "we; us, including the listener"
+  },
+  "脏": {
+    "level": 3,
+    "syllabusId": 963,
+    "pinyin": "zāng",
+    "meaning": "dirty; filthy"
+  },
+  "怎么办": {
+    "level": 3,
+    "syllabusId": 964,
+    "pinyin": "zěnme bàn",
+    "meaning": "what to do; what's to be done"
+  },
+  "怎样": {
+    "level": 3,
+    "syllabusId": 965,
+    "pinyin": "zěnyàng",
+    "meaning": "how; what kind"
+  },
+  "站#966": {
+    "level": 3,
+    "syllabusId": 966,
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "meaning": "to stand",
+    "sense": "stand"
+  },
+  "长#968": {
+    "level": 3,
+    "syllabusId": 968,
+    "hanzi": "长",
+    "pinyin": "zhǎng",
+    "meaning": "to grow; elder; chief"
+  },
+  "着急": {
+    "level": 3,
+    "syllabusId": 969,
+    "pinyin": "zháojí",
+    "meaning": "anxious; in a hurry"
+  },
+  "照": {
+    "level": 3,
+    "syllabusId": 970,
+    "pinyin": "zhào",
+    "meaning": "to shine; to take a photo"
+  },
+  "照顾": {
+    "level": 3,
+    "syllabusId": 971,
+    "pinyin": "zhàogù",
+    "meaning": "to take care of; to look after"
+  },
+  "照相": {
+    "level": 3,
+    "syllabusId": 973,
+    "pinyin": "zhàoxiàng",
+    "meaning": "to take a photograph"
+  },
+  "直到": {
+    "level": 3,
+    "syllabusId": 974,
+    "pinyin": "zhídào",
+    "meaning": "until"
+  },
+  "只#975": {
+    "level": 3,
+    "syllabusId": 975,
+    "hanzi": "只",
+    "pinyin": "zhǐ",
+    "meaning": "only; merely"
+  },
+  "只能": {
+    "level": 3,
+    "syllabusId": 976,
+    "pinyin": "zhǐ néng",
+    "meaning": "can only; have no choice but"
+  },
+  "只是": {
+    "level": 3,
+    "syllabusId": 977,
+    "pinyin": "zhǐshì",
+    "meaning": "merely; only; but"
+  },
+  "只要": {
+    "level": 3,
+    "syllabusId": 978,
+    "pinyin": "zhǐyào",
+    "meaning": "so long as; provided"
+  },
+  "只有": {
+    "level": 3,
+    "syllabusId": 979,
+    "pinyin": "zhǐyǒu",
+    "meaning": "only if; only when"
+  },
+  "纸": {
+    "level": 3,
+    "syllabusId": 980,
+    "pinyin": "zhǐ",
+    "meaning": "paper"
+  },
+  "中": {
+    "level": 3,
+    "syllabusId": 981,
+    "pinyin": "zhōng",
+    "meaning": "middle; center; in"
+  },
+  "中间": {
+    "level": 3,
+    "syllabusId": 982,
+    "pinyin": "zhōngjiān",
+    "meaning": "middle; center"
+  },
+  "终于": {
+    "level": 3,
+    "syllabusId": 983,
+    "pinyin": "zhōngyú",
+    "meaning": "finally; at last"
+  },
+  "种": {
+    "level": 3,
+    "syllabusId": 984,
+    "pinyin": "zhǒng",
+    "meaning": "measure word for kinds and types; seed"
+  },
+  "重要": {
+    "level": 3,
+    "syllabusId": 985,
+    "pinyin": "zhòngyào",
+    "meaning": "important; significant"
+  },
+  "主要": {
+    "level": 3,
+    "syllabusId": 987,
+    "pinyin": "zhǔyào",
+    "meaning": "main; principal"
+  },
+  "住院": {
+    "level": 3,
+    "syllabusId": 988,
+    "pinyin": "zhùyuàn",
+    "meaning": "to be hospitalized"
+  },
+  "注意": {
+    "level": 3,
+    "syllabusId": 989,
+    "pinyin": "zhùyì",
+    "meaning": "to pay attention to"
+  },
+  "子": {
+    "level": 3,
+    "syllabusId": 990,
+    "pinyin": "zi",
+    "meaning": "noun suffix"
+  },
+  "自行车": {
+    "level": 3,
+    "syllabusId": 991,
+    "pinyin": "zìxíngchē",
+    "meaning": "bicycle; bike"
+  },
+  "总": {
+    "level": 3,
+    "syllabusId": 993,
+    "pinyin": "zǒng",
+    "meaning": "overall; general; always"
+  },
+  "总是": {
+    "level": 3,
+    "syllabusId": 994,
+    "pinyin": "zǒngshì",
+    "meaning": "always"
+  },
+  "嘴": {
+    "level": 3,
+    "syllabusId": 995,
+    "pinyin": "zuǐ",
+    "meaning": "mouth"
+  },
+  "最好": {
+    "level": 3,
+    "syllabusId": 996,
+    "pinyin": "zuìhǎo",
+    "meaning": "best; had better"
+  },
+  "最后": {
+    "level": 3,
+    "syllabusId": 997,
+    "pinyin": "zuìhòu",
+    "meaning": "final; last; in the end"
+  },
+  "最近": {
+    "level": 3,
+    "syllabusId": 998,
+    "pinyin": "zuìjìn",
+    "meaning": "recently; soon; nearest"
+  },
+  "做客": {
+    "level": 3,
+    "syllabusId": 1000,
+    "pinyin": "zuòkè",
+    "meaning": "to be a guest"
+  }
+}

@@ -1,10 +1,16 @@
 import { expect, test, type Page } from "@playwright/test";
+import { readProgress } from "./helpers/progress.ts";
 
 import bank from "../../src/words.json" with { type: "json" };
 import { progressKey as key } from "../../src/storage.ts";
 
 const legacyKey = "chinese-revision.v1";
-const read = (page: Page) => page.evaluate(k => JSON.parse(localStorage.getItem(k)!), key);
+
+async function toggleTheme(page: Page) {
+  await page.getByRole("button", { name: "Settings", exact: true }).click();
+  await page.locator("#theme").click();
+  await page.getByRole("button", { name: "Back to study" }).click();
+}
 
 test("two tabs advancing the same displayed prompt credit it once", async ({ page, context }) => {
   await page.goto("/");
@@ -14,11 +20,11 @@ test("two tabs advancing the same displayed prompt credit it once", async ({ pag
   await expect(second.locator(".target")).toHaveText("借");
   await holdWriter(page);
   await Promise.all([page, second].map(tab => tab.locator("#next").dispatchEvent("click")));
-  await second.locator("#theme").click();
+  await toggleTheme(second);
   await page.evaluate(() => window.dispatchEvent(new Event("release-lock")));
   await expect(page.locator(".target")).toHaveText("复习");
   await expect(second.locator(".target")).toHaveText("复习");
-  const saved = await read(page);
+  const saved = await readProgress(page);
   expect(saved.credited).toEqual(["借"]);
   expect(saved.history["借"].visits).toBe(1);
 });
@@ -41,12 +47,12 @@ test("a Next pressed before midnight keeps its date when the writer lock opens t
   await page.clock.setFixedTime(new Date(2026, 10, 22, 0, 0, 1));
   await page.evaluate(() => window.dispatchEvent(new Event("release-lock")));
   await expect(page.locator(".target")).toHaveText("复习");
-  const saved = await read(page);
+  const saved = await readProgress(page);
   expect(saved.history["借"]).toMatchObject({ last: "2026-11-21", due: "2026-11-24", visits: 1 });
   expect(saved.day).toBe("2026-11-22");
   expect(saved.credited).toEqual([]);
   await page.locator("#next").click();
-  await expect.poll(async () => (await read(page)).credited).toEqual(["复习"]);
+  await expect.poll(async () => (await readProgress(page)).credited).toEqual(["复习"]);
 });
 
 for (const tier of [10, 15, 30]) {
@@ -80,7 +86,7 @@ for (const tier of [10, 15, 30]) {
     await expect(page.locator(".progress-stack")).toHaveAccessibleName(/0 words reviewed today/);
     await page.reload();
     await expect(page.locator(".target")).toHaveText("复习");
-    const state = await read(page);
+    const state = await readProgress(page);
     expect(state.history["借"]).toMatchObject({ last: "2026-11-21", due: "2026-11-24", visits: 1 });
     expect(state.credited).toEqual([]);
   });
@@ -95,7 +101,7 @@ test("remote settings and progress preserve an open entry and its writing guide"
   await page.locator('[data-word="地图"]').click();
   await page.locator('[data-character="图"] summary').click();
   const theme = await page.locator("html").getAttribute("data-theme");
-  await second.locator("#theme").click();
+  await toggleTheme(second);
   await expect(page.locator("html")).not.toHaveAttribute("data-theme", theme!);
   await second.locator("#next").click();
   await expect(second.locator(".target")).toHaveText("复习");
@@ -113,11 +119,11 @@ for (const method of ["clear", "removeItem"] as const) {
       if (method === "clear") localStorage.clear();
       else localStorage.removeItem(key);
     }, { method, key });
-    await page.locator("#theme").click();
+    await toggleTheme(page);
     await expect(page.locator(".target")).toHaveText("借");
     await page.reload();
     await expect(page.locator(".target")).toHaveText("借");
-    expect((await read(page)).history).toEqual({});
+    expect((await readProgress(page)).history).toEqual({});
   });
 }
 
@@ -149,7 +155,7 @@ test("hover previews 这里 and a mouse click opens its entry without marking �
   await expect(page.locator(".headword h1")).toHaveText("这里");
   await page.locator("#back").click();
   await expect(page.locator("#entry")).toBeFocused();
-  expect((await read(page)).prompt).toMatchObject({ word: "方便", looked: false });
+  expect((await readProgress(page)).prompt).toMatchObject({ word: "方便", looked: false });
 });
 
 test("keyboard lookup and Practise keep the chosen word and its next-day interval", async ({ page }) => {
@@ -165,7 +171,7 @@ test("keyboard lookup and Practise keep the chosen word and its next-day interva
   await page.locator("#practise").click();
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("复习");
-  const h = (await read(page)).history["借"];
+  const h = (await readProgress(page)).history["借"];
   const tomorrow = new Date(h.last + "T12:00:00Z");
   tomorrow.setUTCDate(tomorrow.getUTCDate() + 1);
   expect(h.due).toBe(tomorrow.toISOString().slice(0, 10));
@@ -176,7 +182,7 @@ test("a legacy prompt retains its lookup, history, credits and theme", async ({ 
   await page.goto("/");
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("复习");
-  const before = await read(page);
+  const before = await readProgress(page);
   await page.evaluate(k => {
     const legacy = JSON.parse(localStorage.getItem(k)!);
     localStorage.clear();
@@ -189,7 +195,7 @@ test("a legacy prompt retains its lookup, history, credits and theme", async ({ 
   await page.reload();
   await expect(page.locator(".target")).toHaveText("复习");
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
-  const after = await read(page);
+  const after = await readProgress(page);
   expect(after.credited).toEqual(before.credited);
   expect(after.history).toEqual(before.history);
   expect(after.prompt).toMatchObject({ word: "复习", looked: true, example: before.prompt.example, sentence: before.prompt.sentence });
@@ -197,14 +203,14 @@ test("a legacy prompt retains its lookup, history, credits and theme", async ({ 
   await page.reload();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
   await expect(page.locator(".target")).toHaveText("复习");
-  expect((await read(page)).prompt.id).toBe(after.prompt.id);
+  expect((await readProgress(page)).prompt.id).toBe(after.prompt.id);
 });
 
 test("an invalid history entry leaves the rest of the saved review usable", async ({ page }) => {
   await page.goto("/");
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("复习");
-  const before = await read(page);
+  const before = await readProgress(page);
   await page.evaluate(k => {
     const state = JSON.parse(localStorage.getItem(k)!);
     state.history["复习"] = { visits: -1 };
@@ -212,7 +218,7 @@ test("an invalid history entry leaves the rest of the saved review usable", asyn
   }, key);
   await page.reload();
   await expect(page.locator(".target")).toHaveText("复习");
-  expect(await read(page)).toEqual(before);
+  expect(await readProgress(page)).toEqual(before);
 });
 
 test("blocked storage allows practice for this visit", async ({ page }) => {
@@ -235,45 +241,49 @@ test("Practise on a different word starts an unaided prompt", async ({ page }) =
   await page.locator('[data-word="地图"]').click();
   await page.locator("#practise").click();
   await expect(page.locator(".target")).toHaveText("地图");
-  expect((await read(page)).prompt.looked).toBe(false);
+  expect((await readProgress(page)).prompt.looked).toBe(false);
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("借");
-  expect((await read(page)).history["地图"].step).toBe(1);
+  expect((await readProgress(page)).history["地图"].step).toBe(1);
 });
 
 test("a theme toggle and Next from a stale screen preserve the newer review", async ({ page, context }) => {
   await page.goto("/");
   const stale = await context.newPage();
+  // Register before startup so the app keeps displaying the earlier prompt.
+  await stale.addInitScript(() => window.addEventListener("storage", event => event.stopImmediatePropagation(), true));
   await stale.goto("/");
   await expect(stale.locator(".target")).toHaveText("借");
-  // Model a background tab whose storage notification has not been delivered yet.
-  await stale.evaluate(() => window.addEventListener("storage", event => event.stopImmediatePropagation(), true));
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("复习");
-  const before = await read(page);
-  await stale.locator("#theme").click();
-  expect(await read(page)).toEqual(before);
+  const before = await readProgress(page);
+  await expect.poll(() => readProgress(stale)).toEqual(before);
+  await toggleTheme(stale);
+  expect(await readProgress(page)).toEqual(before);
+  await expect(stale.locator(".target")).toHaveText("借");
   await stale.locator("#next").click();
   await expect(stale.locator(".target")).toHaveText("复习");
-  expect(await read(page)).toEqual(before);
+  expect(await readProgress(page)).toEqual(before);
 });
 
 test("a stale Next after clear cannot credit a new copy of the same word", async ({ page, context }) => {
+  await page.addInitScript(() => window.addEventListener("storage", event => event.stopImmediatePropagation(), true));
   await page.goto("/");
   await expect(page.locator(".target")).toHaveText("借");
-  const first = await read(page);
-  await page.evaluate(() => window.addEventListener("storage", event => event.stopImmediatePropagation(), true));
+  const first = await readProgress(page);
   const other = await context.newPage();
   await other.goto("/");
   await expect(other.locator(".target")).toHaveText("借");
   await other.evaluate(() => localStorage.clear());
+  // The old UI is still visible, but the reset must be readable in this tab.
+  await expect.poll(() => readProgress(page)).toBeNull();
   await page.locator("#next").click();
   await expect.poll(async () => {
-    const saved = await read(other);
+    const saved = await readProgress(other);
     return Boolean(saved?.prompt?.id && saved.prompt.id !== first.prompt.id);
   }).toBe(true);
   await expect(page.locator(".target")).toHaveText("借");
-  const restored = await read(page);
+  const restored = await readProgress(page);
   expect(restored.prompt.id).toBeTruthy();
   expect(restored.history).toEqual({});
   expect(restored.credited).toEqual([]);
@@ -286,7 +296,7 @@ test("legacy writes cannot erase a new word or resurrect a reset session", async
   await page.goto("/");
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("复习");
-  const legacy = await read(page);
+  const legacy = await readProgress(page);
   delete legacy.prompt.sentence;
   // Open the newly added word through the same review flow as a learner.
   await page.locator("#bank").click();
@@ -300,7 +310,7 @@ test("legacy writes cannot erase a new word or resurrect a reset session", async
   await expect(page.locator(".target")).toHaveText("图书馆");
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("复习");
-  const earned = await read(page);
+  const earned = await readProgress(page);
   expect(earned.credited).toContain("图书馆");
   expect(earned.history["图书馆"].visits).toBe(1);
   await old.evaluate(({ legacyKey, legacy }) => {
@@ -309,10 +319,10 @@ test("legacy writes cannot erase a new word or resurrect a reset session", async
   }, { legacyKey, legacy });
   await page.reload();
   await expect(page.locator(".target")).toHaveText("复习");
-  expect(await read(page)).toEqual(earned);
+  expect(await readProgress(page)).toEqual(earned);
   await old.evaluate(k => localStorage.removeItem(k), key);
   await expect(page.locator(".target")).toHaveText("借");
-  expect((await read(page)).credited).toEqual([]);
+  expect((await readProgress(page)).credited).toEqual([]);
 });
 
 test("impossible dates are backed up and valid leap-day history survives", async ({ page }) => {
@@ -329,13 +339,13 @@ test("impossible dates are backed up and valid leap-day history survives", async
   }, key);
   await page.reload();
   await expect(page.locator(".target")).toHaveText("借");
-  const { history } = await read(page);
+  const { history } = await readProgress(page);
   expect(Object.keys(history)).toEqual(["书"]);
   expect(history["书"].due).toBe("2024-02-29");
   expect(await page.evaluate(k => localStorage.getItem(k + ".damaged"), key)).toBe(raw);
   await page.locator("#next").click();
   await expect(page.locator(".target")).toHaveText("复习");
-  const saved = await read(page);
+  const saved = await readProgress(page);
   const due = new Date(saved.day + "T00:00:00Z");
   due.setUTCDate(due.getUTCDate() + 3);
   expect(saved.history["借"].due).toBe(due.toISOString().slice(0, 10));
@@ -344,7 +354,7 @@ test("impossible dates are backed up and valid leap-day history survives", async
 test("a reordered sentence keeps the encounter and a removed sentence restarts it", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator(".target")).toHaveText("借");
-  const { prompt } = await read(page);
+  const { prompt } = await readProgress(page);
   const sentence = "你 想 借 哪 本 书 ？";
   async function resume(text: string) {
     await page.evaluate(({ key, text }) => {
@@ -354,7 +364,7 @@ test("a reordered sentence keeps the encounter and a removed sentence restarts i
     }, { key, text });
     await page.reload();
     await expect(page.locator(".target")).toHaveText("借");
-    return read(page);
+    return readProgress(page);
   }
   const reordered = await resume(sentence);
   expect(reordered.prompt).toEqual({ ...prompt, sentence, example: 1, looked: true });
@@ -389,7 +399,7 @@ test("the expanded bank migrates v2 and practises the return sense of 还", asyn
   });
   await page.goto("/");
   await expect(page.locator(".target")).toHaveText("地图");
-  expect((await read(page)).history["借"].visits).toBe(2);
+  expect((await readProgress(page)).history["借"].visits).toBe(2);
   await page.locator("#bank").click();
   await page.getByLabel("Word collection").selectOption("3");
   const word = "还#678";
@@ -408,14 +418,14 @@ test("the expanded bank migrates v2 and practises the return sense of 还", asyn
   await expect(page.locator(".headword p")).toHaveText("to return; to give back");
   await page.locator("#back").click();
   await page.locator("#next").click();
-  await expect.poll(async () => (await read(page)).credited).toEqual(["借", word]);
-  const earned = await read(page);
+  await expect.poll(async () => (await readProgress(page)).credited).toEqual(["借", word]);
+  const earned = await readProgress(page);
   const oldTab = await context.newPage();
   await oldTab.goto("/favicon.png");
   await oldTab.evaluate(() => localStorage.setItem("chinese-revision.v2", "{}"));
   await page.reload();
   await expect(page.locator(".target")).toBeVisible();
-  expect(await read(page)).toEqual(earned);
+  expect(await readProgress(page)).toEqual(earned);
 });
 
 test("an earlier v2 reset takes precedence over a leftover v1 save", async ({ page }) => {
@@ -429,7 +439,7 @@ test("an earlier v2 reset takes precedence over a leftover v1 save", async ({ pa
   });
   await page.goto("/");
   await expect(page.locator(".target")).toHaveText("借");
-  expect((await read(page)).history).toEqual({});
+  expect((await readProgress(page)).history).toEqual({});
 });
 
 test("denied access to Web Locks still permits review for this visit", async ({ page }) => {
@@ -440,7 +450,7 @@ test("denied access to Web Locks still permits review for this visit", async ({ 
   await expect(page.locator("#notice")).toBeVisible();
   await page.locator("#next").click();
   await expect(page.locator(".progress-stack")).toHaveAccessibleName(/1 word reviewed/);
-  expect(await read(page)).toBeNull();
+  expect(await readProgress(page)).toBeNull();
 });
 
 test("Word Bank keyboard entry reaches its filter and a lone headword uses the available width", async ({ page }) => {
@@ -473,7 +483,7 @@ test("quick Next clicks advance the newly displayed word and ignore another clic
   await expect(page.locator(".target")).toHaveText("复习");
   await next.dispatchEvent("click", { detail: 3 });
   await expect(page.locator(".target")).toHaveText("地图");
-  const saved = await read(page);
+  const saved = await readProgress(page);
   expect(saved.credited).toEqual(["借", "复习"]);
   expect(saved.history["借"].visits).toBe(1);
   expect(saved.history["复习"].visits).toBe(1);
@@ -485,7 +495,7 @@ for (const width of [320, 573, 1024]) {
     await page.emulateMedia({ reducedMotion: width === 320 ? "reduce" : "no-preference" });
     await page.goto("/");
     await expect(page.locator(".target")).toBeVisible();
-    const s = await read(page);
+    const s = await readProgress(page);
     const count = width === 573 ? 50 : 46;
     s.credited = Object.keys(bank).filter(id => id !== s.prompt.word).slice(0, count);
     await page.evaluate(({ key, s }) => localStorage.setItem(key, JSON.stringify(s)), { key, s });
@@ -508,3 +518,15 @@ for (const width of [320, 573, 1024]) {
     expect(await page.evaluate(() => scrollY)).toBe(pageY);
   });
 }
+
+test("restoration accepts the last scheduling step and drops an out-of-range step", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator(".target")).toBeVisible();
+  const progress = await readProgress(page);
+  const visit = { last: progress.day, due: progress.day, step: 4, visits: 4 };
+  progress.history = { 书: visit, 我: { ...visit, step: 5 } };
+  await page.evaluate(({ key, progress }) => localStorage.setItem(key, JSON.stringify(progress)), { key, progress });
+  await page.reload();
+  await expect(page.locator(".target")).toBeVisible();
+  expect((await readProgress(page)).history).toEqual({ 书: visit });
+});

@@ -1,4 +1,4 @@
-import { label } from "./vocabulary.ts";
+import { sentenceText } from "./vocabulary.ts";
 
 export type CustomWord = { hanzi: string; pinyin: string };
 export type Prompt = { id: string; word: string; looked: boolean; personal?: true } & (
@@ -19,6 +19,10 @@ export type Progress = {
 export const milestones = [10, 15, 30];
 export const reviewLevels = [1, 2, 3];
 const intervals = [3, 7, 14, 30];
+
+export function isReviewStep(value: unknown): value is number {
+  return typeof value === "number" && Number.isInteger(value) && value >= 0 && value <= intervals.length;
+}
 
 export function localDay(date = new Date()) {
   return [
@@ -43,8 +47,7 @@ export function rollover(s: Progress, today: string) {
   s.extraHSK = false;
   s.credited = [];
 }
-export function choose(s: Progress, words: string[]) {
-  const available = words.filter((w) => !s.credited.includes(w));
+function firstByPriority(s: Progress, available: string[]) {
   function priority(w: string) {
     const h = s.history[w];
     if (!h) return "1";
@@ -52,8 +55,21 @@ export function choose(s: Progress, words: string[]) {
   }
   return available.sort((a, b) => priority(a).localeCompare(priority(b)))[0];
 }
+export function choose(s: Progress, words: string[]) {
+  return firstByPriority(s, words.filter(word => !s.credited.includes(word)));
+}
+
+export function personalSession(s: Progress) {
+  return s.myWords.length > 0 && !s.extraHSK;
+}
+
+export function eligiblePersonalWords(s: Progress) {
+  const credited = new Set(s.credited);
+  return s.myWords.filter(word => !credited.has(word) && (!s.history[word] || s.history[word].due <= s.day));
+}
+
 export function nextPersonal(s: Progress) {
-  return choose(s, s.myWords.filter(word => !s.history[word] || s.history[word].due <= s.day));
+  return firstByPriority(s, eligiblePersonalWords(s));
 }
 
 export function removePersonal(s: Progress, word: string) {
@@ -65,7 +81,6 @@ export function removePersonal(s: Progress, word: string) {
 export function newPromptId() {
   return crypto.getRandomValues(new Uint32Array(4)).join("-");
 }
-function sentenceText(line: string) { return line.split(" ").map(label).join(""); }
 
 export function start(s: Progress, word: string, examples: string[] | null, personal = false) {
   if (s.prompt?.word === word) {

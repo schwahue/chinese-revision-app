@@ -64,7 +64,7 @@
     ],
     "examples": [
       "这 是 给 你 的 礼物 。",
-      "我 想 买 一 份 礼物 。"
+      "我 想 买 个 礼物 。"
     ],
     "measure": [
       "一份礼物",
@@ -211,8 +211,8 @@
       "yòng qiānbǐ xiězì"
     ],
     "examples": [
-      "我 想 买 一 支 铅笔 。",
-      "这 支 铅笔 是 你 的 吗 ？"
+      "我 想 买 铅笔 。",
+      "你 的 铅笔 在 哪儿 ？"
     ],
     "measure": [
       "一支铅笔",
@@ -275,7 +275,7 @@
     ],
     "examples": [
       "我们 一起 读 课文 吧 。",
-      "这 篇 课文 很 短 。"
+      "今天 的 课文 很 短 。"
     ],
     "measure": [
       "一篇课文",
@@ -316,7 +316,7 @@
       "hěn duǎn"
     ],
     "examples": [
-      "这 篇 故事 很 短 。",
+      "这 个 故事 很 短 。",
       "这 个 名字 很 短 。"
     ],
     "tip": "Hold your fingers close together as you say 短. Stretch them apart for 长, long."
@@ -406,7 +406,7 @@
       "zuò gāotiě"
     ],
     "examples": [
-      "我们 坐 高铁 去 北京 。",
+      "我们 明天 坐 高铁 出发 。",
       "坐 高铁 很 方便 。"
     ],
     "measure": [
@@ -428,7 +428,7 @@
     ],
     "examples": [
       "在 这里 买 东西 很 方便 。",
-      "坐 高铁 去 北京 很 方便 。"
+      "这里 坐 高铁 很 方便 。"
     ],
     "tip": "A station close to home makes travel 方便. To ask if now is a good time, say 你现在方便吗？"
   },
@@ -851,17 +851,6 @@
     "tip": "Picture something on your shopping list. Say 我要买 and name the item.",
     "syllabusId": 116
   },
-  "份": {
-    "pinyin": "fèn",
-    "meaning": "classifier for gifts or assignments",
-    "level": 4,
-    "usage": [
-      "一份礼物",
-      "one gift",
-      "yí fèn lǐwù"
-    ],
-    "tip": "Picture one wrapped present as a whole unit. Count it aloud as 一份礼物."
-  },
   "来": {
     "pinyin": "lái",
     "meaning": "to come",
@@ -1075,17 +1064,6 @@
     "tip": "Cup a hand around your ear. Say 听故事 as a story begins.",
     "syllabusId": 209
   },
-  "支": {
-    "pinyin": "zhī",
-    "meaning": "classifier for pens and pencils",
-    "level": 5,
-    "usage": [
-      "一支铅笔",
-      "one pencil",
-      "yì zhī qiānbǐ"
-    ],
-    "tip": "Hold up one pencil. Say 一支铅笔 and draw a little line in the air."
-  },
   "哪儿": {
     "pinyin": "nǎr",
     "meaning": "where",
@@ -1138,17 +1116,6 @@
     ],
     "tip": "Notice the speech side 讠. Picture reading your lesson aloud and say 读课文.",
     "syllabusId": 42
-  },
-  "篇": {
-    "pinyin": "piān",
-    "meaning": "classifier for written works",
-    "level": 4,
-    "usage": [
-      "一篇课文",
-      "one lesson text",
-      "yì piān kèwén"
-    ],
-    "tip": "Picture one complete passage on a page. Count it as 一篇课文."
   },
   "做": {
     "pinyin": "zuò",
@@ -1258,17 +1225,6 @@
     ],
     "tip": "Picture two people sitting above 土, the ground. Say 坐 as you take a seat.",
     "syllabusId": 298
-  },
-  "北京": {
-    "pinyin": "Běijīng",
-    "meaning": "Beijing",
-    "level": 0,
-    "usage": [
-      "去北京",
-      "go to Beijing",
-      "qù Běijīng"
-    ],
-    "tip": "北 means north and 京 means capital. Picture locating the northern capital on a map."
   },
   "东西": {
     "pinyin": "dōngxi",

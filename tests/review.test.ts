@@ -20,7 +20,7 @@ test("each review level contributes only its numbered items to the scheduler", (
   assert.deepEqual(s.reviewLevels, [3]);
   const all = reviewPool([1, 2, 3]);
   assert.equal(all.length, 1000);
-  assert.deepEqual(new Set(all), new Set(Object.keys(words).filter(w => words[w].syllabusId)));
+  assert.deepEqual(new Set(all), new Set(Object.keys(words)));
   for (const [level, count] of [[1, 300], [2, 200], [3, 500]]) {
     const pool = reviewPool([level]);
     assert.equal(pool.length, count);
@@ -36,8 +36,7 @@ test("each review level contributes only its numbered items to the scheduler", (
 });
 
 test("the Word Bank matches all 1,000 numbered HSK 3.0 items through Level 3", () => {
-  const official = Object.entries(words).filter(([, e]) => "syllabusId" in e)
-    .sort((a, b) => a[1].syllabusId - b[1].syllabusId);
+  const official = Object.entries(words).sort((a, b) => a[1].syllabusId - b[1].syllabusId);
   assert.equal(official.length, 1000);
   const rows = official.map(([key, e], index) => {
     assert.equal(e.syllabusId, index + 1);
@@ -141,7 +140,7 @@ test("a delayed visit keeps the new day's credits and compares due dates on the 
 });
 
 test("every entry has complete writing steps and curated entries keep their recall cues", async () => {
-  const { default: { characters } } = await import("../public/hanzi/characters.json", { with: { type: "json" } });
+  const { default: { characters } } = await import("../data/characters.json", { with: { type: "json" } });
   for (const [word, entry] of Object.entries(words)) {
     if (entry.usage) assert.ok(entry.tip.trim(), word);
     for (const c of label(word)) {

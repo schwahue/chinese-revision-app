@@ -1,10 +1,10 @@
 # Chinese Revision
 
-Updated 2026-11-21
+Updated 2026-11-29
 
 ## Purpose
 
-Chinese Revision helps a learner practise Chinese vocabulary in a browser using HSK sentence prompts and words collected from class. The current product and interaction requirements are in `specification.md` and `docs/design-spec.md`. Earlier design material is under `docs/archive/2026-11-21/`.
+Chinese Revision helps a learner practise vocabulary in a browser using HSK sentence prompts and a personal list. For shipped behaviour, see the [product specification](../../specification.md) and [design specification](../../docs/design-spec.md). The [offline sync proposal](../../docs/offline-sync.md) describes possible cross-device study. Earlier designs and reviews are in the [archive](../../docs/archive/README.md).
 
 ## How the parts fit
 

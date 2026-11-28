@@ -1,5 +1,5 @@
 import { bank, examples, label } from "./vocabulary.ts";
-import { newPromptId, start, type CustomWord, type Progress } from "./review.ts";
+import { start, type CustomWord, type Progress } from "./review.ts";
 
 export function reading(text: string) {
   const syllables = text.toLowerCase().normalize("NFC").replaceAll("u:", "ü").replaceAll("v", "ü");
@@ -67,13 +67,11 @@ export function linkCustom(s: Progress, from: string, to: string) {
   return true;
 }
 
-export function saveCustom(s: Progress, entry: CustomWord, editing?: string) {
-  if (!validCustom(entry) || (editing && !s.myWords.includes(editing))) return false;
-  const existing = Object.keys(s.custom).find(id => id !== editing &&
+export function saveCustom(s: Progress, entry: CustomWord, editing: string) {
+  if (!validCustom(entry) || !Object.hasOwn(s.custom, editing) || !s.myWords.includes(editing)) return false;
+  const existing = Object.keys(s.custom).some(id => id !== editing &&
     s.custom[id].hanzi === entry.hanzi && reading(s.custom[id].pinyin) === reading(entry.pinyin));
-  if (editing && existing) return false;
-  const id = editing ?? existing ?? "custom-" + newPromptId();
-  s.custom[id] = entry;
-  addPersonal(s, id);
+  if (existing) return false;
+  s.custom[editing] = entry;
   return true;
 }

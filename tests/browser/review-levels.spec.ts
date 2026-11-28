@@ -1,9 +1,9 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test } from "@playwright/test";
+import { readProgress } from "./helpers/progress.ts";
 import { progressKey } from "../../src/storage.ts";
 import { localDay } from "../../src/review.ts";
 import { bank, reviewPool } from "../../src/vocabulary.ts";
 
-const saved = (page: Page) => page.evaluate(k => JSON.parse(localStorage.getItem(k)!), progressKey);
 test("Review honours saved levels without displaying the picker", async ({ page, context }) => {
   await page.goto("/favicon.png");
   await page.evaluate(({ key, day }) => {
@@ -12,19 +12,19 @@ test("Review honours saved levels without displaying the picker", async ({ page,
   await page.goto("/");
   await expect(page.locator(".target")).toBeVisible();
   await expect(page.locator("#review-levels")).toHaveCount(0);
-  const first = await saved(page);
+  const first = await readProgress(page);
   expect([1, 2]).toContain(bank[first.prompt.word].level);
   await page.locator(".target").click();
-  await expect.poll(async () => (await saved(page)).prompt.looked).toBe(true);
+  await expect.poll(async () => (await readProgress(page)).prompt.looked).toBe(true);
   const other = await context.newPage();
   await other.goto("/");
   await expect(other.locator(".target")).toBeVisible();
-  expect((await saved(other)).prompt).toEqual({ ...first.prompt, looked: true });
+  expect((await readProgress(other)).prompt).toEqual({ ...first.prompt, looked: true });
   await other.locator("#next").click();
-  await expect.poll(async () => (await saved(page)).credited).toContain(first.prompt.word);
+  await expect.poll(async () => (await readProgress(page)).credited).toContain(first.prompt.word);
   await page.reload();
   await expect(page.locator(".target")).toBeVisible();
-  expect((await saved(page)).reviewLevels).toEqual([1, 2]);
+  expect((await readProgress(page)).reviewLevels).toEqual([1, 2]);
 });
 
 test("an exhausted level opens Word Bank and preserves credits", async ({ page }) => {
@@ -37,7 +37,7 @@ test("an exhausted level opens Word Bank and preserves credits", async ({ page }
   await page.locator("#review").click();
   await expect(page.getByText("You’ve reviewed every word in these levels today.")).toBeVisible();
   await expect(page.locator("#next")).toHaveCount(0);
-  expect((await saved(page)).credited).toHaveLength(200);
+  expect((await readProgress(page)).credited).toHaveLength(200);
 });
 
 test("a v3 session imports once with Level 3 and keeps its unfinished lookup", async ({ page }) => {
@@ -48,9 +48,9 @@ test("a v3 session imports once with Level 3 and keeps its unfinished lookup", a
   await page.evaluate(s => localStorage.setItem("chinese-revision.v3", JSON.stringify(s)), legacy);
   await page.goto("/");
   await expect(page.locator(".target")).toHaveText("复习");
-  expect(await saved(page)).toEqual({ ...legacy, reviewLevels: [3], myWords: [], custom: {}, extraHSK: false });
+  expect(await readProgress(page)).toEqual({ ...legacy, reviewLevels: [3], myWords: [], custom: {}, extraHSK: false });
   await page.evaluate(() => localStorage.setItem("chinese-revision.v3", "{}"));
   await page.reload();
   await expect(page.locator(".target")).toHaveText("复习");
-  expect(await saved(page)).toEqual({ ...legacy, reviewLevels: [3], myWords: [], custom: {}, extraHSK: false });
+  expect(await readProgress(page)).toEqual({ ...legacy, reviewLevels: [3], myWords: [], custom: {}, extraHSK: false });
 });

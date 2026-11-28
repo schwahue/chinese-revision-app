@@ -1,6 +1,15 @@
 # Design and audit archive
 
-Start with the [current product specification](../../specification.md) for shipped local behaviour. These records preserve what was proposed or observed during development on 21 November 2026.
+Start with the [current product specification](../../specification.md) for shipped local behaviour. The records below preserve what was proposed or observed at the time of each review.
+
+## 28 November 2026
+
+| Record | Why keep it |
+| --- | --- |
+| [Pronunciation concept and listening trial](2026-11-28/concepts_brief.md) | The trial that established the two 还 recordings and the pause between the readings of 谁. The [recording guide](../pronunciation.md) describes current coverage. |
+| [Offline sync architecture review](2026-11-28/consolidated_review_report.md) | Collects the individual review reports, measurements and open questions that informed the [offline sync draft](../offline-sync.md). |
+
+## 21 November 2026
 
 | Record | Why keep it |
 | --- | --- |

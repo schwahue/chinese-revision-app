@@ -1,9 +1,11 @@
 import { validCustom } from "./personalWords.ts";
-import { fresh, newPromptId, reviewLevels, start, type Progress } from "./review.ts";
+import { fresh, isReviewStep, newPromptId, reviewLevels, start, type Progress } from "./review.ts";
 
 export const progressKey = "chinese-revision.v5";
 const migratedKey = progressKey + ".migrated";
 export const themeKey = "chinese-revision.theme";
+export const hanFontKey = "chinese-revision.han-font";
+export type HanFont = "hei" | "song";
 type Theme = "dark" | "light";
 const isTheme = (value: unknown): value is Theme => value === "dark" || value === "light";
 
@@ -26,12 +28,29 @@ export function readTheme(): Theme | null {
     return null;
   }
 }
-export function saveTheme(value: Theme) {
+export function readHanFont(): HanFont {
   try {
-    localStorage.setItem(themeKey, value);
+    return localStorage.getItem(hanFontKey) === "song" ? "song" : "hei";
   } catch {
-    // The active tab still applies the preference for this visit.
+    return "hei";
   }
+}
+
+function savePreference(key: string, value: string) {
+  try {
+    localStorage.setItem(key, value);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+export function saveTheme(value: Theme) {
+  return savePreference(themeKey, value);
+}
+
+export function saveHanFont(value: HanFont) {
+  return savePreference(hanFontKey, value);
 }
 
 const record = (value: unknown): value is Record<string, unknown> =>
@@ -43,6 +62,9 @@ function date(value: unknown): value is string {
 }
 const integer = (value: unknown): value is number =>
   typeof value === "number" && Number.isSafeInteger(value) && value >= 0;
+
+// Old saves can reference these former catalogue entries in Personal, history or a prompt.
+const retiredReadings = new Map([["份", "fèn"], ["支", "zhī"], ["篇", "piān"], ["北京", "Běijīng"]]);
 
 function restore(raw: string, bank: object, examples: (word: string) => string[]) {
   const state = fresh();
@@ -65,48 +87,61 @@ function restore(raw: string, bank: object, examples: (word: string) => string[]
       }
     } else damaged = true;
   }
-  const known = (w: unknown): w is string => typeof w === "string" &&
-    (Object.hasOwn(bank, w) || Object.hasOwn(state.custom, w));
+  function wordId(value: unknown) {
+    if (typeof value !== "string") return;
+    if (Object.hasOwn(bank, value) || Object.hasOwn(state.custom, value)) return value;
+    const pinyin = retiredReadings.get(value);
+    if (pinyin) {
+      const id = "custom-legacy-" + [...value].map(c => c.codePointAt(0)!.toString(16)).join("-");
+      state.custom[id] ??= { hanzi: value, pinyin };
+      return id;
+    }
+  }
+  const wordList = (values: unknown[]) =>
+    [...new Set(values.map(wordId).filter((id): id is string => id !== undefined))];
   if (Array.isArray(data.myWords)) {
-    state.myWords = [...new Set(data.myWords.filter(known))];
+    state.myWords = wordList(data.myWords);
     damaged ||= state.myWords.length !== data.myWords.length;
   } else if (data.myWords !== undefined) damaged = true;
   state.extraHSK = state.myWords.length > 0 && data.extraHSK === true;
   if (date(data.day)) state.day = data.day;
   else damaged = true;
   if (Array.isArray(data.credited) && date(data.day)) {
-    state.credited = [...new Set(data.credited.filter(known))];
+    state.credited = wordList(data.credited);
     damaged ||= state.credited.length !== data.credited.length;
   } else damaged = true;
   if (record(data.history)) {
-    for (const [word, h] of Object.entries(data.history)) {
-      if (known(word) && record(h) && date(h.last) && date(h.due) &&
-          integer(h.visits) && integer(h.step) && h.step <= 4) {
+    for (const [storedWord, h] of Object.entries(data.history)) {
+      const word = wordId(storedWord);
+      if (word && record(h) && date(h.last) && date(h.due) &&
+          integer(h.visits) && isReviewStep(h.step)) {
         state.history[word] = { due: h.due, step: h.step, last: h.last, visits: h.visits };
       } else damaged = true;
     }
   } else damaged = true;
   if (typeof data.lastSentence === "string") state.lastSentence = data.lastSentence;
   const p = data.prompt;
-  if (record(p) && known(p.word) && typeof p.looked === "boolean") {
-    if (Object.hasOwn(state.custom, p.word)) {
-      if (p.kind === "word" && state.myWords.includes(p.word)) {
+  const word = record(p) ? wordId(p.word) : undefined;
+  if (record(p) && word && typeof p.looked === "boolean") {
+    if (Object.hasOwn(state.custom, word)) {
+      const retired = word !== p.word;
+      if ((p.kind === "word" || retired) && state.myWords.includes(word)) {
         state.prompt = { kind: "word", id: typeof p.id === "string" && p.id ? p.id : newPromptId(),
-          word: p.word, looked: p.looked, personal: true };
-      } else damaged = true;
+          word, looked: p.looked, personal: true };
+      } else if (!retired) damaged = true;
       return { state, damaged, legacyTheme: data.theme };
     }
-    const lines = examples(p.word);
+    const lines = examples(word);
     const index = p.sentence === undefined && integer(p.example)
       ? p.example : lines.findIndex(line => line === p.sentence);
     if (index >= 0 && index < lines.length) {
       state.prompt = { id: typeof p.id === "string" && p.id ? p.id : newPromptId(),
-        word: p.word, example: index, sentence: lines[index], looked: p.looked };
+        word, example: index, sentence: lines[index], looked: p.looked };
     } else if (typeof p.sentence === "string" && lines.length) {
-      start(state, p.word, lines);
+      start(state, word, lines);
     } else damaged = true;
     if (state.prompt && p.personal === true) {
-      if (state.myWords.includes(p.word)) state.prompt.personal = true;
+      if (state.myWords.includes(word)) state.prompt.personal = true;
       else state.prompt = null;
     }
   } else if (p !== null) damaged = true;
@@ -147,7 +182,7 @@ export function progressStore(bank: object, examples: (word: string) => string[]
       const next = JSON.stringify(memory);
       try {
         if (next !== current) localStorage.setItem(progressKey, next);
-        // A later reset must not import the old tab’s save a second time.
+        // A later reset must not import the old tabâ€™s save a second time.
         if (firstUse) localStorage.setItem(migratedKey, "1");
       } catch { fallback(); }
     }

@@ -2,6 +2,7 @@ import { bank, label } from "./vocabulary.ts";
 import { addPersonal, catalogueMatches, linkCustom, reading, saveCustom, searchCatalogue, validCustom } from "./personalWords.ts";
 import type { Progress } from "./review.ts";
 import { escapeText } from "./text.ts";
+import { learningText } from "./learningText.ts";
 
 type Update = (edit: (s: Progress) => void) => Promise<void>;
 
@@ -18,26 +19,20 @@ export function refreshSearchMembership(root: HTMLElement, myWords: readonly str
 
 export function wordCapture(main: HTMLElement, getState: () => Progress, update: Update,
   done: () => void, editing?: string) {
-  const original = editing ? getState().custom[editing] : undefined;
-  let query = "";
   function search() {
     main.innerHTML = `<section class="capture"><div class="bank-tools"><label for="query">Search by pinyin</label>
       <button class="plain" id="done">Done</button></div>
-      <input type="search" id="query" autocomplete="off" spellcheck="false">
-      <ul class="matches"></ul><p role="status"></p>
-      <button type="button" class="plain manual" id="manual" hidden>Add custom word</button></section>`;
+      <input type="search" id="query" lang="zh-Latn" autocomplete="off" spellcheck="false">
+      <ul class="matches"></ul><p role="status"></p></section>`;
     const input = main.querySelector<HTMLInputElement>("#query")!;
     const results = main.querySelector<HTMLElement>(".matches")!;
     const status = main.querySelector<HTMLElement>('[role="status"]')!;
-    const customButton = main.querySelector<HTMLButtonElement>("#manual")!;
-    input.value = query;
     function showResults() {
-      query = input.value;
+      const query = input.value.trim();
+      input.lang = /\p{Script=Han}/u.test(query) ? "zh-Hans" : "zh-Latn";
       const ids = searchCatalogue(query);
       results.replaceChildren();
-      customButton.hidden = !query.trim();
-      customButton.textContent = ids.length ? "Add a different word" : "Add custom word";
-      const message = !customButton.hidden && !ids.length ? "No HSK matches." : "";
+      const message = query && !ids.length ? "No HSK matches." : "";
       if (status.textContent !== message) status.textContent = message;
       for (const id of ids) {
         const row = document.createElement("li");
@@ -50,7 +45,7 @@ export function wordCapture(main: HTMLElement, getState: () => Progress, update:
           if (add.getAttribute("aria-disabled") === "true") return;
           await update(s => addPersonal(s, id));
           refreshSearchMembership(results, getState().myWords);
-          status.textContent = label(id) + " added to Personal.";
+          status.innerHTML = learningText(label(id) + " added to Personal.");
           if (input.isConnected) { input.focus(); input.select(); }
         };
         row.append(add);
@@ -60,16 +55,17 @@ export function wordCapture(main: HTMLElement, getState: () => Progress, update:
     }
     input.oninput = event => { if (!(event as InputEvent).isComposing) showResults(); };
     input.addEventListener("compositionend", showResults);
-    customButton.onclick = manual;
     main.querySelector<HTMLButtonElement>("#done")!.onclick = done;
     showResults();
     input.focus();
   }
-  function manual() {
+  function editWord(id: string) {
+    const original = getState().custom[id];
+    if (!original || !getState().myWords.includes(id)) return done();
     main.innerHTML = `<section class="capture"><div class="bank-tools">
-      <h1>${editing ? "Edit word" : "New word"}</h1><button class="plain" id="cancel">Cancel</button></div>
+      <h1>Edit word</h1><button class="plain" id="cancel">Cancel</button></div>
       <form><label for="hanzi">Chinese characters</label><input id="hanzi" lang="zh-Hans" required maxlength="100" autocomplete="off">
-      <label for="pinyin">Pinyin</label><input id="pinyin" required maxlength="200" autocomplete="off" spellcheck="false">
+      <label for="pinyin">Pinyin</label><input id="pinyin" lang="zh-Latn" required maxlength="200" autocomplete="off" spellcheck="false">
       <button class="primary" type="submit">Save word</button></form>
       <p role="status"></p><ul class="matches"></ul></section>`;
     const form = main.querySelector("form")!;
@@ -77,9 +73,9 @@ export function wordCapture(main: HTMLElement, getState: () => Progress, update:
     const pinyin = main.querySelector<HTMLInputElement>("#pinyin")!;
     const message = main.querySelector<HTMLElement>('[role="status"]')!;
     const matches = main.querySelector<HTMLElement>(".matches")!;
-    hanzi.value = original?.hanzi ?? "";
-    pinyin.value = original?.pinyin ?? query.trim();
-    main.querySelector<HTMLButtonElement>("#cancel")!.onclick = editing ? done : search;
+    hanzi.value = original.hanzi;
+    pinyin.value = original.pinyin;
+    main.querySelector<HTMLButtonElement>("#cancel")!.onclick = done;
     form.oninput = () => { matches.replaceChildren(); message.textContent = ""; };
     let composing = false;
     form.addEventListener("compositionstart", () => { composing = true; });
@@ -94,19 +90,14 @@ export function wordCapture(main: HTMLElement, getState: () => Progress, update:
       }
       matches.replaceChildren();
       function stillCurrent(s: Progress) {
-        if (!editing) return true;
-        const now = s.custom[editing];
-        return s.myWords.includes(editing) && now?.hanzi === original?.hanzi && now?.pinyin === original?.pinyin;
+        const now = s.custom[id];
+        return s.myWords.includes(id) && now?.hanzi === original.hanzi && now.pinyin === original.pinyin;
       }
-      async function save(id?: string) {
+      async function save(catalogueId?: string) {
         let saved = false;
         await update(s => {
           if (!stillCurrent(s)) return;
-          if (id && editing) saved = linkCustom(s, editing, id);
-          else if (id) {
-            addPersonal(s, id);
-            saved = true;
-          } else saved = saveCustom(s, entry, editing);
+          saved = catalogueId ? linkCustom(s, id, catalogueId) : saveCustom(s, entry, id);
         });
         if (!form.isConnected) return;
         if (saved) done();
@@ -131,7 +122,7 @@ export function wordCapture(main: HTMLElement, getState: () => Progress, update:
           const own = document.createElement("button");
           own.type = "button";
           own.className = "plain";
-          own.textContent = "Save my reading: " + entry.pinyin;
+          own.innerHTML = `Save my reading: <span lang="zh-Latn">${escapeText(entry.pinyin)}</span>`;
           own.onclick = () => void save();
           row.append(own);
           matches.append(row);
@@ -141,7 +132,7 @@ export function wordCapture(main: HTMLElement, getState: () => Progress, update:
     };
     hanzi.focus();
   }
-  if (editing) manual(); else search();
+  if (editing) editWord(editing); else search();
 }
 
 function matchText(id: string) {

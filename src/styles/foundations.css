@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Study Hei";
+  src: url("../fonts/hei.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Study Song";
+  src: url("../fonts/song.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Andika;
+  src: url("../fonts/Andika.woff2") format("woff2");
+  font-display: swap;
+}
+:root {
+  --primary-min-height: 46px;
+  --han-font: "Study Hei", "PingFang SC", "Microsoft YaHei", sans-serif;
+  scrollbar-gutter: stable both-edges;
+  color-scheme: light;
+  --bg: #f2ead6;
+  --ink: #242d24;
+  --muted: #555d4c;
+  --line: #837f68;
+  --soft: #e6dec6;
+  --jade: #2b5a40;
+  --tint: #d3dfc4;
+  --btn: #2d5943;
+  --brand-badge: #b7caa5;
+  --blue: #284fb0;
+  --amber: #874710;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #171d1b;
+  --ink: #f0f3ed;
+  --muted: #b1bcb6;
+  --line: #3b4942;
+  --soft: #27312c;
+  --jade: #8edabb;
+  --tint: #284a3c;
+  --btn: #185f49;
+  --brand-badge: #94ab8b;
+  --blue: #a5c8ff;
+  --amber: #efbc78;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+button:focus-visible,
+select:focus-visible,
+[tabindex="-1"]:focus-visible {
+  outline: 3px solid var(--jade);
+  outline-offset: 3px;
+}
+button:active {
+  opacity: 0.84;
+}
+
+:root[data-han-font="song"] {
+  --han-font: "Study Song", "Songti SC", SimSun, "Noto Serif CJK SC", serif;
+}
+[lang="zh-Hans"], .capture input[lang="zh-Hans"], #han-font {
+  font-family: var(--han-font);
+}
+[lang="zh-Latn"], .capture input[lang="zh-Latn"] {
+  font-family: Andika, sans-serif;
+  font-size-adjust: from-font;
+  font-style: normal;
+}

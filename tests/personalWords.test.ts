@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { addPersonal, catalogueMatches, linkCustom, saveCustom, searchCatalogue, validCustom } from "../src/personalWords.ts";
-import { advance, fresh, nextPersonal, removePersonal, rollover, start } from "../src/review.ts";
+import { catalogueMatches, linkCustom, saveCustom, searchCatalogue, validCustom } from "../src/personalWords.ts";
+import { advance, eligiblePersonalWords, fresh, nextPersonal, removePersonal, rollover, start } from "../src/review.ts";
 import { bank } from "../src/vocabulary.ts";
 
 test("pinyin search spans levels, tones and spacing while catalogue senses stay distinct", () => {
@@ -16,20 +16,16 @@ test("pinyin search spans levels, tones and spacing while catalogue senses stay 
   assert.ok(!validCustom({ hanzi: "<b>", pinyin: "kā" }));
 });
 
-test("custom edits, removal and re-add keep identity, credits and due date", () => {
+test("only existing personal custom words can be edited, preserving their schedule", () => {
   const s = fresh();
   const entry = { hanzi: "咖啡因", pinyin: "kāfēiyīn" };
-  assert.ok(saveCustom(s, entry));
-  const id = s.myWords[0];
-  assert.ok(saveCustom(s, entry));
-  addPersonal(s, id);
-  assert.deepEqual(s.myWords, [id]);
+  const id = "custom-caffeine";
+  s.myWords = [id];
+  assert.equal(saveCustom(s, entry, id), false);
+  s.custom[id] = entry;
   start(s, nextPersonal(s)!, null, true);
   advance(s);
   assert.ok(saveCustom(s, { ...entry, pinyin: "kā fēi yīn" }, id));
-  removePersonal(s, id);
-  assert.ok(saveCustom(s, entry));
-  assert.deepEqual(s.myWords, [id]);
   assert.equal(s.history[id].visits, 1);
   assert.equal(nextPersonal(s), undefined);
   s.extraHSK = true;
@@ -39,13 +35,15 @@ test("custom edits, removal and re-add keep identity, credits and due date", () 
   start(s, id, null, true);
   removePersonal(s, id);
   assert.equal(s.prompt, null);
+  assert.equal(saveCustom(s, entry, id), false);
+  assert.deepEqual(s.myWords, []);
 });
 
 test("linking a custom word merges credits, visits and schedule exactly once", () => {
   const s = fresh();
-  saveCustom(s, { hanzi: "学习", pinyin: "xuéxiā" });
-  const [from] = s.myWords, to = "学习";
-  s.myWords.push(to);
+  const from = "custom-study", to = "学习";
+  s.custom[from] = { hanzi: "学习", pinyin: "xuéxiā" };
+  s.myWords = [from, to];
   s.credited = [from, "我", to];
   s.history[from] = { visits: 3, last: s.day, due: "2030-01-01", step: 2 };
   s.history[to] = { visits: 2, last: s.day, due: "2030-01-02", step: 3 };
@@ -58,4 +56,15 @@ test("linking a custom word merges credits, visits and schedule exactly once", (
   assert.deepEqual(s.custom, {});
   assert.equal(linkCustom(s, from, to), false);
   assert.equal(nextPersonal(s), undefined);
+});
+
+test("personal review includes only new or due members without today's credit", () => {
+  const s = fresh();
+  s.day = "2026-11-28";
+  s.myWords = ["我", "书", "借", "学习"];
+  s.credited = ["学习"];
+  const visit = { last: "2026-11-25", due: s.day, step: 1, visits: 1 };
+  s.history = { 书: visit, 借: { ...visit, due: "2026-11-29" }, 北京: visit };
+  assert.deepEqual(eligiblePersonalWords(s), ["我", "书"]);
+  assert.equal(nextPersonal(s), "书");
 });

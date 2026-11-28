@@ -1,3 +1,4 @@
+import { characterAssetPath } from "./characterAssetPath.ts";
 import { learningText } from "./learningText.ts";
 type Character = {
   radical: string;
@@ -5,17 +6,20 @@ type Character = {
   strokes: [string, number, number][];
 };
 
-let dataset: Promise<Record<string, Character>> | undefined;
-function characters() {
-  dataset ??= fetch("./hanzi/characters.json").then(async response => {
+const guides = new Map<string, Promise<Character>>();
+function characterData(c: string) {
+  const cached = guides.get(c);
+  if (cached) return cached;
+
+  const request = fetch("./" + characterAssetPath(c)).then(async response => {
     if (!response.ok) throw Error("Character data unavailable");
-    const data = await response.json();
-    return data.characters as Record<string, Character>;
+    return await response.json() as Character;
   }).catch(error => {
-    dataset = undefined;
+    guides.delete(c);
     throw error;
   });
-  return dataset;
+  guides.set(c, request);
+  return request;
 }
 
 function steps(character: string, data: Character) {
@@ -45,13 +49,14 @@ export function enableWritingGuides(root: HTMLElement) {
   root.querySelectorAll<HTMLDetailsElement>("details[data-character]").forEach(panel => {
     const body = document.createElement("div");
     panel.append(body);
+    const c = panel.dataset.character!;
+    // Give the request a head start while the learner reads the word.
+    void characterData(c).catch(() => { /* Opening the panel retries a failed prefetch. */ });
     panel.ontoggle = async () => {
       if (!panel.open) return;
-      const c = panel.dataset.character!;
       body.textContent = "Loading strokes…";
       try {
-        const data = await characters();
-        body.innerHTML = steps(c, data[c]);
+        body.innerHTML = steps(c, await characterData(c));
         panel.ontoggle = null;
       } catch {
         body.textContent = "Couldn’t load the strokes. Close and reopen to retry.";

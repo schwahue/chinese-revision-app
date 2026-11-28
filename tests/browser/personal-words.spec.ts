@@ -1,52 +1,52 @@
 import { expect, test, type Page } from "@playwright/test";
+import { readProgress, seedProgress } from "./helpers/progress.ts";
 import { progressKey } from "../../src/storage.ts";
 import { fresh, localDay } from "../../src/review.ts";
 
-const read = (page: Page) => page.evaluate(key => JSON.parse(localStorage.getItem(key)!), progressKey);
 const btn = (page: Page, name: string) => page.getByRole("button", { name, exact: true });
 
-test("capture an HSK match and a custom reading, review both and opt into HSK", async ({ page }) => {
+test("add catalogue matches only and review them alongside an existing custom word", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.emulateMedia({ colorScheme: "dark" });
-  await page.goto("/");
+  const saved = fresh();
+  const customId = "custom-caffeine";
+  saved.myWords = [customId];
+  saved.custom[customId] = { hanzi: "咖啡因", pinyin: "kāfēiyīn" };
+  await seedProgress(page, saved);
   await btn(page, "Word Bank").click();
   await btn(page, "Add word").click();
-  await expect(page.locator("#manual")).toBeHidden();
   await page.getByLabel("Search by pinyin").fill("xuexi");
+  await expect(btn(page, "Add a different word")).toHaveCount(0);
   await btn(page, "Add 学习 xuéxí").press("Enter");
   await expect(btn(page, "Added 学习 xuéxí")).toBeVisible();
   await page.getByLabel("Search by pinyin").fill("kāfēiyīn");
   await expect(page.getByRole("status").filter({ hasText: "No HSK matches." })).toBeVisible();
-  await page.keyboard.press("Tab");
-  await expect(btn(page, "Add custom word")).toBeFocused();
-  await page.keyboard.press("Enter");
-  await expect(page.getByLabel("Pinyin", { exact: true })).toHaveValue("kāfēiyīn");
-  await page.getByLabel("Chinese characters").fill("咖啡因");
-  await btn(page, "Save word").click();
-  await expect(page.locator(".personal-list li")).toHaveCount(2);
+  await expect(btn(page, "Add custom word")).toHaveCount(0);
+  await btn(page, "Done").click();
+  await expect(page.locator(".list li")).toHaveCount(2);
   await expect(btn(page, "Review personal words")).toBeVisible();
   await btn(page, "Review").click();
-  await expect(page.locator(".target")).toHaveText("学习");
-  await btn(page, "Next").click();
   await expect(page.locator(".custom-head")).toHaveText("咖啡因");
   await btn(page, "Show pinyin").click();
   await expect(page.locator("#pronunciation")).toHaveText("kāfēiyīn");
-  await expect.poll(async () => (await read(page)).prompt.looked).toBe(true);
+  await expect.poll(async () => (await readProgress(page)).prompt.looked).toBe(true);
   await page.reload();
   await expect(page.locator(".custom-head")).toHaveText("咖啡因");
+  await btn(page, "Next").click();
+  await expect(page.locator(".target")).toHaveText("学习");
   await btn(page, "Next").click();
   await expect(btn(page, "Keep practising HSK")).toBeVisible();
   await page.reload();
   await btn(page, "Keep practising HSK").click();
   await expect(page.locator(".target")).toBeVisible();
   await expect(page.locator(".progress-stack")).toHaveAccessibleName(/2 words reviewed/);
-  const s = await read(page);
-  expect(s.history[s.myWords[1]].step).toBe(0);
+  const s = await readProgress(page);
+  expect(s.history[customId].step).toBe(0);
   const tomorrow = new Date(); tomorrow.setDate(tomorrow.getDate() + 1);
-  expect(s.history[s.myWords[1]].due).toBe(localDay(tomorrow));
+  expect(s.history[customId].due).toBe(localDay(tomorrow));
   await page.reload();
   await expect(page.locator(".target")).toBeVisible();
-  expect((await read(page)).prompt.id).toBe(s.prompt.id);
+  expect((await readProgress(page)).prompt.id).toBe(s.prompt.id);
 });
 
 test("v4 migration, concurrent membership and custom removal preserve credit and reject stale Next", async ({ page, context }) => {
@@ -58,7 +58,7 @@ test("v4 migration, concurrent membership and custom removal preserve credit and
   await page.evaluate(s => localStorage.setItem("chinese-revision.v4", JSON.stringify(s)), legacy);
   await page.goto("/");
   await expect(page.locator(".target")).toHaveText("复习");
-  expect((await read(page)).prompt).toEqual(legacy.prompt);
+  expect((await readProgress(page)).prompt).toEqual(legacy.prompt);
   await page.evaluate(({ key, id }) => {
     const s = JSON.parse(localStorage.getItem(key)!);
     s.myWords = [id]; s.custom = { [id]: { hanzi: "咖啡因", pinyin: "kāfēiyīn" } };
@@ -77,19 +77,21 @@ test("v4 migration, concurrent membership and custom removal preserve credit and
   await btn(other, "Save word").click();
   await btn(page, "Show pinyin").click();
   await expect(page.locator("#pronunciation")).toHaveText("kā fēi yīn");
-  await page.evaluate(() => window.addEventListener("storage", e => e.stopImmediatePropagation(), true));
+  // Keep the action bound to the old prompt even if the tab redraws after removal.
+  const staleNext = await btn(page, "Next").elementHandle();
   await other.locator("[data-word]").click();
   await btn(other, "Remove from Personal").click();
-  await btn(page, "Next").click();
+  await expect.poll(async () => (await readProgress(other)).myWords).toEqual([]);
+  await staleNext!.evaluate(button => (button as HTMLButtonElement).click());
   await expect(page.locator(".target")).toBeVisible();
-  const state = await read(page);
+  const state = await readProgress(page);
   expect(state.history[id]).toBeUndefined();
   expect(state.credited).toEqual([]);
   expect(state.myWords).toEqual([]);
   expect(state.reviewLevels).toEqual([1]);
 });
 
-test("manual catalogue matches preserve sense selection; IME composition leaves search intact", async ({ page }) => {
+test("catalogue search preserves sense selection after IME composition", async ({ page }) => {
   await page.goto("/");
   await btn(page, "Word Bank").click();
   await btn(page, "Add word").click();
@@ -101,13 +103,11 @@ test("manual catalogue matches preserve sense selection; IME composition leaves 
     el.dispatchEvent(new InputEvent("input", { bubbles: true, isComposing: true }));
     el.dispatchEvent(new CompositionEvent("compositionend", { bubbles: true }));
   });
-  await btn(page, "Add a different word").click();
-  await page.getByLabel("Chinese characters").fill("还");
-  await btn(page, "Save word").click();
-  await page.locator(".matches button").filter({ hasText: "huán" }).click();
+  await btn(page, "Add 还 huán").click();
+  await btn(page, "Done").click();
   await expect(page.locator('[data-word="还#678"]')).toBeVisible();
-  expect((await read(page)).myWords).toEqual(["还#678"]);
-  expect((await read(page)).custom).toEqual({});
+  expect((await readProgress(page)).myWords).toEqual(["还#678"]);
+  expect((await readProgress(page)).custom).toEqual({});
 });
 
 test("the last personal word triggers the existing ten-word milestone and the caught-up screen", async ({ page }) => {
@@ -116,9 +116,7 @@ test("the last personal word triggers the existing ten-word milestone and the ca
   s.myWords = [id];
   s.custom[id] = { hanzi: "咖啡因", pinyin: "kāfēiyīn" };
   s.credited = ["我", "是", "了", "借", "书", "学习", "地图", "学校", "在"];
-  await page.goto("/favicon.png");
-  await page.evaluate(({ key, s }) => localStorage.setItem(key, JSON.stringify(s)), { key: progressKey, s });
-  await page.goto("/");
+  await seedProgress(page, s);
   await btn(page, "Next").click();
   await expect(page.locator(".victory.tier-10")).toBeVisible();
   await expect(page.locator('.word-slice[title="咖啡因"]')).toHaveCount(1);
@@ -127,7 +125,7 @@ test("the last personal word triggers the existing ten-word milestone and the ca
   await btn(page, "Word Bank").click();
   await btn(page, "Review personal words").click();
   await expect(btn(page, "Keep practising HSK")).toBeVisible();
-  expect((await read(page)).credited).toHaveLength(10);
+  expect((await readProgress(page)).credited).toHaveLength(10);
 });
 
 test("search membership updates in place and an unrelated add leaves an open guide alone", async ({ page, context }) => {
@@ -170,9 +168,7 @@ test("correcting a reviewed custom word to HSK preserves its one credit after re
   s.myWords = [from];
   s.credited = [from];
   s.history[from] = { visits: 1, step: 1, last: s.day, due: s.day };
-  await page.goto("/favicon.png");
-  await page.evaluate(({ key, s }) => localStorage.setItem(key, JSON.stringify(s)), { key: progressKey, s });
-  await page.goto("/");
+  await seedProgress(page, s);
   await btn(page, "Word Bank").click();
   await page.locator("[data-word]").click();
   await btn(page, "Edit word").click();
@@ -182,7 +178,7 @@ test("correcting a reviewed custom word to HSK preserves its one credit after re
   await expect(page.locator('[data-word="学习"]')).toBeVisible();
   await page.reload();
   await expect(btn(page, "Keep practising HSK")).toBeVisible();
-  const saved = await read(page);
+  const saved = await readProgress(page);
   expect(saved.credited).toEqual(["学习"]);
   expect(saved.history).toEqual({ 学习: s.history[from] });
 });
@@ -194,11 +190,9 @@ test("Personal pages eight words at a time with review above the list and recove
     s.myWords.push(id);
     s.custom[id] = { hanzi: "词", pinyin: "cí" };
   }
-  await page.goto("/favicon.png");
-  await page.evaluate(({ key, s }) => localStorage.setItem(key, JSON.stringify(s)), { key: progressKey, s });
-  await page.goto("/");
+  await seedProgress(page, s);
   await btn(page, "Word Bank").click();
-  const rows = page.locator(".personal-list [data-word]");
+  const rows = page.locator(".list [data-word]");
   await expect(rows).toHaveCount(8);
   expect((await btn(page, "Review personal words").boundingBox())!.y).toBeLessThan((await rows.first().boundingBox())!.y);
   await btn(page, "Page 3").click();
@@ -209,5 +203,18 @@ test("Personal pages eight words at a time with review above the list and recove
   await expect(btn(page, "Page 2")).toHaveAttribute("aria-current", "page");
   await expect(rows).toHaveCount(8);
   await btn(page, "Review personal words").click();
-  expect((await read(page)).prompt.word).toBe(s.myWords[0]);
+  expect((await readProgress(page)).prompt.word).toBe(s.myWords[0]);
+});
+
+test("starting Personal retains an eligible displayed prompt even when another word is due", async ({ page }) => {
+  const progress = fresh();
+  progress.myWords = ["custom-open", "书"];
+  progress.custom["custom-open"] = { hanzi: "咖啡因", pinyin: "kāfēiyīn" };
+  progress.prompt = { kind: "word", word: "custom-open", id: "in-progress", looked: true, personal: true };
+  progress.history["书"] = { due: progress.day, last: progress.day, step: 1, visits: 1 };
+  await seedProgress(page, progress);
+  await btn(page, "Word Bank").click();
+  await btn(page, "Review personal words").click();
+  await expect(page.locator(".custom-head")).toHaveText("咖啡因");
+  expect((await readProgress(page)).prompt).toEqual(progress.prompt);
 });

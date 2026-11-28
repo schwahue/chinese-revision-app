@@ -8,3 +8,54 @@ English glosses for the expanded entries are adapted from HearMandarin (https://
 https://hearmandarin.com/datasets/hsk-3-0-words.json
 Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/
 Glosses were selected by headword, level and reading, and edited where necessary to distinguish senses. The Chinese practice sentences were written for Chinese Revision.
+
+Pronunciations for HSK entries 67, 678 and 181 use recordings by Chen Wang (王琛), © 2013 Wang Chen, Hugo Lopez and Nicolas Vion. Source syllables: hai2, huan2, shei2 and shui2 from Audio-cmn.
+https://github.com/hugolpz/audio-cmn/tree/master/64k/syllabs
+The recordings and these adaptations are licensed under CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/
+The clips trim room tone and apply short edge fades. The 谁 clip joins shei2 and shui2 with 400 ms of silence.
+
+The unmodified gē and wán MP3s (HSK entries 59 and 214) are also Chen Wang recordings from Audio-cmn, under the same CC BY-SA 3.0 licence.
+https://github.com/hugolpz/audio-cmn/tree/f759a0f18f27690742957619e1248ed91e9b3f2c/64k/syllabs
+
+The file pronunciation-sources.json lists the original recording for each numbered MP3.
+
+Shtooka recordings were collected in the Free Cultural Works Mandarin Audio Pack by Trevor L. Davis. We converted the original FLAC audio to MP3 at its recorded pace. The MP3s retain their original licences and recording metadata. The source path in pronunciation-sources.json identifies the collection for each word.
+https://github.com/trevorld/mandarin_audio_utilities/blob/master/fc_README.rst
+audio/shtooka_caen_tan/ — Base Audio Libre de Mots Chinois, © 2009 Yue Tan, CC BY-SA 3.0 US. https://creativecommons.org/licenses/by-sa/3.0/us/
+audio/shtooka_balm_hsk1/ — Base Audio Libre de Mots Chinois, © 2006 Wei Gao and Vion Nicolas, CC BY 2.0 FR. https://creativecommons.org/licenses/by/2.0/fr/
+audio/shtooka_balm_congcong/ — Collection audio libre de mots mandarins, recorded by Congcong, © 2010 Association Shtooka, CC BY 3.0 US. https://creativecommons.org/licenses/by/3.0/us/
+The listening comparison of 得 (de, dé, děi) joins three Wei Gao recordings with silence between them under CC BY 2.0 FR.
+
+audio/aishell3/ — Beijing Shell Shell Technology Co., Ltd., AISHELL-3. Original WAVs converted to 24 kHz mono MP3 by the mandarin-sentence-audio project. We distribute those MP3s unchanged under the Apache License, Version 2.0 (aishell3-license.txt).
+https://www.openslr.org/93/
+https://github.com/fbngrm/mandarin-sentence-audio/blob/v1.1.0/NOTICE.md
+
+Source entries that link to an AISHELL-3 WAV with a time range are continuous excerpts from that recording, under the same Apache 2.0 licence. We selected word boundaries and encoded the excerpt as MP3 at the original speed. The source index identifies each speaker, original WAV, and start and end times in seconds. We checked each headword against the original transcript and the syllables against the PaddleSpeech time alignment.
+https://github.com/PaddlePaddle/PaddleSpeech/blob/develop/examples/aishell3/tts3/README.md
+
+子 (zi), HSK entry 990. 數位發展部，CNS11643中文標準交換碼全字庫網站. Female recording of ˙ㄗ (zi5), converted from F_zi5.wav to MP3. Open Government Data License, Taiwan, version 1.0.
+https://data.gov.tw/dataset/5961
+https://data.gov.tw/license
+
+Wikimedia Commons. These recordings were converted to MP3 at their original pace. Each retains the licence on its source page.
+
+手机 (shǒujī) — LL-Q9192 (cmn)-Cookai1205-手機.wav — Speaker: Cookai1205 / Recorder: Cookai1205 — http://creativecommons.org/publicdomain/zero/1.0/deed.en
+https://commons.wikimedia.org/wiki/File:LL-Q9192_(cmn)-Cookai1205-%E6%89%8B%E6%A9%9F.wav
+
+那儿 (nàr) — Zh-cmn-那兒.opus — Wyang — https://creativecommons.org/licenses/by-sa/3.0
+https://commons.wikimedia.org/wiki/File:Zh-cmn-%E9%82%A3%E5%85%92.opus
+
+哪儿 (nǎr) — Zh-nǎr.ogg — Wei Gao, Vion Nicolas — https://creativecommons.org/licenses/by/2.0/fr/deed.en
+https://commons.wikimedia.org/wiki/File:Zh-n%C7%8Er.ogg
+
+家人 (jiārén) — LL-Q9192 (cmn)-Luilui6666-家人.wav — Speaker: Luilui6666 / Recorder: Luilui6666 — https://creativecommons.org/licenses/by-sa/4.0
+https://commons.wikimedia.org/wiki/File:LL-Q9192_(cmn)-Luilui6666-%E5%AE%B6%E4%BA%BA.wav
+
+绿茶 (lǜchá) — LL-Q9192 (cmn)-Luilui6666-绿茶.wav — Speaker: Luilui6666 / Recorder: Luilui6666 — https://creativecommons.org/licenses/by-sa/4.0
+https://commons.wikimedia.org/wiki/File:LL-Q9192_(cmn)-Luilui6666-%E7%BB%BF%E8%8C%B6.wav
+
+分开 (fēnkāi) — LL-Q9192 (cmn)-Luilui6666-分开.wav — Speaker: Luilui6666 / Recorder: Luilui6666 — https://creativecommons.org/licenses/by-sa/4.0
+https://commons.wikimedia.org/wiki/File:LL-Q9192_(cmn)-Luilui6666-%E5%88%86%E5%BC%80.wav
+
+受到 (shòudào) — LL-Q9192 (cmn)-CanonNi-受到.wav — Speaker: CanonNi / Recorder: CanonNi — http://creativecommons.org/publicdomain/zero/1.0/deed.en
+https://commons.wikimedia.org/wiki/File:LL-Q9192_(cmn)-CanonNi-%E5%8F%97%E5%88%B0.wav

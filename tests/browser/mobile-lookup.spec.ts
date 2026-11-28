@@ -36,3 +36,21 @@ test("switching between 了 and 我 keeps the mobile definition in place", async
   await entry.tap();
   await expect(page.locator(".headword h1")).toHaveText("我");
 });
+
+test("moving the review highlight across wrapped lines fades it in place", async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: "no-preference" });
+  await page.goto("/");
+  const heading = page.locator(".sentence");
+  await expect(heading.locator(".target")).toBeVisible();
+  // Force a deterministic wrap independent of the installed Han font metrics.
+  const frames = await heading.evaluate(el => {
+    el.style.width = "2em";
+    const target = el.querySelector<HTMLButtonElement>(".target")!;
+    const other = Array.from(el.querySelectorAll("button")).find(button =>
+      Math.abs(button.offsetTop - target.offsetTop) > target.offsetHeight / 2)!;
+    other.focus();
+    const animation = other.querySelector(".word-highlight")!.getAnimations()[0];
+    return (animation.effect as KeyframeEffect).getKeyframes().map(frame => frame.opacity);
+  });
+  expect(frames).toEqual(["0.25", "1"]);
+});

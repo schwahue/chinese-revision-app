@@ -3,30 +3,67 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#f8f8f3" />
+    <meta name="theme-color" content="#f2ead6" />
     <title lang="zh-Hans">复习</title>
     <link rel="icon" href="./favicon.png?panda" sizes="64x64" type="image/png" />
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
     <div class="shell">
-      <div class="page-top">
-        <header>
-          <div class="brand" lang="zh-Hans"><img src="./favicon.png?panda" width="32" height="32" alt="" />复习</div>
-          <a class="milestone-link" id="milestones" href="?preview=10" hidden>Milestones</a>
-          <button id="theme" class="icon" aria-label="Switch theme"></button>
-        </header>
-        <nav aria-label="Study views">
-          <button id="review">Review</button><button id="bank">Word Bank</button>
-        </nav>
-        <p id="notice" role="status" hidden></p>
-        <div id="page-tools"></div>
+      <header id="app-header">
+        <div class="brand" lang="zh-Hans"><img src="./favicon.png?panda" width="36" height="36" alt="" />复习</div>
+        <a class="milestone-link" id="milestones" href="?preview=10" hidden>Milestones</a>
+        <button id="close-settings" class="back" hidden><span aria-hidden="true">‹ </span>Back to study</button>
+        <div class="header-actions">
+          <button id="theme" class="icon" type="button" aria-label="Switch theme"></button>
+          <button id="settings" class="icon" type="button" aria-label="Settings" title="Settings" aria-controls="settings-page" aria-expanded="false">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+              <path fill-rule="evenodd" d="M10.3 2h3.4l.4 2.8 1.6.7 2.1-1.8 2.5 2.5-1.8 2.1.7 1.6 2.8.4v3.4l-2.8.4-.7 1.6 1.8 2.1-2.5 2.5-2.1-1.8-1.6.7-.4 2.8h-3.4l-.4-2.8-1.6-.7-2.1 1.8-2.5-2.5 1.8-2.1-.7-1.6-2.8-.4v-3.4l2.8-.4.7-1.6-1.8-2.1 2.5-2.5 2.1 1.8 1.6-.7z M16 12a4 4 0 1 0-8 0 4 4 0 1 0 8 0z"/>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <div id="study-scene" class="scene">
+        <div class="page-top">
+          <nav aria-label="Study views">
+            <button id="review">Review</button><button id="bank">Word Bank</button>
+          </nav>
+          <p id="notice" role="status" hidden></p>
+          <div id="page-tools"></div>
+        </div>
+        <main id="content">
+          <p>Loading words…</p>
+          <a href="">Try again</a>
+        </main>
       </div>
-      <main id="content">
-        <p>Loading words…</p>
-        <a href="">Try again</a>
+      <main id="settings-page" class="scene settings-page" aria-labelledby="settings-title" hidden>
+        <h1 id="settings-title" tabindex="-1">Settings</h1>
+        <section aria-labelledby="appearance-title">
+          <h2 id="appearance-title">Appearance</h2>
+          <div class="appearance-controls">
+            <div class="setting-row">
+              <label for="han-font">Chinese font</label>
+              <select id="han-font">
+                <option lang="zh-Hans" value="hei">黑体</option>
+                <option lang="zh-Hans" value="song">宋体</option>
+              </select>
+            </div>
+            <figure class="font-preview" aria-label="Font preview">
+              <div class="font-preview-hanzi">
+                <p id="font-preview-hanzi" lang="zh-Hans">我想借一本书。</p>
+              </div>
+              <p lang="zh-Latn">Wǒ xiǎng jiè yì běn shū.</p>
+            </figure>
+          </div>
+        </section>
+        <p><a class="source-credits" href="./vocabulary-sources.txt">Vocabulary and audio credits</a></p>
       </main>
+      <div id="settings-toast" popover="manual" role="region" aria-label="Notification" aria-describedby="settings-status" hidden>
+        <span id="settings-toast-message" aria-hidden="true"></span>
+        <button id="dismiss-settings-toast" type="button" aria-label="Dismiss notification">×</button>
+      </div>
     </div>
+    <p id="settings-status" class="sr" role="status" aria-atomic="true"></p>
     <script type="module" src="./src/main.ts"></script>
   </body>
 </html>

@@ -3,7 +3,7 @@ import contexts from "./practice-sentences.json" with { type: "json" };
 
 type Entry = {
   level: number;
-  syllabusId?: number;
+  syllabusId: number;
   hanzi?: string;
   pinyin: string;
   meaning: string;
@@ -16,12 +16,15 @@ type Entry = {
 
 export const bank: Record<string, Entry> = words;
 export const targets = Object.keys(bank).filter(word => bank[word].examples);
-const officialWords = Object.keys(bank).filter(word => bank[word].syllabusId !== undefined);
 export function reviewPool(levels: number[]) {
-  return officialWords.filter(word => levels.includes(bank[word].level));
+  return Object.keys(bank).filter(word => levels.includes(bank[word].level));
 }
 export function label(token: string) {
   return bank[token]?.hanzi ?? token;
+}
+
+export function sentenceText(line: string) {
+  return line.split(" ").map(label).join("");
 }
 
 // Index exact tokens once. Older authored contexts come first to preserve rotation.
